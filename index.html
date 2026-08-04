@@ -138,10 +138,10 @@
           ? r.count + ' 条新闻'
           : '已发布';
         return (
-          '<li><a class="item" href="reports/' + encodeURIComponent(r.file) + '">' +
+          '<li><a class="item" href="report.html?date=' + encodeURIComponent(r.date) + '">' +
             '<span class="left">' +
               '<span class="date">' + r.date + '</span>' +
-              '<span class="title">' + r.title + '</span>' +
+              '<span class="title">AI 科技日报 · ' + r.date + '</span>' +
               '<span class="meta">' + meta + '</span>' +
             '</span>' +
             badge +
