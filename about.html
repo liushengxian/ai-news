@@ -53,6 +53,12 @@
     transition:color .18s;
   }
   .kicker a:hover{color:var(--accent)}
+  .kicker-right{display:flex;align-items:center;gap:14px;flex-shrink:0}
+  .kicker .powered{
+    font-size:10px;letter-spacing:.08em;color:var(--faint);opacity:.85;
+    text-transform:none;font-family:'JetBrains Mono',monospace;
+  }
+  @media (max-width:560px){.kicker .powered{display:none}}
   h1{
     font-size:clamp(30px,6vw,44px);font-weight:900;letter-spacing:.01em;line-height:1.15;
     background:linear-gradient(92deg,#ffffff 10%,#b9c8ff 55%,var(--accent2) 95%);
@@ -154,8 +160,11 @@
 <header>
   <div class="container head-inner">
     <div class="kicker">
-      <span>Tech · AI · Daily Briefing</span>
-      <a href="./">‹ 返回首页</a>
+      <span><a href="./">‹ 返回首页</a></span>
+      <span class="kicker-right">
+        <span class="powered">powered by DimAgent</span>
+        <a href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener">GitHub ↗</a>
+      </span>
     </div>
     <h1>关于本站</h1>
     <p class="sub">
