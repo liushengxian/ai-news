@@ -46,7 +46,7 @@
     -webkit-backdrop-filter:blur(16px);
     border-bottom:1px solid var(--border);
   }
-  .head-inner{padding:22px 0 14px}
+  .head-inner{padding:22px 20px 14px}
   .kicker{
     display:flex;align-items:center;justify-content:space-between;gap:12px;
     font-size:11px;letter-spacing:.32em;color:var(--faint);
@@ -162,15 +162,13 @@
   .empty a:hover{text-decoration:underline}
 
   /* ---------- Footer ---------- */
-  footer{
-    text-align:center;padding:40px 0 56px;color:var(--faint);font-size:12.5px;
-  }
+  footer.container{text-align:center;padding:40px 20px 56px;color:var(--faint);font-size:12.5px}
   footer .line{width:44px;height:1px;background:linear-gradient(90deg,transparent,var(--faint),transparent);margin:0 auto 14px}
   footer b{color:var(--muted);font-weight:600}
 
   @media (max-width:560px){
     .container{padding:0 16px}
-    .head-inner{padding:16px 0 12px}
+    .head-inner{padding:16px 16px 12px}
     .kicker{font-size:9.5px;letter-spacing:.16em}
     .kicker-right{gap:10px}
     h1{font-size:clamp(26px,7.5vw,34px)}
@@ -181,7 +179,7 @@
     .card-title{font-size:15.5px}
     .card-summary{font-size:13.2px}
     .card-date{margin-left:0}
-    footer{padding:28px 0 40px}
+    footer.container{padding:28px 16px 40px}
   }
   @media (hover:none){
     .card:hover{transform:none}

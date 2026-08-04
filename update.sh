@@ -11,7 +11,7 @@ if ! ls data/*.json >/dev/null 2>&1; then
   exit 1
 fi
 
-# 重建 reports.json（从 data/*.json 扫描，最新在前）
+# 重建 reports.json（从 data/*.json 扫描，最新在前；title 取每期 headline 头条）
 python3 - <<'PY'
 import json, pathlib
 
@@ -27,7 +27,11 @@ for f in sorted(data_dir.glob("*.json"), reverse=True):
     count = obj.get("count")
     if count is None:
         count = len(obj.get("news", [])) or None
-    items.append({"date": date, "count": count})
+    items.append({
+        "date": date,
+        "title": obj.get("headline") or f"AI 科技日报 · {date}",
+        "count": count,
+    })
 
 manifest = {"updated_at": items[0]["date"] if items else None, "reports": items}
 pathlib.Path("reports.json").write_text(
