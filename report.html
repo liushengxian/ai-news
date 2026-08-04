@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 科技日报</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#070a12;
+    --text:#e7ecf5;
+    --muted:#8b94a9;
+    --faint:#5c6579;
+    --border:rgba(148,163,184,.14);
+    --accent:#6ea8ff;
+    --accent2:#b388ff;
+    --cat-model:#5b9dff;
+    --cat-research:#b388ff;
+    --cat-business:#34d399;
+    --cat-policy:#fbbf24;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:
+      radial-gradient(1100px 560px at 82% -12%, rgba(120,90,255,.16), transparent 60%),
+      radial-gradient(900px 520px at -12% 8%, rgba(45,140,255,.13), transparent 60%),
+      radial-gradient(700px 700px at 50% 120%, rgba(34,211,238,.06), transparent 60%),
+      var(--bg);
+    color:var(--text);
+    font-family:'Inter','Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:rgba(110,168,255,.35)}
+  .container{max-width:860px;margin:0 auto;padding:0 20px}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(7,10,18,.78);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+    border-bottom:1px solid var(--border);
+  }
+  .head-inner{padding:22px 0 14px}
+  .kicker{
+    font-size:11px;letter-spacing:.32em;color:var(--faint);
+    text-transform:uppercase;font-weight:600;margin-bottom:8px;
+  }
+  .kicker a{color:var(--faint);text-decoration:none}
+  .kicker a:hover{color:var(--muted)}
+  h1{
+    font-size:clamp(30px,6vw,44px);font-weight:900;letter-spacing:.01em;line-height:1.15;
+    background:linear-gradient(92deg,#ffffff 10%,#b9c8ff 55%,var(--accent2) 95%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    display:inline-block;
+  }
+  .sub{
+    margin-top:8px;font-size:13.5px;color:var(--muted);
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  }
+  .sub .dot{width:4px;height:4px;border-radius:50%;background:var(--faint)}
+  .sub #count{color:#9cc0ff;font-weight:600}
+  .chips{
+    margin-top:16px;display:flex;gap:8px;flex-wrap:wrap;
+    padding-bottom:2px;
+  }
+  .chip{
+    appearance:none;border:1px solid var(--border);background:rgba(255,255,255,.03);
+    color:var(--muted);font-size:12.5px;padding:6px 15px;border-radius:999px;
+    cursor:pointer;font-family:inherit;transition:all .2s ease;
+  }
+  .chip:hover{color:var(--text);border-color:rgba(148,163,184,.35)}
+  .chip.active{
+    color:#fff;border-color:transparent;
+    background:linear-gradient(135deg,rgba(110,168,255,.85),rgba(179,136,255,.85));
+    box-shadow:0 4px 18px rgba(110,140,255,.35);
+  }
+
+  /* ---------- Cards ---------- */
+  main{padding:26px 0 8px}
+  .cards{display:flex;flex-direction:column;gap:16px}
+  .card{
+    --cc:var(--cat-model);
+    position:relative;
+    background:linear-gradient(180deg,rgba(255,255,255,.038),rgba(255,255,255,.014));
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:20px 22px;
+    transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease,background .25s ease;
+    opacity:0;transform:translateY(14px);
+    animation:rise .55s cubic-bezier(.22,.8,.36,1) forwards;
+    animation-delay:calc(var(--i)*38ms);
+  }
+  @keyframes rise{to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){
+    .card{opacity:1;transform:none;animation:none}
+    html{scroll-behavior:auto}
+  }
+  .card:hover{
+    transform:translateY(-3px);
+    border-color:var(--cc);
+    background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.02));
+    box-shadow:0 16px 40px rgba(2,6,16,.55),0 0 0 1px rgba(255,255,255,.02) inset, 0 0 24px -6px color-mix(in srgb,var(--cc) 45%,transparent);
+  }
+  .card-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .badge{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:11.5px;font-weight:500;line-height:1;
+    padding:5px 10px;border-radius:999px;
+  }
+  .badge.cat{color:var(--cc);background:rgba(255,255,255,.045);border:1px solid color-mix(in srgb,var(--cc) 45%,transparent)}
+  .badge.cat::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--cc)}
+  .badge.src{
+    color:var(--muted);background:rgba(255,255,255,.03);
+    border:1px solid var(--border);font-family:'JetBrains Mono','Noto Sans SC',monospace;
+    font-size:10.5px;letter-spacing:.02em;
+  }
+  .card-date{
+    margin-left:auto;font-family:'JetBrains Mono',monospace;
+    font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums;
+    white-space:nowrap;
+  }
+  .card-title{
+    font-size:17px;font-weight:700;line-height:1.55;margin:12px 0 8px;
+    letter-spacing:.005em;
+  }
+  .card-title a{
+    color:var(--text);text-decoration:none;
+    background-image:linear-gradient(90deg,var(--cc),var(--cc));
+    background-repeat:no-repeat;background-size:0% 1px;background-position:0 96%;
+    transition:color .18s ease,background-size .25s ease;
+  }
+  .card-title a:hover{color:#bcd2ff;background-size:100% 1px}
+  .card-title .arrow{font-size:12px;color:var(--faint);margin-left:2px;opacity:0;transform:translateX(-3px);display:inline-block;transition:all .2s ease}
+  .card-title a:hover .arrow{opacity:1;transform:translateX(0);color:var(--cc)}
+  .card-summary{color:var(--muted);font-size:13.8px;line-height:1.78}
+
+  /* ---------- 空态 / 错误 ---------- */
+  .empty{
+    text-align:center;color:var(--muted);padding:80px 0;
+    border:1px dashed var(--border);border-radius:16px;
+  }
+  .empty a{color:var(--accent);text-decoration:none}
+  .empty a:hover{text-decoration:underline}
+
+  /* ---------- Footer ---------- */
+  footer{
+    text-align:center;padding:40px 0 56px;color:var(--faint);font-size:12.5px;
+  }
+  footer .line{width:44px;height:1px;background:linear-gradient(90deg,transparent,var(--faint),transparent);margin:0 auto 14px}
+  footer b{color:var(--muted);font-weight:600}
+
+  @media (max-width:560px){
+    .card{padding:17px 18px}
+    .card-title{font-size:15.5px}
+    .card-summary{font-size:13.2px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container head-inner">
+    <div class="kicker"><a href="./">‹ 返回全部简报</a></div>
+    <h1>AI 科技日报</h1>
+    <p class="sub" id="sub">
+      <span id="sub-date">—</span>
+      <span class="dot"></span>
+      <span>共 <b id="count">–</b> 条新闻</span>
+    </p>
+    <nav class="chips" id="chips">
+      <button class="chip active" data-filter="all">全部</button>
+      <button class="chip" data-filter="model">模型发布</button>
+      <button class="chip" data-filter="research">前沿研究</button>
+      <button class="chip" data-filter="business">融资动态</button>
+      <button class="chip" data-filter="policy">政策监管</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="cards" id="cards"></div>
+    <div class="empty" id="empty" style="display:none">加载中…</div>
+  </div>
+</main>
+
+<footer class="container">
+  <div class="line"></div>
+  <span>由 Dim Agent 自动生成 · <b id="footer-date">—</b></span>
+</footer>
+
+<script>
+  var CATS = {
+    model:    { label: '模型发布', cc: 'var(--cat-model)' },
+    research: { label: '前沿研究', cc: 'var(--cat-research)' },
+    business: { label: '融资动态', cc: 'var(--cat-business)' },
+    policy:   { label: '政策监管', cc: 'var(--cat-policy)' }
+  };
+  var state = { filter: 'all' };
+
+  function qs(name) {
+    return new URLSearchParams(location.search).get(name);
+  }
+
+  function render(data) {
+    var date = data.date || qs('date');
+    var news = data.news || [];
+    document.getElementById('count').textContent = news.length;
+    var p = String(date || '').split('-');
+    document.getElementById('sub-date').textContent =
+      p[0] && p[1] && p[2] ? p[0] + ' 年 ' + p[1] + ' 月 ' + p[2] + ' 日' : '—';
+    document.getElementById('footer-date').textContent = date || '—';
+    document.title = 'AI 科技日报 · ' + (date || '');
+
+    var html = news.map(function (n, i) {
+      var cat = CATS[n.category] || CATS.model;
+      var dateText = n.date ? '<span class="card-date">' + n.date + '</span>' : '';
+      var src = n.source ? '<span class="badge src">' + n.source + '</span>' : '';
+      return (
+        '<article class="card" data-cat="' + (n.category || 'model') + '" style="--i:' + (i + 1) + ';--cc:' + cat.cc + '">' +
+          '<div class="card-meta">' +
+            '<span class="badge cat">' + cat.label + '</span>' +
+            src +
+            dateText +
+          '</div>' +
+          '<h2 class="card-title"><a href="' + n.url + '" target="_blank" rel="noopener">' + n.title + '<span class="arrow">↗</span></a></h2>' +
+          '<p class="card-summary">' + n.summary + '</p>' +
+        '</article>'
+      );
+    }).join('');
+
+    document.getElementById('cards').innerHTML = html;
+    document.getElementById('empty').style.display = 'none';
+    applyFilter();
+  }
+
+  function applyFilter() {
+    var f = state.filter, n = 0;
+    document.querySelectorAll('.card').forEach(function (card) {
+      var show = (f === 'all' || card.dataset.cat === f);
+      card.style.display = show ? '' : 'none';
+      if (show) n++;
+    });
+    document.getElementById('count').textContent = n;
+  }
+
+  // 分类筛选
+  document.getElementById('chips').addEventListener('click', function (e) {
+    var chip = e.target.closest('.chip');
+    if (!chip) return;
+    document.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('active'); });
+    chip.classList.add('active');
+    state.filter = chip.dataset.filter;
+    applyFilter();
+  });
+
+  // 加载数据：优先 ?date=，否则最新一期
+  var date = qs('date');
+  var empty = document.getElementById('empty');
+  empty.textContent = '加载中…';
+
+  var load = function (d) {
+    var url = 'data/' + d + '.json';
+    return fetch(url, { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (data) {
+      render(data);
+    });
+  };
+
+  if (date) {
+    load(date).catch(function () {
+      empty.style.display = '';
+      empty.textContent = '未找到 ' + date + ' 的数据';
+    });
+  } else {
+    fetch('reports.json', { cache: 'no-store' })
+      .then(function (r) { return r.json(); })
+      .then(function (m) {
+        var latest = (m.reports || [])[0];
+        if (!latest) throw new Error('no reports');
+        history.replaceState(null, '', '?date=' + latest.date);
+        return load(latest.date);
+      })
+      .catch(function () {
+        empty.style.display = '';
+        empty.textContent = '暂无数据';
+      });
+  }
+</script>
+</body>
+</html>
