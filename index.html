@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 新闻简报 · 首页</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#070a12;
+    --text:#e7ecf5;
+    --muted:#8b94a9;
+    --faint:#5c6579;
+    --border:rgba(148,163,184,.14);
+    --accent:#6ea8ff;
+    --accent2:#b388ff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:
+      radial-gradient(1100px 560px at 82% -12%, rgba(120,90,255,.16), transparent 60%),
+      radial-gradient(900px 520px at -12% 8%, rgba(45,140,255,.13), transparent 60%),
+      radial-gradient(700px 700px at 50% 120%, rgba(34,211,238,.06), transparent 60%),
+      var(--bg);
+    color:var(--text);
+    font-family:'Inter','Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:rgba(110,168,255,.35)}
+  .container{max-width:860px;margin:0 auto;padding:0 20px}
+
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(7,10,18,.78);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+    border-bottom:1px solid var(--border);
+  }
+  .head-inner{padding:22px 0 14px}
+  .kicker{
+    font-size:11px;letter-spacing:.32em;color:var(--faint);
+    text-transform:uppercase;font-weight:600;margin-bottom:8px;
+  }
+  h1{
+    font-size:clamp(30px,6vw,44px);font-weight:900;letter-spacing:.01em;
+  }
+  .sub{color:var(--muted);margin-top:10px;font-size:15px}
+  .sub #count{color:#9cc0ff;font-weight:600}
+
+  main{padding:36px 0 60px}
+  .list{list-style:none;display:flex;flex-direction:column;gap:14px}
+
+  .item{
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    background:rgba(148,163,184,.05);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:18px 22px;
+    text-decoration:none;color:inherit;
+    transition:border-color .18s, transform .18s, background .18s;
+  }
+  .item:hover{
+    border-color:rgba(110,168,255,.55);
+    background:rgba(110,168,255,.07);
+    transform:translateY(-2px);
+  }
+  .item .left{display:flex;flex-direction:column;gap:4px;min-width:0}
+  .item .date{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px;color:var(--faint);letter-spacing:.08em;
+  }
+  .item .title{font-size:17px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .item .meta{font-size:13px;color:var(--muted)}
+  .item .badge{
+    flex-shrink:0;
+    font-size:11px;font-weight:700;letter-spacing:.06em;
+    color:#070a12;background:linear-gradient(135deg,var(--accent),var(--accent2));
+    padding:4px 10px;border-radius:999px;
+  }
+  .item .arrow{flex-shrink:0;color:var(--faint);font-size:18px;transition:transform .18s}
+  .item:hover .arrow{transform:translateX(4px);color:var(--accent)}
+
+  .empty{
+    text-align:center;color:var(--muted);padding:80px 0;
+    border:1px dashed var(--border);border-radius:14px;
+  }
+
+  footer{
+    border-top:1px solid var(--border);
+    padding:26px 0 40px;color:var(--faint);font-size:13px;
+    display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  }
+  footer a{color:var(--muted);text-decoration:none}
+  footer a:hover{color:var(--accent)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container head-inner">
+    <div class="kicker">AI DAILY BRIEFING</div>
+    <h1>AI 新闻简报</h1>
+    <p class="sub">共 <b id="count">–</b> 期，点击查看每日 AI 科技新闻汇总</p>
+  </div>
+</header>
+
+<main class="container">
+  <ul class="list" id="list"></ul>
+  <div class="empty" id="empty" style="display:none">暂无简报，等待第一份日报发布…</div>
+</main>
+
+<footer class="container">
+  <span>数据由 ai-news-daily workflow 自动抓取整理</span>
+  <a href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener">GitHub 仓库 ↗</a>
+</footer>
+
+<script>
+  fetch('reports.json', { cache: 'no-store' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      var reports = data.reports || [];
+      var list = document.getElementById('list');
+      document.getElementById('count').textContent = reports.length;
+      if (!reports.length) {
+        document.getElementById('empty').style.display = '';
+        return;
+      }
+      var html = reports.map(function (r, i) {
+        var badge = i === 0 ? '<span class="badge">最新</span>' : '';
+        var meta = r.count != null
+          ? r.count + ' 条新闻'
+          : '已发布';
+        return (
+          '<li><a class="item" href="reports/' + encodeURIComponent(r.file) + '">' +
+            '<span class="left">' +
+              '<span class="date">' + r.date + '</span>' +
+              '<span class="title">' + r.title + '</span>' +
+              '<span class="meta">' + meta + '</span>' +
+            '</span>' +
+            badge +
+            '<span class="arrow">→</span>' +
+          '</a></li>'
+        );
+      }).join('');
+      list.innerHTML = html;
+    })
+    .catch(function (err) {
+      var empty = document.getElementById('empty');
+      empty.style.display = '';
+      empty.textContent = '加载失败：' + err.message;
+    });
+</script>
+</body>
+</html>
