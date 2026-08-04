@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>关于本站 · AI 新闻简报</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#070a12;
+    --text:#e7ecf5;
+    --muted:#8b94a9;
+    --faint:#5c6579;
+    --border:rgba(148,163,184,.14);
+    --accent:#6ea8ff;
+    --accent2:#b388ff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:
+      radial-gradient(1100px 560px at 82% -12%, rgba(120,90,255,.16), transparent 60%),
+      radial-gradient(900px 520px at -12% 8%, rgba(45,140,255,.13), transparent 60%),
+      radial-gradient(700px 700px at 50% 120%, rgba(34,211,238,.06), transparent 60%),
+      var(--bg);
+    color:var(--text);
+    font-family:'Inter','Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:rgba(110,168,255,.35)}
+  .container{max-width:860px;margin:0 auto;padding:0 20px}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(7,10,18,.78);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+    border-bottom:1px solid var(--border);
+  }
+  .head-inner{padding:22px 0 14px}
+  .kicker{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    font-size:11px;letter-spacing:.32em;color:var(--faint);
+    text-transform:uppercase;font-weight:600;margin-bottom:8px;
+  }
+  .kicker a{
+    color:var(--faint);text-decoration:none;letter-spacing:.06em;
+    transition:color .18s;
+  }
+  .kicker a:hover{color:var(--accent)}
+  h1{
+    font-size:clamp(30px,6vw,44px);font-weight:900;letter-spacing:.01em;line-height:1.15;
+    background:linear-gradient(92deg,#ffffff 10%,#b9c8ff 55%,var(--accent2) 95%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    display:inline-block;
+  }
+  .sub{
+    margin-top:8px;font-size:13.5px;color:var(--muted);
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  }
+  .sub .dot{width:4px;height:4px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- 内容卡片 ---------- */
+  main{padding:30px 0 12px}
+  .cards{display:flex;flex-direction:column;gap:18px}
+  .card{
+    --cc:var(--accent);
+    background:linear-gradient(180deg,rgba(255,255,255,.038),rgba(255,255,255,.014));
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:24px 26px;
+    opacity:0;transform:translateY(14px);
+    animation:rise .55s cubic-bezier(.22,.8,.36,1) forwards;
+    animation-delay:calc(var(--i)*80ms);
+  }
+  @keyframes rise{to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){
+    .card{opacity:1;transform:none;animation:none}
+    html{scroll-behavior:auto}
+  }
+  .card h2{
+    font-size:17px;font-weight:800;letter-spacing:.01em;
+    display:flex;align-items:center;gap:10px;
+    margin-bottom:14px;
+  }
+  .card h2 .tag{
+    font-size:10.5px;font-weight:700;letter-spacing:.1em;color:#070a12;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    padding:3px 9px;border-radius:999px;flex-shrink:0;
+  }
+  .card p{color:var(--muted);font-size:14px;line-height:1.85}
+  .card p + p{margin-top:10px}
+  .card b, .card strong{color:var(--text);font-weight:600}
+  .card code{
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;
+    color:#9cc0ff;background:rgba(255,255,255,.045);
+    padding:2px 6px;border-radius:6px;border:1px solid var(--border);
+  }
+  .card a{color:var(--accent);text-decoration:none}
+  .card a:hover{text-decoration:underline}
+
+  .steps{list-style:none;counter-reset:step;display:flex;flex-direction:column;gap:12px;margin-top:4px}
+  .steps li{
+    position:relative;padding-left:42px;color:var(--muted);font-size:14px;line-height:1.8;
+  }
+  .steps li::before{
+    counter-increment:step;content:counter(step);
+    position:absolute;left:0;top:2px;
+    width:26px;height:26px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;color:#fff;
+    background:linear-gradient(135deg,rgba(110,168,255,.85),rgba(179,136,255,.85));
+    box-shadow:0 4px 14px rgba(110,140,255,.3);
+  }
+  .steps li b{color:var(--text);font-weight:600}
+  .steps li code{
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;
+    color:#9cc0ff;background:rgba(255,255,255,.045);
+    padding:2px 6px;border-radius:6px;border:1px solid var(--border);
+  }
+
+  pre{
+    margin-top:14px;padding:16px 18px;border-radius:12px;
+    background:rgba(3,6,14,.7);border:1px solid var(--border);
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;line-height:1.75;
+    color:var(--text);overflow-x:auto;
+  }
+  pre .cm{color:var(--faint)}
+  pre .ok{color:#34d399}
+  pre .hl{color:#9cc0ff}
+
+  /* ---------- Footer ---------- */
+  footer{
+    text-align:center;padding:40px 0 56px;color:var(--faint);font-size:12.5px;
+  }
+  footer .line{width:44px;height:1px;background:linear-gradient(90deg,transparent,var(--faint),transparent);margin:0 auto 14px}
+  footer a{color:var(--muted);text-decoration:none}
+  footer a:hover{color:var(--accent)}
+
+  @media (max-width:560px){
+    .card{padding:18px 16px}
+    .card p{font-size:13.5px}
+    pre{font-size:11.5px;padding:13px 14px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container head-inner">
+    <div class="kicker">
+      <span>Tech · AI · Daily Briefing</span>
+      <a href="./">‹ 返回首页</a>
+    </div>
+    <h1>关于本站</h1>
+    <p class="sub">
+      <span>如何使用 DimAgent 构建这个站点</span>
+      <span class="dot"></span>
+      <span>Workflow · 定时任务 · GitHub Pages</span>
+    </p>
+  </div>
+</header>
+
+<main class="container">
+  <div class="cards">
+
+    <section class="card" style="--i:1">
+      <h2><span class="tag">01</span>站点是怎么工作的</h2>
+      <p>这是一个 <b>纯静态站点</b>：所有页面是 HTML + JS，内容以 JSON 数据驱动，托管在 <b>GitHub Pages</b> 上。新闻内容不是人工编辑的，而是由 <b>DimAgent 的 ai-news-daily workflow</b> 每天自动抓取、清洗、生成。</p>
+      <ol class="steps" style="margin-top:14px">
+        <li><b>Workflow 抓取</b>：<code>ai-news-daily</code> 并行搜索 4 个方向（模型发布 / 前沿研究 / 融资动态 / 政策监管），每个方向由子 agent 用 WebSearch + WebFetch 收集新闻</li>
+        <li><b>清洗输出 JSON</b>：去重、排序、打分类标签，写入 <code>data/YYYY-MM-DD.json</code></li>
+        <li><b>静态页渲染</b>：<code>index.html</code>（首页列表）和 <code>report.html</code>（日报）读取 JSON 动态渲染</li>
+        <li><b>发布</b>：<code>./update.sh</code> 重建清单、git 提交并推送到 GitHub</li>
+        <li><b>上线</b>：GitHub Pages 检测到 <code>main</code> 分支更新，自动构建，几分钟内生效</li>
+      </ol>
+    </section>
+
+    <section class="card" style="--i:2">
+      <h2><span class="tag">02</span>Workflow：ai-news-daily</h2>
+      <p>Workflow 是 DimAgent 里可复用的自动化流程脚本（<code>.mjs</code>），保存在仓库 <code>.dim/workflows/ai-news-daily.mjs</code>，并同步到 DimAgent 的注册目录 <code>~/.dimcode/v2/data/workflows/saved/</code>，每次新会话启动时自动注册。</p>
+      <p>整个流程分三个阶段：</p>
+      <ol class="steps">
+        <li><b>搜索新闻</b>：主流程用 <code>api.parallel</code> 并行启动 4 个子 agent，每个负责一个方向，通过 WebSearch 搜索最近一周的 AI 新闻，并用 WebFetch 抓取原文提取中文摘要，按 schema 返回结构化 JSON</li>
+        <li><b>合并粗去重</b>：主流程把 4 组结果合并，按标题做初步去重</li>
+        <li><b>清洗写入</b>：最后一个子 agent 做语义去重、按重要性排序、校验字段，用 write 工具把严格 JSON 写入 <code>data/YYYY-MM-DD.json</code></li>
+      </ol>
+      <pre>{
+  "date": "2026-08-04",
+  "count": 19,
+  "news": [
+    {
+      "title": "阿里巴巴发布旗舰大模型 Qwen3.8-Max…",
+      "source": "阿里巴巴 / TechNode",
+      "url": "https://…",
+      "date": "2026-08-03",
+      "category": "model",
+      "summary": "中文摘要…"
+    }
+  ]
+}</pre>
+    </section>
+
+    <section class="card" style="--i:3">
+      <h2><span class="tag">03</span>定时任务：launchd</h2>
+      <p>Workflow 依赖 DimAgent 运行，无法放进 GitHub Actions，所以定时任务跑在本机：macOS 的 <b>launchd</b> 每天 09:00 自动触发。</p>
+      <ol class="steps">
+        <li>plist 配置：<code>~/Library/LaunchAgents/com.dimcode.ai-news-daily.plist</code>（<code>StartCalendarInterval</code> 每天 09:00）</li>
+        <li>触发脚本：<code>.dim/workflows/run-ai-news-daily.sh</code>（同步在 saved 目录），脚本 <code>cd</code> 到仓库后，用 <code>dim exec</code> 无头模式运行 workflow，数据直接写入仓库 <code>data/</code> 目录 —— 这就是 workflow 与仓库的绑定</li>
+        <li>运行日志：<code>output/ai-news-daily.log</code>（仓库内，git 忽略）</li>
+      </ol>
+      <pre><span class="cm"># 查看运行日志</span>
+tail -f output/ai-news-daily.log
+
+<span class="cm"># 手动触发一次（等价于定时任务）</span>
+.dim/workflows/run-ai-news-daily.sh</pre>
+    </section>
+
+    <section class="card" style="--i:4">
+      <h2><span class="tag">04</span>GitHub Pages</h2>
+      <p>站点从 <code>main</code> 分支根目录发布（legacy 构建模式）。每次 push 到 <code>main</code>，GitHub 会自动重新构建，<b>无需手动部署</b>。</p>
+      <pre><span class="cm"># 首次开启 GitHub Pages（gh CLI 方式）</span>
+gh api --method POST repos/liushengxian/ai-news/pages \
+  -f "source[branch]=main" -f "source[path]=/"
+
+<span class="cm"># 查看发布状态（building → built）</span>
+gh api repos/liushengxian/ai-news/pages --jq '.status'</pre>
+    </section>
+
+    <section class="card" style="--i:5">
+      <h2><span class="tag">05</span>每日发布流程</h2>
+      <p>定时任务只负责生成数据（写入 <code>data/</code>），<b>发布需要单独执行</b> <code>./update.sh</code>（也可以把两件事串成一条 cron/launchd 命令）。</p>
+      <pre><span class="cm"># 1. 运行 workflow —— launchd 每天 09:00 自动完成
+#    或手动：在 DimAgent 会话中运行 ai-news-daily
+#    （数据写入 data/2026-08-04.json）</span>
+
+<span class="cm"># 2. 发布</span>
+./update.sh
+<span class="ok">✓ 清单更新: reports.json (N 期)
+✓ 已提交
+✓ 已推送 GitHub Pages，几分钟内生效</span>
+
+<span class="cm"># 3. 等待 1-2 分钟后访问</span>
+open https://liushengxian.github.io/ai-news/</pre>
+      <p><code>update.sh</code> 做了三件事：从 <code>data/*.json</code> 扫描重建 <code>reports.json</code> 清单 → git 提交（含数据与脚本变更）→ 推送到 <code>main</code>。首页列表是读取清单动态渲染的，所以新一期出现<b>不需要改任何页面代码</b>。</p>
+    </section>
+
+    <section class="card" style="--i:6">
+      <h2><span class="tag">06</span>日常维护</h2>
+      <ol class="steps">
+        <li><b>修改 workflow</b>：改 <code>.dim/workflows/ai-news-daily.mjs</code> 后，同步到注册目录：<code>cp .dim/workflows/ai-news-daily.mjs ~/.dimcode/v2/data/workflows/saved/</code></li>
+        <li><b>修改定时脚本</b>：同理同步 <code>run-ai-news-daily.sh</code>；改完无需重载 plist（launchd 每次触发时重新读取脚本）</li>
+        <li><b>补跑漏发的一天</b>：运行 workflow 后用 <code>./update.sh</code> 发布，数据文件和清单按日期独立，互不影响</li>
+        <li><b>备份与迁移</b>：整个站点就是仓库本身；在新机器上 clone 仓库 + 安装 DimAgent + 同步 saved 目录 + 配置 plist 即可复刻</li>
+      </ol>
+    </section>
+
+  </div>
+</main>
+
+<footer class="container">
+  <div class="line"></div>
+  <span>由 Dim Agent 自动生成 · <a href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener">GitHub 仓库</a></span>
+</footer>
+
+</body>
+</html>

@@ -44,9 +44,15 @@
   }
   .head-inner{padding:22px 0 14px}
   .kicker{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
     font-size:11px;letter-spacing:.32em;color:var(--faint);
     text-transform:uppercase;font-weight:600;margin-bottom:8px;
   }
+  .kicker a{
+    color:var(--faint);text-decoration:none;letter-spacing:.06em;
+    transition:color .18s;
+  }
+  .kicker a:hover{color:var(--accent)}
   h1{
     font-size:clamp(30px,6vw,44px);font-weight:900;letter-spacing:.01em;line-height:1.15;
     background:linear-gradient(92deg,#ffffff 10%,#b9c8ff 55%,var(--accent2) 95%);
@@ -160,7 +166,10 @@
 
 <header>
   <div class="container head-inner">
-    <div class="kicker">Tech · AI · Daily Briefing</div>
+    <div class="kicker">
+      <span>Tech · AI · Daily Briefing</span>
+      <a href="about.html">关于 ↗</a>
+    </div>
     <h1>AI 新闻简报</h1>
     <p class="sub">
       <span>每日 AI 科技新闻汇总</span>
