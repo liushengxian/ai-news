@@ -58,7 +58,13 @@
     text-transform:none;font-family:'JetBrains Mono',monospace;
   }
   .kicker a{color:var(--faint);text-decoration:none}
-  .kicker a:hover{color:var(--muted)}
+  .kicker a:hover{color:var(--accent)}
+  .kicker a.gh{display:inline-flex;align-items:center}
+  .kicker a.gh svg{width:14px;height:14px}
+  footer a{color:var(--faint);text-decoration:none}
+  footer a:hover{color:var(--accent)}
+  footer a.gh{display:inline-flex;align-items:center;vertical-align:middle}
+  footer a.gh svg{width:13px;height:13px}
   @media (max-width:560px){.kicker .powered{display:none}}
   h1{
     font-size:clamp(30px,6vw,44px);font-weight:900;letter-spacing:.01em;line-height:1.15;
@@ -89,7 +95,7 @@
   }
 
   /* ---------- Cards ---------- */
-  main{padding:26px 0 8px}
+  main.container{padding:26px 20px 8px}
   .cards{display:flex;flex-direction:column;gap:16px}
   .card{
     --cc:var(--cat-model);
@@ -163,9 +169,22 @@
   footer b{color:var(--muted);font-weight:600}
 
   @media (max-width:560px){
-    .card{padding:17px 18px}
+    .container{padding:0 16px}
+    .head-inner{padding:16px 0 12px}
+    .kicker{font-size:9.5px;letter-spacing:.16em}
+    .kicker-right{gap:10px}
+    h1{font-size:clamp(26px,7.5vw,34px)}
+    .sub{font-size:12.5px}
+    main.container{padding:22px 16px 8px}
+    .chip{font-size:11px;padding:5px 11px}
+    .card{padding:17px 16px}
     .card-title{font-size:15.5px}
     .card-summary{font-size:13.2px}
+    .card-date{margin-left:0}
+    footer{padding:28px 0 40px}
+  }
+  @media (hover:none){
+    .card:hover{transform:none}
   }
 </style>
 </head>
@@ -176,8 +195,8 @@
     <div class="kicker">
       <span><a href="./">‹ 返回全部简报</a></span>
       <span class="kicker-right">
-        <span class="powered">powered by DimAgent</span>
-        <a href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="powered" href="https://dimcode.dev/" target="_blank" rel="noopener">powered by DimAgent</a>
+        <a class="gh" href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener" aria-label="GitHub 仓库"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
       </span>
     </div>
     <h1>AI 科技日报</h1>
@@ -205,7 +224,7 @@
 
 <footer class="container">
   <div class="line"></div>
-  <span>由 Dim Agent 自动生成 · <b id="footer-date">—</b></span>
+  <span>由 <a href="https://dimcode.dev/" target="_blank" rel="noopener">Dim Agent</a> 自动生成 · <b id="footer-date">—</b></span>
 </footer>
 
 <script>

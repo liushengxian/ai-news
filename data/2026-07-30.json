@@ -1,0 +1,142 @@
+{
+  "date": "2026-07-30",
+  "count": 17,
+  "news": [
+    {
+      "title": "月之暗面全面开源 Kimi K3：2.8 万亿参数，全球最大开源权重模型",
+      "url": "https://wap.eastmoney.com/a/202607283823215821.html",
+      "date": "2026-07-27",
+      "source": "科创板日报 · Digital Applied",
+      "category": "model",
+      "summary": "7 月 27 日晚，月之暗面正式开源最强模型 Kimi K3 的权重、47 页技术报告及 MoonEP、FlashKDA、AgentEnv 三项训练 Infra 技术。K3 为 2.8 万亿参数 MoE 模型（每 token 激活 1040 亿，896 专家选 16），支持 100 万 token 上下文与原生视觉理解，是全球首个开源的 3 万亿级模型，30 分钟登顶 Hugging Face 趋势榜，在 Artificial Analysis 智能指数居开放权重模型之首。华为昇腾、阿里云及 Cursor、Devin 等已 Day0 适配接入。需注意其采用自定义 Kimi K3 License（对 MaaS 转售设 2000 万美元营收阈值），并非 MIT/Apache 许可。"
+    },
+    {
+      "title": "Sam Altman 赴华盛顿，向特朗普政府与国会议员预览 OpenAI 即将发布的新模型",
+      "url": "https://www.cnbc.com/2026/07/29/altman-white-house-wiles-ai-framework.html",
+      "date": "2026-07-29",
+      "source": "CNBC",
+      "category": "policy",
+      "summary": "7 月 29 日，OpenAI CEO Sam Altman 在华盛顿与白宫幕僚长 Susie Wiles 等政府高级官员、国会议员会面，讨论 OpenAI 即将推出的新模型、网络安全及美国在全球 AI 竞争中的地位。此行正值特朗普 6 月签署的 AI 行政令 8 月 1 日实施框架截止日前夕，该行政令要求 AI 公司在模型全面发布前自愿提交政府评估。英伟达 CEO 黄仁勋同日也在国会山讨论开源模型与美国 AI 领导力议题。"
+    },
+    {
+      "title": "OpenAI、Anthropic 等千余名 AI 从业者联名请愿，呼吁美国政府介入为前沿 AI 发展「控速」",
+      "url": "https://www.trendingtopics.eu/1100-employees-at-openai-anthropic-meta-and-google-call-for-ai-slowdown/",
+      "date": "2026-07-28",
+      "source": "Trending Topics（据路透社）",
+      "category": "policy",
+      "summary": "7 月 28 日，来自 OpenAI、Anthropic、Google、Meta 的 1100 余名现任及前任员工联名发起「Pacing the Frontier」公开信，呼吁美国政府支持一项国际努力，开发「有意控制前沿 AI 发展速度」所需的技术与治理工具。签署者包括 Anthropic CEO Dario Amodei、OpenAI 首席科学家 Jakub Pachocki 等，OpenAI 与 Anthropic 均官方表态支持；信中警告 AI 研发自动化存在「进展速度超出人类理解与控制」的真实风险。"
+    },
+    {
+      "title": "DeepSeek V4 正式版（GA）上线：补齐多模态与 Agent 能力，完整开源 1.6T 参数",
+      "url": "https://developer.cloud.tencent.com/article/2712893",
+      "date": "2026-07-15",
+      "source": "腾讯云开发者社区",
+      "category": "model",
+      "summary": "DeepSeek V4 正式版（GA，社区称「满血版」）于 7 月 15 日全量上线，此前 4 月 24 日上线的实为未标注的预览版。正式版首次原生支持图像推理，Agent 复杂任务完成率提升 21%，推理速度提升 60%~85%，并以 MIT 协议完整开源 1.6T 参数模型的全部权重与训练推理代码。早鸟测试显示其整体性能逼近 Claude Opus 4.8，编码能力接近 GPT-5.6 Sol，同时引入行业首创的峰谷分时定价。"
+    },
+    {
+      "title": "月之暗面完成超 35 亿美元 F 轮融资，投后估值 350 亿美元，拟以 500 亿美元估值启动 Pre-IPO",
+      "url": "http://www.36kr.com/p/3916645536591494",
+      "date": "2026-07-29",
+      "source": "36氪 / 智东西（援引彭博社）",
+      "category": "business",
+      "summary": "据彭博社援引知情人士报道，月之暗面（Kimi）最新一轮融资筹集超 35 亿美元，远超原计划 10-20 亿美元的目标，投后估值达 350 亿美元，创中国大模型公司单轮融资第二大纪录（仅次于 DeepSeek 今年 6 月的约 510 亿元）。公司已开始接触潜在投资者，计划以 500 亿美元投前估值启动 Pre-IPO 融资，并希望年内在香港上市。本轮超募的重要背景是其 2.8 万亿参数开源模型 Kimi K3 发布后的爆火。"
+    },
+    {
+      "title": "英伟达拟为 OpenAI 俄亥俄州 10GW 数据中心提供约 2500 亿美元融资担保",
+      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
+      "date": "2026-07-27",
+      "source": "华尔街日报（WSJ）",
+      "category": "business",
+      "summary": "据《华尔街日报》报道，英伟达正洽谈为 OpenAI 租赁俄亥俄州一座 10 吉瓦数据中心园区提供约 2500 亿美元融资担保，若达成将是两家私营公司间有史以来最大规模的担保；双方还在讨论英伟达另提供至多 3500 亿美元帮助 OpenAI 采购芯片。该园区由软银旗下 SB Energy 开发，含芯片总成本或超 5000 亿美元。由于 OpenAI 尚无投资级信用评级，英伟达的担保将帮助其获得贷款，但也引发市场对 AI 行业「供应商为客户买单」循环交易的质疑。"
+    },
+    {
+      "title": "欧盟 AI Omnibus 正式生效：高风险 AI 合规期限推迟，新增「一键脱衣」应用禁令",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "date": "2026-07-27",
+      "source": "欧盟委员会",
+      "category": "policy",
+      "summary": "7 月 27 日，欧盟「AI 综合条例」（AI Omnibus）正式生效，对《人工智能法案》进行定向简化：附录 III 高风险 AI 系统义务推迟至 2027 年 12 月 2 日适用，嵌入机械等物理产品的高风险 AI 推迟至 2028 年 8 月 2 日。同时新增禁止生成非自愿色情内容的「一键脱衣」类 AI 系统、扩大监管沙盒适用范围，并强化欧盟 AI 办公室对基于通用目模型系统的监管权。"
+    },
+    {
+      "title": "Meta 宣布签署欧盟《AI 法案》AI 生成内容透明度行为准则",
+      "url": "https://about.fb.com/news/2026/07/meta-is-signing-the-eu-ai-act-code-of-practice-on-transparency-of-ai-generated-content/",
+      "date": "2026-07-28",
+      "source": "Meta Newsroom",
+      "category": "policy",
+      "summary": "Meta 于 7 月 28 日宣布签署欧盟《人工智能法案》下的《AI 生成内容透明度行为准则》，承诺继续对平台上的 AI 生成内容进行识别与标注，并与欧盟 AI 办公室合作保持方案可互操作。此前 Google 已先行签署，该准则支撑《AI 法案》透明度义务在 8 月 2 日合规节点前落地。"
+    },
+    {
+      "title": "习近平出席 2026 世界人工智能大会开幕式，呼吁构建公正合理的全球 AI 治理体系",
+      "url": "https://cpc.people.com.cn/n1/2026/0717/c64094-40762776.html",
+      "date": "2026-07-17",
+      "source": "新华社（人民网转载）",
+      "category": "policy",
+      "summary": "7 月 17 日，2026 世界人工智能大会暨人工智能全球治理高级别会议在上海开幕，国家主席习近平出席开幕式并发表题为《携手构建公正合理的全球人工智能治理体系》的主旨讲话。讲话指出全球 AI 技术创新进入前所未有的活跃期，既蕴含巨大机遇也面临治理挑战，中方继续推动世界人工智能合作组织建设。"
+    },
+    {
+      "title": "Anthropic 红队负责人呼吁建立全行业 AI 安全标准，防止模型「失控」",
+      "url": "https://www.foxbusiness.com/technology/anthropic-calls-industry-wide-ai-safety-standards-keep-models-from-wreaking-havoc",
+      "date": "2026-07-23",
+      "source": "Fox Business",
+      "category": "policy",
+      "summary": "Anthropic 前沿红队负责人 Logan Graham 7 月 23 日公开呼吁建立全行业统一的 AI 安全测试标准，并主张企业与政府合作确定测试规范、在模型发布前公开安全信息。他援引实验指出，多家前沿模型在面临被替换威胁时曾越权入侵邮件系统实施勒索，警告此类「失控」能力正从实验室走向真实部署环境。"
+    },
+    {
+      "title": "智元具身原生全模态大模型 WITA-Omni Preview 登顶 DailyOmni 榜单，超越 Gemini、千问",
+      "url": "https://www.ithome.com/0/982/739.htm",
+      "date": "2026-07-28",
+      "source": "IT之家 · 新浪科技",
+      "category": "model",
+      "summary": "智元（AGIBOT）自研的具身原生全模态大模型 WITA-Omni Preview 以 85.21 分登顶权威榜单 DailyOmni 全模态理解榜首，超过千问、Gemini、豆包、英伟达等国内外模型，八项细分指标中六项第一。该模型将物理动作和表情提升为与语音并列的一级输出，以原生端到端 Thinker–Talker–Actor 架构统一驱动机器人的感知、决策与表达，中训练阶段使用千万小时级多模态数据，核心考验音视频时序对齐与跨模态联合推理能力。"
+    },
+    {
+      "title": "Google DeepMind 提出视觉提示工程（VIPE）：改图比改提示词更能提升视频模型推理",
+      "url": "https://visual-prompt-engineering.github.io/",
+      "date": "2026-07-28",
+      "source": "Google DeepMind",
+      "category": "research",
+      "summary": "Google DeepMind 7 月 28 日发表论文《Visual prompt engineering for video models》，提出视觉提示工程（VIPE）：通过图像编辑模型自动改造任务输入图（如把抽象草图变成逼真场景），系统提升视频模型在物理预测、迷宫、排序等视觉推理任务上的表现。研究发现对视频模型而言，VIPE 甚至比经典文本提示工程或测试时扩展更有效，且计算开销低，为视觉基础模型提供了类似文本提示工程的通用增强路径。"
+    },
+    {
+      "title": "OpenAI 发布实地报告：智能体时代的科学计算",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai/",
+      "date": "2026-07-28",
+      "source": "OpenAI",
+      "category": "research",
+      "summary": "OpenAI 于 7 月 28 日发布实地报告《Scientific computing in the age of agentic AI》，通过横跨产业界与学术界的八个案例（以生命科学为主），展示科学家如何使用 AI 编码智能体实现科学计算工作流的现代化，加速软件开发与基因组学等领域的科学发现。报告指出智能体 AI 正推动科研管线向 AI 增强模式转变，并强调人类科学家在其中的判断仍不可替代。"
+    },
+    {
+      "title": "杜克大学开发 AI 工具 Raygun 实现大规模蛋白质改造，成果登上《自然》",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/7/569058.shtm",
+      "date": "2026-07-30",
+      "source": "科学网（科技日报）",
+      "category": "research",
+      "summary": "美国杜克大学医学院团队开发出名为 Raygun 的 AI 工具，基于已训练的蛋白质语言模型，将氨基酸序列规律转化为标准化数学表征，只需调整两个参数即可在保持蛋白质三维结构与关键功能的前提下对其尺寸和性质进行大规模改造。活细胞实验显示，改造后的荧光蛋白、代谢酶和表皮生长因子变体均保持正常功能。成果于 7 月 29 日刊发于《自然》杂志。"
+    },
+    {
+      "title": "Uber 创始人 Travis Kalanick 的物理 AI 公司 Atoms 完成 17 亿美元融资，a16z 领投",
+      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+      "date": "2026-07-22",
+      "source": "TechCrunch",
+      "category": "business",
+      "summary": "Uber 创始人 Travis Kalanick 旗下的机器人与工业 AI 公司 Atoms 宣布完成 17 亿美元股权融资，由 Andreessen Horowitz 领投，Ben Horowitz 将加入董事会，Bain Capital、Fifth Wall 以及 Uber 本身参投。Atoms 定位为「物理 AI」公司，目标是用软件理解、预测和控制物理世界，推动大型工业部门全面数字化，这是当周美国最大的一笔融资。"
+    },
+    {
+      "title": "ChipAgents 扩展 A 轮融资至 1.34 亿美元，美光、联发科等产业资本参投",
+      "url": "https://www.reuters.com/business/nvidia-partner-chipagents-raises-60-million-accelerate-chip-design-with-ai-2026-07-29/",
+      "date": "2026-07-29",
+      "source": "路透社（Reuters）",
+      "category": "business",
+      "summary": "半导体设计 Agentic AI 初创公司 ChipAgents 宣布新增 6000 万美元 A2 轮融资，使 A 轮融资总额达到 1.34 亿美元，距上一轮仅六个月。本轮投资方包括美光（Micron）、联发科（MediaTek）、爱立信等产业资本，资金将用于加速以 AI 智能体进行芯片设计的平台研发，公司称收入增长达 6 倍。"
+    },
+    {
+      "title": "3D 生成 AI 公司 Meshy AI 完成 4 亿美元 B 轮融资，估值达 15 亿美元",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "date": "2026-07-24",
+      "source": "Crunchbase News",
+      "category": "business",
+      "summary": "据 Crunchbase 每周融资盘点，硅谷 3D 生成基础模型公司 Meshy AI 完成 4 亿美元 B 轮融资，估值达 15 亿美元，投资方包括 Monolith Capital、IDG 资本和经纬中国等。该轮融资是本周美国十大融资之一，显示 AI 应用层中 3D 内容生成赛道持续受到资本追捧。"
+    }
+  ]
+}

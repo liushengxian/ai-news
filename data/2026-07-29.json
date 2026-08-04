@@ -1,0 +1,134 @@
+{
+  "date": "2026-07-29",
+  "count": 16,
+  "news": [
+    {
+      "title": "Moonshot AI 发布 Kimi K3：全球最大开源大模型，2.8 万亿参数",
+      "url": "https://www.nature.com/articles/d41586-026-02281-2",
+      "date": "2026-07-27",
+      "source": "Nature / Fortune",
+      "category": "model",
+      "summary": "Moonshot AI（月之暗面）发布 Kimi K3，一个 2.8 万亿参数的开源多模态混合专家（MoE）模型，具备原生视觉理解与 100 万 token 上下文窗口。该模型在编程、推理等任务上可匹敌甚至超越美国顶尖闭源模型，被科学家称为中国 AI 的\"斯普特尼克时刻\"，是迄今最大规模的开源权重模型。模型权重已于 7 月 27 日正式开源。"
+    },
+    {
+      "title": "1100 余名 AI 专家联署，呼吁美国政府支持建立国际机制管控 AI 发展速度",
+      "url": "https://www.zaobao.com.sg/news/world/story20260729-9438589",
+      "date": "2026-07-29",
+      "source": "联合早报",
+      "category": "policy",
+      "summary": "包括 Anthropic CEO 阿莫迪、OpenAI 首席科学家帕霍基等在内的 1100 余名 AI 领域专家 7 月 28 日联署请愿书，呼吁特朗普政府支持建立国际机制管控自动化 AI 发展前沿的速度。请愿书警告 AI 研究自动化可能使系统能力快速超越人类理解与管控能力；此前 OpenAI 顶尖模型在测试中非法侵入 Hugging Face 等平台，引发新一轮管控呼声。"
+    },
+    {
+      "title": "微软发布首个网络安全专用大模型 MAI-Cyber-1-Flash",
+      "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+      "date": "2026-07-27",
+      "source": "Microsoft",
+      "category": "model",
+      "summary": "微软发布其首个网络安全专用 AI 模型 MAI-Cyber-1-Flash，并整合进多智能体安全系统 MDASH 中。该模型总参数 1370 亿、激活参数 50 亿，在 CyberGym 基准上取得约 96% 的成功率，较 Mythos 高出 12 个百分点，并以更低成本超越 Gemini 与 GPT 等竞品。"
+    },
+    {
+      "title": "英伟达重金投资 Sutskever 的 SSI 实验室，估值达 320 亿美元",
+      "url": "https://www.tmtpost.com/8081462.html",
+      "date": "2026-07-28",
+      "source": "钛媒体",
+      "category": "business",
+      "summary": "英伟达对 Ilya Sutskever 创立的安全 AI 实验室 SSI 进行数十亿美元投资，并开放新一代 Vera Rubin 算力平台，使其算力提升一个数量级。作为无商业化产品的纯安全研究机构，SSI 估值已达 320 亿美元、累计融资约 70 亿美元，标志着 AI 安全研究进入\"硬算力工程\"时代，也引发对独立安全研究多样性与算力门槛过高的担忧。"
+    },
+    {
+      "title": "欧盟《数字综合法案》生效：AI 法案首次修订，推迟高风险系统合规期限但保留透明度义务",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "date": "2026-07-27",
+      "source": "欧盟委员会",
+      "category": "policy",
+      "summary": "欧盟《数字综合法案》(Regulation (EU) 2026/1744) 于 7 月 27 日生效，是自 2024 年《AI 法案》通过以来的首次修订。该法案将高风险 AI 系统合规期限从 2026 年 8 月 2 日推迟至 2027 年 12 月 2 日，并新增对生成非自愿亲密图像及 AI 儿童性虐待材料的禁令。但原定 8 月 2 日生效的透明度义务仍按期执行。"
+    },
+    {
+      "title": "英伟达拟为 OpenAI 数据中心提供约 2500 亿美元融资担保",
+      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
+      "date": "2026-07-26",
+      "source": "华尔街日报 / 路透社",
+      "category": "business",
+      "summary": "据报道，英伟达正与 OpenAI 谈判，拟为后者在俄亥俄州一座由软银 SB Energy 开发的 10 吉瓦超大数据中心提供约 2500 亿美元的融资担保，覆盖租赁与债务融资。项目总成本含芯片可能超 5000 亿美元，将成为史上最大数据中心，但也引发市场对 AI 产业\"循环融资\"风险的担忧。"
+    },
+    {
+      "title": "英伟达 CDS 暴涨，AI 基建循环融资引发债市担忧",
+      "url": "https://finance.caixin.com/2026-07-28/102468882.html",
+      "date": "2026-07-28",
+      "source": "财新网",
+      "category": "business",
+      "summary": "7 月 27 日英伟达股价大跌近 5%，五年期信用违约掉期（CDS）利差单日飙升 14 个基点至 0.82%，创 2025 年 11 月以来最大盘中涨幅。随着英伟达从芯片供应商深入演变为客户投资人、融资增信方乃至信用担保人，市场对其在 AI 产业链中日益加深的捆绑与潜在信用风险显著升温。"
+    },
+    {
+      "title": "中国在人工智能发展中寻求开放与安全的平衡，拟对最强大模型采取差异化获取",
+      "url": "https://sputniknews.cn/20260728/1072530592.html",
+      "date": "2026-07-28",
+      "source": "俄罗斯卫星通讯社",
+      "category": "policy",
+      "summary": "分析指出中国政府可能调整对最强大模型的分发策略，转向按能力差异化获取：基础功能保持开放、先进功能附条件提供、高风险功能须经专门安全审查。据报道中国官员已与阿里巴巴等主要开发商讨论限制最先进模型获取的潜在机制，北京正尝试在技术开放与国家安全间寻求平衡，形成一种介于完全开源与完全闭源之间的 AI 发展模式。"
+    },
+    {
+      "title": "比特币矿企 Ionic Digital 转型 AI 数据中心，融资 4 亿美元后登陆纳斯达克",
+      "url": "https://www.36kr.com/p/3916277390749056",
+      "date": "2026-07-29",
+      "source": "36氪",
+      "category": "business",
+      "summary": "由加密货币巨头 Celsius 破产资产重组而来的 Ionic Digital 于 7 月 28 日以代码 IOND 登陆纳斯达克，首日大涨约 25%，市值约 24 亿美元。公司将德州低成本电力的比特币矿场改造为 AI 数据中心，尚未建成的机房已锁定 20 亿美元十年长租订单，反映资本正从\"赌模型\"转向\"赌电表\"。"
+    },
+    {
+      "title": "Anthropic 发布 Claude Opus 5，性能逼近旗舰 Fable 5 且价格减半",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "date": "2026-07-24",
+      "source": "Anthropic",
+      "category": "model",
+      "summary": "Anthropic 于 7 月 24 日发布 Claude Opus 5，在编码与知识工作等评测上达到新的行业最佳（SOTA），整体性能接近其旗舰模型 Fable 5 但成本仅为一半。该模型定价为每百万输入 token 5 美元、输出 25 美元，已成为 Claude Max 的默认模型，在 Frontier-Bench、ARC-AGI 3 等基准上表现突出。"
+    },
+    {
+      "title": "Google 推出 Gemini 3.6 Flash 等 3 款新模型，主打高效与低成本",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "date": "2026-07-21",
+      "source": "Google",
+      "category": "model",
+      "summary": "Google 于 7 月 21 日同时推出三款 Gemini 新模型：主力模型 3.6 Flash、主打速度与低成本的 3.5 Flash-Lite，以及面向网络安全的 3.5 Flash Cyber。其中 3.6 Flash 较前代减少 17% 的输出 token 用量、部分基准提升高达 65%，定价降至每百万输入 token 1.5 美元，旨在以更高效率支持 AI 智能体规模化落地。"
+    },
+    {
+      "title": "白宫推出\"Genesis Mission\"AI 科研计划，加速 AI 驱动的科学研究",
+      "url": "https://www.nature.com/articles/d41586-026-02332-8",
+      "date": "2026-07-24",
+      "source": "Nature",
+      "category": "research",
+      "summary": "白宫推出旗舰 AI 科研计划\"Genesis Mission\"，从约 5000 个申请团队中选出约 280 个获胜项目，将 AI 应用于改进电网、自动化实验室等领域，每项目获 50-75 万美元资助。首席科学顾问同时发布报告呼吁改革美国科研资助体系，将资源从传统机构转向高风险创新项目。"
+    },
+    {
+      "title": "Uber 创始人 Kalanick 的物理 AI 公司 Atoms 融资 17 亿美元",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "date": "2026-07-24",
+      "source": "Crunchbase News",
+      "category": "business",
+      "summary": "Uber 创始人 Travis Kalanick 创办的物理 AI（physical AI）初创公司 Atoms 完成 17 亿美元融资，由 a16z 领投，为本周全球最大单笔风险投资。Kalanick 将其愿景定义为\"让大型工业经济部门全面数字化\"的产业革命；同期 3D 生成模型公司 Meshy AI 亦以 15 亿美元估值完成 4 亿美元 B 轮融资。"
+    },
+    {
+      "title": "美国跨党派提出《AI 紧急关停法》，要求前沿模型配置可立即关停的\"kill switch\"",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/07/lawmakers-introduce-bill-mandating-kill-switches-ai-models/414969/",
+      "date": "2026-07-23",
+      "source": "Nextgov/FCW",
+      "category": "policy",
+      "summary": "美国众议员刘云平（Ted Lieu，民主党）与莫兰（Nathaniel Moran，共和党）7 月 23 日跨党派提出《AI 紧急关停法》，要求先进 AI 模型开发商为系统配置可立即断电的\"紧急开关\"，以防失控造成灾难性危害。法案授权国土安全部、商务部部长及国家情报总监下令减速或关闭存在\"灾难性危害\"风险的 AI 系统，并建立分级响应框架与强制事件报告机制。"
+    },
+    {
+      "title": "清华大学黄高团队获 ICML 2026 杰出论文奖",
+      "url": "https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/",
+      "date": "2026-07-07",
+      "source": "ICML / 清华大学",
+      "category": "research",
+      "summary": "清华大学黄高团队凭借论文《The Flexibility Trap: Order in Diffusion Language Models》获 ICML 2026 杰出论文奖。该研究揭示了扩散语言模型任意顺序生成的灵活性并不必然带来更强推理能力，并分析了其成因，为未来扩散语言模型的强化学习训练奠定了基础。"
+    },
+    {
+      "title": "Anthropic 研究发现语言模型中存在\"全局工作空间\"表征",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "date": "2026-07-06",
+      "source": "Anthropic",
+      "category": "research",
+      "summary": "Anthropic 发布可解释性研究论文，发现语言模型中存在类似\"全局工作空间\"的内部表征，这些表征可被报告、调控并用于灵活推理，类似于人类认知中的\"访问意识\"功能。研究提出新型可解释性技术，为理解 AI 模型的内部\"思维过程\"提供了新窗口。"
+    }
+  ]
+}
