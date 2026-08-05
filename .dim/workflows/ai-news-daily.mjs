@@ -55,7 +55,7 @@ export default async function workflow(api) {
   const results = await api.parallel(
     topics.map((t) => () =>
       api.agent(
-        `你是科技新闻编辑，负责「${t.topic}」方向。\n用 WebSearch 工具搜索最近一周关于该方向的 AI 重要新闻（中英文均可）。\n从结果里挑选 3-5 条最新、最重要的新闻。对每条用 WebFetch 抓取页面内容（只读前部分即可）提取摘要。\n要求:\n- summary 用中文写，2-3 句话概括核心信息\n- date 尽量精确到日期\n- source 填媒体或机构名\n- category 一律填 "${t.category}"\n- 优先选近 3 天的新闻\n完成后调用 workflow_result 返回 JSON。`,
+        `你是科技新闻编辑，负责「${t.topic}」方向。今天是 ${today}。\n用 WebSearch 工具搜索该方向近 2-3 天的 AI 重要新闻（中英文均可）；如果近 3 天内该方向确实没有重磅新闻，可放宽到近 5 天补足。\n从结果里挑选 2-4 条最新、最重要的新闻（宁缺毋滥，没有重磅新闻就少选）。对每条用 WebFetch 抓取页面内容（只读前部分即可）提取摘要。\n要求:\n- summary 用中文写，2-3 句话概括核心信息\n- date 尽量精确到日期\n- source 填媒体或机构名\n- category 一律填 "${t.category}"\n- 优先选近 3 天的新闻，近 5 天内的仅作补充\n完成后调用 workflow_result 返回 JSON。`,
         { label: `搜索: ${t.label}`, schema: newsSchema }
       )
     )
