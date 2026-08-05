@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-08-04",
+  "updated_at": "2026-08-05",
   "reports": [
+    {
+      "date": "2026-08-05",
+      "title": "阿里发布最大模型Qwen3.8-Max",
+      "count": 17
+    },
     {
       "date": "2026-08-04",
       "title": "阿里发布旗舰大模型 Qwen3.8-Max",

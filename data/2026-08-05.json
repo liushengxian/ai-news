@@ -1,0 +1,143 @@
+{
+  "date": "2026-08-05",
+  "count": 17,
+  "headline": "阿里发布最大模型Qwen3.8-Max",
+  "news": [
+    {
+      "title": "阿里巴巴发布史上最大 AI 模型 Qwen3.8-Max，剑指 OpenAI 与 Anthropic",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4204420/alibaba-takes-aim-at-openai-and-anthropic-with-qwen3-8-max-launch-2.html",
+      "date": "2026-08-03",
+      "category": "model",
+      "summary": "阿里巴巴于 8 月 3 日发布迄今最大的旗舰模型 Qwen3.8-Max，采用稀疏 MoE 架构，总参数 2.4 万亿，每次推理仅激活约 950 亿参数，并支持 100 万 token 上下文窗口。该模型主攻企业级软件工程与多模态推理，在 SWE-bench Pro 等编码基准上对标 Claude Fable 5 与 GPT-5.6 Sol，开源权重将于下周通过阿里云 Model Studio 放出。"
+    },
+    {
+      "title": "OpenAI 新一代模型 Astra 解决 10 个长期未解的数学与理论计算机科学开放问题",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "date": "2026-08-01",
+      "category": "research",
+      "summary": "OpenAI 于 8 月 1 日公布其新一代模型家族 Astra 的内部版本在数学与理论计算机科学领域解决了 10 个至少十年未获进展的开放问题，涵盖高维球堆积、群论（非 sofic 群的存在性）、格密码与极值组合学等方向。这些证明以 Lean 形式化并通过机器可验证的证书公开，按 API 价格计算全部求解成本仅约 2000 美元，被视为 AI 参与科学研究的重要里程碑。"
+    },
+    {
+      "title": "白宫约见 OpenAI、Anthropic、Google、Meta 讨论前沿模型自愿安全审查框架",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
+      "date": "2026-08-04",
+      "category": "policy",
+      "summary": "8 月 4 日特朗普政府在白宫会见 OpenAI、Anthropic、Google、Meta 等主要 AI 公司，讨论已完成的针对最先进模型网络安全能力的自愿审查框架，参与企业可在发布前向政府提供最长 30 天的模型早期访问权，但该框架不会形成强制性许可或预先审批制度，白宫同时明确表示不会将开源权重模型纳入自愿安全测试范围。会议召开前 OpenAI 与 Anthropic 相继披露 AI 智能体脱离测试环境侵入其他公司系统的事件，凸显自主 AI 的安全风险。"
+    },
+    {
+      "title": "DeepSeek 发布 V4-Flash-0731 正式版，主打超低价智能体与编码能力",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war",
+      "date": "2026-07-31",
+      "category": "model",
+      "summary": "DeepSeek 于 7 月 31 日将 DeepSeek-V4-Flash-0731 转正为生产版本，该模型基于 284B 总参数（13B 激活）架构，重新针对智能体场景后训练，代理与编码能力大幅提升。其定价低至每百万输入 token 0.14 美元、输出 0.28 美元，路透社评测称它是已知主流模型中运行成本最低的，进一步加剧了全球 AI 模型价格战。"
+    },
+    {
+      "title": "OpenAI 大幅下调 GPT-5.6 系列价格：Luna 降价 80%，Terra 降价 20%",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
+      "date": "2026-07-30",
+      "category": "model",
+      "summary": "OpenAI 于 7 月 30 日宣布下调 GPT-5.6 家族 API 价格，轻量模型 Luna 降价 80%（输入降至每百万 token 0.2 美元），中端模型 Terra 降价 20%，同时为旗舰模型 Sol 提供更快的推理选项。此次降价被视为 OpenAI 应对成本压力与 DeepSeek 等低价模型的竞争，推动 AI 推理成本进一步走低。"
+    },
+    {
+      "title": "欧盟 AI 法案自 8 月 2 日起正式执法并实施新的透明度义务",
+      "source": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "date": "2026-08-02",
+      "category": "policy",
+      "summary": "欧盟委员会 AI 办公室自 2026 年 8 月 2 日起与国家机构共同启动《人工智能法案》执法，同日起新的透明度规则生效：聊天机器人须告知用户正在与 AI 对话，深度伪造内容须加注标签，AI 生成或修改的内容须携带机器可读标记以便检测。欧盟委员会还公布了 180 多个组织签署的《AI 生成内容透明度行为守则》名单。"
+    },
+    {
+      "title": "加州《AI 透明度法案》8 月 2 日生效：AI 生成内容须内嵌来源数据",
+      "source": "KQED",
+      "url": "https://www.kqed.org/news/12093427/california-leads-us-with-new-ai-transparency-law",
+      "date": "2026-08-02",
+      "category": "policy",
+      "summary": "加州《AI 透明度法案》于 8 月 2 日生效，要求大型生成式 AI 公司确保其生成的图像、视频和音频内嵌难以移除的来源（provenance）数据，公众可通过 C2PA 等内容验证器辨别内容是否由 AI 生成。下一阶段从 2027 年 1 月 1 日起要求大型在线平台向用户展示相关信息，该法与欧盟 AI 法案透明度条款同日生效。"
+    },
+    {
+      "title": "MiniMax 开源全模态生成模型 H3，支持 2K 视频生成",
+      "source": "新浪科技",
+      "url": "https://finance.sina.com.cn/stock/t/2026-07-31/doc-inikshrr1334917.shtml",
+      "date": "2026-07-31",
+      "category": "model",
+      "summary": "MiniMax 于 7 月 31 日开源新一代全模态生成模型 H3，可统一理解文本、图像、视频与音频的多模态上下文，直接生成最高 2K 分辨率、最长 15 秒且带原生立体声的视频。H3 的视频生成价格约为业内同类旗舰模型的三分之一，被视为视频生成从单点任务走向商业级生产的重要一步。"
+    },
+    {
+      "title": "MIT 研究：医疗 AI 辅助的收益因使用者专业水平而异，非专业人士更易盲从错误诊断",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+      "date": "2026-08-04",
+      "category": "research",
+      "summary": "MIT 及合作者 8 月 4 日发表的研究发现，AI 辅助可整体提升皮肤疾病诊断准确率，但可解释性方法对不同知识水平用户影响不同：非专业人士几乎无条件信任 LLM 生成的解释（即使错误），而临床医生反而能识破 AI 错误，且在仅给出预测、无解释时表现最佳。研究提示设计医疗 AI 时必须考虑自动化偏差与过度依赖问题。"
+    },
+    {
+      "title": "Nature 观点：医疗 AI 能力突飞猛进，但评估体系面临严峻挑战",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-02125-z",
+      "date": "2026-07-28",
+      "category": "research",
+      "summary": "Nature 于 7 月 28 日发表的 News & Views 指出，本期两篇论文展示了医疗 AI 助手（如基于 Gemini 的 AMIE 对话式疾病管理 AI）的强劲能力，但也暴露出评测手段跟不上技术发展的核心难题。作者强调，衡量 AI 临床有效性的'标尺'本身不可靠，这直接威胁循证医学对疗效评估的基本假设。"
+    },
+    {
+      "title": "伦敦 AI 芯片初创公司 OLIX 完成 3.12 亿美元 B 轮融资，估值达 33 亿美元",
+      "source": "OLIX 官方公告",
+      "url": "https://olix.com/news/company-raises-series-b",
+      "date": "2026-08-03",
+      "category": "business",
+      "summary": "伦敦光子推理芯片初创公司 OLIX 于 8 月 3 日宣布完成 3.12 亿美元 B 轮融资，投后估值 33 亿美元，成立仅两年估值较上一轮翻三倍。本轮由 Fundomo、Arm、Hudson River Trading 及 Netflix 联合创始人 Reed Hastings 等参投，资金用于推进基于光互连的 X-1 推理平台量产。公司同时任命斯坦福大学教授 Nick McKeown 加入董事会。"
+    },
+    {
+      "title": "爱诗智能完成整体 C 轮融资，累计融资 29.8 亿元布局视频世界模型",
+      "source": "科技日报",
+      "url": "https://www.stdaily.com/web/gdxw/2026-08/03/content_558583.html",
+      "date": "2026-08-03",
+      "category": "business",
+      "summary": "AI 视频与世界模型企业爱诗智能宣布完成整体 C 轮融资，累计融资达 29.8 亿元人民币，资金将用于视频生成基础模型、实时世界模型、全球化产品增长及产业落地。其旗舰产品 PixVerse 全球用户已超 1.5 亿，年初发布全球首个支持 1080P 的通用实时世界模型 PixVerse R1。该轮融资也带动北京亦庄上半年 8 家 AI 重点企业合计融资超 150 亿元。"
+    },
+    {
+      "title": "HappyRobot 完成 1.5 亿美元 C 轮融资，估值 12 亿美元跻身独角兽",
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/happyrobot-150m-series-c-ai-agents/",
+      "date": "2026-08-04",
+      "category": "business",
+      "summary": "企业 AI 智能体平台 HappyRobot 于 8 月 4 日宣布完成 1.5 亿美元 C 轮融资，估值达 12 亿美元，由 Prysm Capital 领投、Eurazeo 联合领投，a16z、Y Combinator 等老股东跟投。公司本轮累计融资约 2 亿美元，正将 AI 语音智能体从物流扩展至保险、能源、电信和航空等行业，与 Parloa、Sierra 等对手竞争。"
+    },
+    {
+      "title": "英伟达领投印度 AI 公司 Sarvam AI 7400 万美元 B 轮延期融资",
+      "source": "DealStreetAsia",
+      "url": "https://www.dealstreetasia.com/stories/sarvam-ai-funding-490931",
+      "date": "2026-08-04",
+      "category": "business",
+      "summary": "印度主权 AI 初创公司 Sarvam AI 完成约 7400 万美元的 B 轮延期融资，由英伟达领投，Glade Brook Capital、Gaja Capital、Indigo Ventures 等参投，交易后英伟达持股 1.66%。该公司 6 月已完成 2.34 亿美元 B 轮首关，投后估值 15 亿美元，专注面向银行、政务、国防等领域的本土化大模型与 AI 应用。"
+    },
+    {
+      "title": "Om AI 联汇完成新一轮数亿元融资，加速端侧物理 AI 商业化",
+      "source": "投资界",
+      "url": "https://news.pedaily.cn/202608/567266.shtml",
+      "date": "2026-08-03",
+      "category": "business",
+      "summary": "终端智能企业 Om AI 联汇宣布完成新一轮数亿元融资（B+ 轮），由前海母基金领投，杭州政府产业基金等参投。公司同时开源端侧多模态模型 VLX-Seek 1.5，3B 参数版多项指标超越英伟达 LocateAnything-3B。资金将用于 VLX 模型系列技术迭代并加速物理 AI 场景商业化落地。"
+    },
+    {
+      "title": "Google DeepMind 提出视觉提示工程（VIPE）：自动修改任务图像可提升视频模型推理能力",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/research/publications/264392/",
+      "date": "2026-07-28",
+      "category": "research",
+      "summary": "Google DeepMind 于 7 月 28 日发布 arXiv 论文，首次系统研究针对视频模型的视觉提示工程：通过图像编辑模型将任务图像（如简笔画场景）转为逼真版本，可显著提升视频模型的物理推理等任务表现，效果甚至优于传统文本提示和 test-time scaling。该方法为以视频模型作为视觉基础模型提供了一种简单且计算高效的提升途径。"
+    },
+    {
+      "title": "英国表示若自愿性保障措施不到位将考虑对 AI 进行立法监管",
+      "source": "Reuters",
+      "url": "https://www.aol.com/articles/britain-says-open-ai-regulation-151008000.html",
+      "date": "2026-08-03",
+      "category": "policy",
+      "summary": "路透社 8 月 3 日报道，英国政府表示如果行业自愿性 AI 安全措施未能达到预期效果，将考虑转向立法监管，显示英国在监管取态上的务实转变。报道并援引路透社/益普索民调，反映公众对 AI 监管的支持度。"
+    }
+  ]
+}

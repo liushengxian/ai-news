@@ -4,6 +4,9 @@
 # 与仓库绑定：在 ai-news 仓库根目录运行，数据直接写入 data/YYYY-MM-DD.json
 set -e
 
+# launchd 环境 PATH 精简，不包含 dim（位于 DimAgent.app 内），必须显式指定
+export PATH="/Applications/DimAgent.app/Contents/Resources/runtime/cli:/Applications/DimAgent.app/Contents/Resources/runtime/uv:/Applications/DimAgent.app/Contents/Resources/runtime/python/bin:/Applications/DimAgent.app/Contents/Resources/runtime/node/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
 WORKDIR="/Users/liushengxian/Github/ai-news"
 LOGDIR="$WORKDIR/output"
 mkdir -p "$LOGDIR"
