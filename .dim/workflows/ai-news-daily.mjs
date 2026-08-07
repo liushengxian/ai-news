@@ -87,7 +87,13 @@ export default async function workflow(api) {
     { label: "清洗数据并写入 JSON" }
   )
 
+  api.phase("发布到 GitHub")
+  await api.agent(
+    `数据已写入 ${outputPath}。请在仓库目录执行一键发布脚本完成「重建 reports.json 清单 → git 提交 → 推送 GitHub Pages」：\ncd ${api.cwd} && ./update.sh\n\n要求：执行后确认输出包含「✓ 已推送」，没有报错；然后用一两句话简要回复发布结果（commit 号、推送状态）。如果 update.sh 报错，请读取报错内容并重试一次，仍失败则如实回复失败原因。`,
+    { label: "发布到 GitHub" }
+  )
+
   api.phase("完成")
-  api.log(`数据已写入: ${outputPath}`)
-  return { ok: true, file: outputPath, count: allNews.length, date: today }
+  api.log(`数据已写入: ${outputPath}，已发布 GitHub Pages`)
+  return { ok: true, file: outputPath, count: allNews.length, date: today, published: true }
 }
