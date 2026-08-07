@@ -3,11 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 新闻简报 · 首页</title>
+<title>AI 新闻简报 · 每日 AI 科技新闻</title>
+<meta name="description" content="由 DimAgent 自动生成的每日 AI 科技新闻简报：模型发布 / 前沿研究 / 融资动态 / 政策监管。">
+<meta name="theme-color" content="#070a12">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI 新闻简报">
+<meta property="og:title" content="AI 新闻简报 · 每日 AI 科技新闻">
+<meta property="og:description" content="每日 AI 科技新闻汇总：模型发布 / 前沿研究 / 融资动态 / 政策监管。">
+<meta property="og:url" content="https://liushengxian.github.io/ai-news/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AI 新闻简报 · 每日 AI 科技新闻">
+<meta name="twitter:description" content="每日 AI 科技新闻汇总：模型发布 / 前沿研究 / 融资动态 / 政策监管。">
+<link rel="canonical" href="https://liushengxian.github.io/ai-news/">
+<link rel="alternate" type="application/rss+xml" title="AI 新闻简报" href="rss.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+(function(){try{var t=localStorage.getItem('theme')||(window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
 <style>
   :root{
     --bg:#070a12;
@@ -27,7 +39,7 @@
       radial-gradient(700px 700px at 50% 120%, rgba(34,211,238,.06), transparent 60%),
       var(--bg);
     color:var(--text);
-    font-family:'Inter','Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Segoe UI',Roboto,sans-serif;
     min-height:100vh;
     -webkit-font-smoothing:antialiased;
   }
@@ -51,7 +63,7 @@
   .kicker-right{display:flex;align-items:center;gap:14px;flex-shrink:0}
   .kicker .powered{
     font-size:10px;letter-spacing:.08em;color:var(--faint);opacity:.85;
-    text-transform:none;font-family:'JetBrains Mono',monospace;
+    text-transform:none;font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
   }
   .kicker a{
     color:var(--faint);text-decoration:none;letter-spacing:.06em;
@@ -110,7 +122,7 @@
   .item-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   .badge{
     display:inline-flex;align-items:center;gap:6px;
-    font-family:'JetBrains Mono','Noto Sans SC',monospace;
+    font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
     font-size:11px;font-weight:500;line-height:1;letter-spacing:.04em;
     padding:5px 10px;border-radius:999px;
   }
@@ -181,6 +193,73 @@
   @media (hover:none){
     .item:hover{transform:none}
   }
+
+  /* ---------- 主题切换 / RSS ---------- */
+  .theme-btn{
+    appearance:none;background:none;border:1px solid var(--border);border-radius:8px;
+    color:var(--muted);font-size:13px;line-height:1;padding:6px 8px;cursor:pointer;
+    display:inline-flex;align-items:center;transition:all .2s ease;
+  }
+  .theme-btn:hover{color:var(--text);border-color:rgba(148,163,184,.35);transform:translateY(-1px)}
+  .kicker a.rss{letter-spacing:.06em}
+
+  /* ---------- 全站搜索 ---------- */
+  .searchbar{position:relative;margin-bottom:24px}
+  .searchbar input{
+    width:100%;padding:14px 18px;border-radius:14px;
+    border:1px solid var(--border);background:rgba(255,255,255,.04);
+    color:var(--text);font-size:14px;font-family:inherit;outline:none;
+    transition:border-color .2s ease,background .2s ease;
+  }
+  .searchbar input::placeholder{color:var(--faint)}
+  .searchbar input:focus{border-color:rgba(110,168,255,.55);background:rgba(255,255,255,.06)}
+  .qcount{
+    position:absolute;right:16px;top:50%;transform:translateY(-50%);
+    font-size:11.5px;color:var(--faint);white-space:nowrap;
+    font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
+  }
+  .badge.cat{color:var(--cc);background:rgba(255,255,255,.045);border:1px solid color-mix(in srgb,var(--cc) 45%,transparent)}
+  .badge.cat::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--cc)}
+  .badge.src{color:var(--muted);background:rgba(255,255,255,.03);border:1px solid var(--border);font-size:10.5px;letter-spacing:.02em}
+  .sresult .snippet{color:var(--muted);font-size:13px;line-height:1.75;margin-top:6px}
+  .snippet mark{background:rgba(110,168,255,.28);color:inherit;border-radius:3px;padding:0 2px}
+
+  /* ---------- 浅色主题 ---------- */
+  :root[data-theme="light"]{
+    --bg:#f4f6fb;
+    --text:#1b2434;
+    --muted:#5d6b85;
+    --faint:#8b97ad;
+    --border:rgba(27,42,84,.15);
+    --accent:#2563eb;
+    --accent2:#7c3aed;
+  }
+  :root[data-theme="light"] body{
+    background:
+      radial-gradient(1100px 560px at 82% -12%, rgba(124,90,255,.10), transparent 60%),
+      radial-gradient(900px 520px at -12% 8%, rgba(37,99,235,.10), transparent 60%),
+      radial-gradient(700px 700px at 50% 120%, rgba(6,182,212,.05), transparent 60%),
+      var(--bg);
+  }
+  :root[data-theme="light"] ::selection{background:rgba(37,99,235,.22)}
+  :root[data-theme="light"] header{background:rgba(244,246,251,.82)}
+  :root[data-theme="light"] h1{
+    background:linear-gradient(92deg,#0f1b33 10%,#2563eb 55%,#7c3aed 95%);
+    -webkit-background-clip:text;background-clip:text;
+  }
+  :root[data-theme="light"] .sub #count{color:#2563eb}
+  :root[data-theme="light"] .item,
+  :root[data-theme="light"] .item:hover{
+    background:linear-gradient(180deg,rgba(255,255,255,.95),rgba(255,255,255,.65));
+  }
+  :root[data-theme="light"] .item:hover{
+    box-shadow:0 14px 36px rgba(15,23,42,.12),0 0 0 1px rgba(255,255,255,.6) inset;
+  }
+  :root[data-theme="light"] .item:hover .item-title{color:#1d4ed8}
+  :root[data-theme="light"] .arrow:hover{color:#1b2434;background:rgba(37,99,235,.08)}
+  :root[data-theme="light"] .searchbar input{background:rgba(255,255,255,.7)}
+  :root[data-theme="light"] .searchbar input:focus{background:#fff;border-color:rgba(37,99,235,.45)}
+  :root[data-theme="light"] .snippet mark{background:rgba(37,99,235,.18)}
 </style>
 </head>
 <body>
@@ -190,8 +269,10 @@
     <div class="kicker">
       <span>Tech · AI · Daily Briefing</span>
       <span class="kicker-right">
+        <a class="rss" href="rss.xml" target="_blank" rel="noopener">RSS</a>
         <a class="powered" href="https://dimcode.dev/" target="_blank" rel="noopener">powered by DimAgent</a>
         <a class="gh" href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener" aria-label="GitHub 仓库"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+        <button id="themeBtn" class="theme-btn" aria-label="切换浅色/深色主题"><span class="ico">☀️</span></button>
         <a href="about.html">关于 ↗</a>
       </span>
     </div>
@@ -206,6 +287,10 @@
 
 <main>
   <div class="container">
+    <div class="searchbar">
+      <input id="q" type="search" placeholder="搜索全部日报的标题与摘要…" autocomplete="off" aria-label="搜索">
+      <span class="qcount" id="qcount"></span>
+    </div>
     <div class="list" id="list"></div>
     <div class="empty" id="empty" style="display:none">暂无简报，等待第一份日报发布…</div>
   </div>
@@ -217,46 +302,150 @@
 </footer>
 
 <script>
+  var CATS = {
+    model:    { label: '模型发布', cc: '#5b9dff' },
+    research: { label: '前沿研究', cc: '#b388ff' },
+    business: { label: '融资动态', cc: '#34d399' },
+    policy:   { label: '政策监管', cc: '#fbbf24' }
+  };
+  var list = document.getElementById('list');
+  var empty = document.getElementById('empty');
+  var qcount = document.getElementById('qcount');
+  var lastReports = [];
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function escapeReg(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, function (c) { return '\\' + c; }); }
+
+  function renderReports(reports) {
+    document.getElementById('count').textContent = reports.length;
+    if (!reports.length) {
+      list.innerHTML = '';
+      empty.style.display = '';
+      return;
+    }
+    var html = reports.map(function (r, i) {
+      var latest = i === 0 ? '<span class="latest">最新</span>' : '';
+      var meta = r.count != null ? r.count + ' 条新闻' : '已发布';
+      var title = r.title || ('AI 科技日报 · ' + r.date);
+      return (
+        '<a class="item" style="--i:' + (i + 1) + '" href="report.html?date=' + encodeURIComponent(r.date) + '">' +
+          '<div class="item-info">' +
+            '<div class="item-meta">' +
+              '<span class="badge date">' + r.date + '</span>' +
+              '<span class="badge count">' + meta + '</span>' +
+            '</div>' +
+            '<h2 class="item-title">' + esc(title) + '</h2>' +
+          '</div>' +
+          '<div class="item-side">' +
+            latest +
+            '<span class="arrow">→</span>' +
+          '</div>' +
+        '</a>'
+      );
+    }).join('');
+    list.innerHTML = html;
+    empty.style.display = 'none';
+  }
+
+  // ---------- 全站搜索 ----------
+  var idxCache = null;
+  function getIndex() {
+    if (idxCache) return Promise.resolve(idxCache);
+    return fetch('search-index.json', { cache: 'no-store' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function (d) { idxCache = d.items || []; return idxCache; });
+  }
+  function highlight(text, terms) {
+    var t = esc(text);
+    terms.forEach(function (term) {
+      t = t.replace(new RegExp(escapeReg(term), 'gi'), function (m) {
+        return '<mark>' + m + '</mark>';
+      });
+    });
+    return t;
+  }
+  var searchTimer = null;
+  document.getElementById('q').addEventListener('input', function () {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(runSearch, 200);
+  });
+  function runSearch() {
+    var q = document.getElementById('q').value.trim().toLowerCase();
+    qcount.textContent = '';
+    if (!q) { renderReports(lastReports); return; }
+    getIndex().then(function (items) {
+      var terms = q.split(/\s+/).filter(Boolean);
+      var hits = items.filter(function (it) {
+        var hay = ((it.t || '') + ' ' + (it.s || '') + ' ' + (it.src || '')).toLowerCase();
+        return terms.every(function (t) { return hay.indexOf(t) !== -1; });
+      });
+      if (!hits.length) {
+        list.innerHTML = '';
+        qcount.textContent = '无结果';
+        return;
+      }
+      qcount.textContent = hits.length + ' 条结果';
+      list.innerHTML = hits.slice(0, 50).map(function (it, i) {
+        var cat = CATS[it.c] || CATS.model;
+        return (
+          '<a class="item sresult" style="--i:' + (i + 1) + '" href="report.html?date=' + encodeURIComponent(it.d) + '">' +
+            '<div class="item-info">' +
+              '<div class="item-meta">' +
+                '<span class="badge date">' + it.d + '</span>' +
+                '<span class="badge cat" style="--cc:' + cat.cc + '">' + cat.label + '</span>' +
+                (it.src ? '<span class="badge src">' + esc(it.src) + '</span>' : '') +
+              '</div>' +
+              '<h2 class="item-title">' + highlight(it.t, terms) + '</h2>' +
+              '<p class="snippet">' + highlight(it.s, terms) + '</p>' +
+            '</div>' +
+            '<div class="item-side"><span class="arrow">→</span></div>' +
+          '</a>'
+        );
+      }).join('');
+    }).catch(function () {
+      qcount.textContent = '搜索索引加载失败';
+    });
+  }
+
+  // ---------- 首页期数列表 ----------
   fetch('reports.json', { cache: 'no-store' })
     .then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     })
     .then(function (data) {
-      var reports = data.reports || [];
-      var list = document.getElementById('list');
-      document.getElementById('count').textContent = reports.length;
-      if (!reports.length) {
-        document.getElementById('empty').style.display = '';
-        return;
-      }
-      var html = reports.map(function (r, i) {
-        var latest = i === 0 ? '<span class="latest">最新</span>' : '';
-        var meta = r.count != null ? r.count + ' 条新闻' : '已发布';
-        var title = r.title || ('AI 科技日报 · ' + r.date);
-        return (
-          '<a class="item" style="--i:' + (i + 1) + '" href="report.html?date=' + encodeURIComponent(r.date) + '">' +
-            '<div class="item-info">' +
-              '<div class="item-meta">' +
-                '<span class="badge date">' + r.date + '</span>' +
-                '<span class="badge count">' + meta + '</span>' +
-              '</div>' +
-              '<h2 class="item-title">' + title + '</h2>' +
-            '</div>' +
-            '<div class="item-side">' +
-              latest +
-              '<span class="arrow">→</span>' +
-            '</div>' +
-          '</a>'
-        );
-      }).join('');
-      list.innerHTML = html;
+      lastReports = data.reports || [];
+      renderReports(lastReports);
     })
     .catch(function (err) {
-      var empty = document.getElementById('empty');
       empty.style.display = '';
       empty.textContent = '加载失败：' + err.message;
     });
+
+  // ---------- 主题切换 ----------
+  (function () {
+    var btn = document.getElementById('themeBtn');
+    function cur() { return document.documentElement.getAttribute('data-theme') || 'dark'; }
+    function sync() {
+      var ico = btn && btn.querySelector('.ico');
+      if (ico) ico.textContent = cur() === 'light' ? '🌙' : '☀️';
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.setAttribute('content', cur() === 'light' ? '#f4f6fb' : '#070a12');
+    }
+    if (btn) btn.addEventListener('click', function () {
+      var t = cur() === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      try { localStorage.setItem('theme', t); } catch (e) {}
+      sync();
+    });
+    sync();
+  })();
 </script>
 </body>
 </html>

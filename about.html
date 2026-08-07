@@ -4,10 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>关于本站 · AI 新闻简报</title>
+<meta name="description" content="了解 AI 新闻简报如何用 DimAgent workflow + GitHub Pages 自动生成每日 AI 科技新闻。">
+<meta name="theme-color" content="#070a12">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI 新闻简报">
+<meta property="og:title" content="关于本站 · AI 新闻简报">
+<meta property="og:description" content="了解 AI 新闻简报如何用 DimAgent workflow + GitHub Pages 自动生成每日 AI 科技新闻。">
+<meta property="og:url" content="https://liushengxian.github.io/ai-news/about.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="关于本站 · AI 新闻简报">
+<meta name="twitter:description" content="了解 AI 新闻简报如何用 DimAgent workflow + GitHub Pages 自动生成每日 AI 科技新闻。">
+<link rel="canonical" href="https://liushengxian.github.io/ai-news/about.html">
+<link rel="alternate" type="application/rss+xml" title="AI 新闻简报" href="rss.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+(function(){try{var t=localStorage.getItem('theme')||(window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
 <style>
   :root{
     --bg:#070a12;
@@ -27,7 +39,7 @@
       radial-gradient(700px 700px at 50% 120%, rgba(34,211,238,.06), transparent 60%),
       var(--bg);
     color:var(--text);
-    font-family:'Inter','Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Segoe UI',Roboto,sans-serif;
     min-height:100vh;
     -webkit-font-smoothing:antialiased;
   }
@@ -56,7 +68,7 @@
   .kicker-right{display:flex;align-items:center;gap:14px;flex-shrink:0}
   .kicker .powered{
     font-size:10px;letter-spacing:.08em;color:var(--faint);opacity:.85;
-    text-transform:none;font-family:'JetBrains Mono',monospace;
+    text-transform:none;font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
   }
   .kicker a.gh{display:inline-flex;align-items:center}
   .kicker a.gh svg{width:14px;height:14px}
@@ -107,7 +119,7 @@
   .card p + p{margin-top:10px}
   .card b, .card strong{color:var(--text);font-weight:600}
   .card code{
-    font-family:'JetBrains Mono',monospace;font-size:12.5px;
+    font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;font-size:12.5px;
     color:#9cc0ff;background:rgba(255,255,255,.045);
     padding:2px 6px;border-radius:6px;border:1px solid var(--border);
   }
@@ -123,13 +135,13 @@
     position:absolute;left:0;top:2px;
     width:26px;height:26px;border-radius:50%;
     display:flex;align-items:center;justify-content:center;
-    font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;color:#fff;
+    font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;font-size:12px;font-weight:600;color:#fff;
     background:linear-gradient(135deg,rgba(110,168,255,.85),rgba(179,136,255,.85));
     box-shadow:0 4px 14px rgba(110,140,255,.3);
   }
   .steps li b{color:var(--text);font-weight:600}
   .steps li code{
-    font-family:'JetBrains Mono',monospace;font-size:12.5px;
+    font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;font-size:12.5px;
     color:#9cc0ff;background:rgba(255,255,255,.045);
     padding:2px 6px;border-radius:6px;border:1px solid var(--border);
   }
@@ -137,7 +149,7 @@
   pre{
     margin-top:14px;padding:16px 18px;border-radius:12px;
     background:rgba(3,6,14,.7);border:1px solid var(--border);
-    font-family:'JetBrains Mono',monospace;font-size:12.5px;line-height:1.75;
+    font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;font-size:12.5px;line-height:1.75;
     color:var(--text);overflow-x:auto;
   }
   pre .cm{color:var(--faint)}
@@ -169,6 +181,49 @@
   @media (hover:none){
     .card:hover{transform:none}
   }
+
+  /* ---------- 主题切换 / RSS ---------- */
+  .theme-btn{
+    appearance:none;background:none;border:1px solid var(--border);border-radius:8px;
+    color:var(--muted);font-size:13px;line-height:1;padding:6px 8px;cursor:pointer;
+    display:inline-flex;align-items:center;transition:all .2s ease;
+  }
+  .theme-btn:hover{color:var(--text);border-color:rgba(148,163,184,.35);transform:translateY(-1px)}
+  .kicker a.rss{letter-spacing:.06em}
+
+  /* ---------- 浅色主题 ---------- */
+  :root[data-theme="light"]{
+    --bg:#f4f6fb;
+    --text:#1b2434;
+    --muted:#5d6b85;
+    --faint:#8b97ad;
+    --border:rgba(27,42,84,.15);
+    --accent:#2563eb;
+    --accent2:#7c3aed;
+  }
+  :root[data-theme="light"] body{
+    background:
+      radial-gradient(1100px 560px at 82% -12%, rgba(124,90,255,.10), transparent 60%),
+      radial-gradient(900px 520px at -12% 8%, rgba(37,99,235,.10), transparent 60%),
+      radial-gradient(700px 700px at 50% 120%, rgba(6,182,212,.05), transparent 60%),
+      var(--bg);
+  }
+  :root[data-theme="light"] ::selection{background:rgba(37,99,235,.22)}
+  :root[data-theme="light"] header{background:rgba(244,246,251,.82)}
+  :root[data-theme="light"] h1{
+    background:linear-gradient(92deg,#0f1b33 10%,#2563eb 55%,#7c3aed 95%);
+    -webkit-background-clip:text;background-clip:text;
+  }
+  :root[data-theme="light"] .card{
+    background:linear-gradient(180deg,rgba(255,255,255,.95),rgba(255,255,255,.65));
+  }
+  :root[data-theme="light"] .card code,
+  :root[data-theme="light"] .steps li code{
+    color:#2563eb;background:rgba(37,99,235,.08);
+  }
+  :root[data-theme="light"] pre{
+    background:rgba(8,13,26,.92);color:#e7ecf5;
+  }
 </style>
 </head>
 <body>
@@ -178,8 +233,10 @@
     <div class="kicker">
       <span><a href="./">‹ 返回首页</a></span>
       <span class="kicker-right">
+        <a class="rss" href="rss.xml" target="_blank" rel="noopener">RSS</a>
         <a class="powered" href="https://dimcode.dev/" target="_blank" rel="noopener">powered by DimAgent</a>
         <a class="gh" href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener" aria-label="GitHub 仓库"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+        <button id="themeBtn" class="theme-btn" aria-label="切换浅色/深色主题"><span class="ico">☀️</span></button>
       </span>
     </div>
     <h1>关于本站</h1>
@@ -272,7 +329,7 @@ gh api repos/liushengxian/ai-news/pages --jq '.status'</pre>
 
 <span class="cm"># 3. 等待 1-2 分钟后访问</span>
 open https://liushengxian.github.io/ai-news/</pre>
-      <p><code>update.sh</code> 做了三件事：从 <code>data/*.json</code> 扫描重建 <code>reports.json</code> 清单 → git 提交（含数据与脚本变更）→ 推送到 <code>main</code>。首页列表是读取清单动态渲染的，所以新一期出现<b>不需要改任何页面代码</b>。</p>
+      <p><code>update.sh</code> 做的事：从 <code>data/*.json</code> 扫描重建 <code>reports.json</code> 清单，并顺带生成 <code>search-index.json</code>（首页搜索）、<code>rss.xml</code>（RSS 订阅）、<code>sitemap.xml</code> / <code>robots.txt</code>（SEO），然后 git 提交（含数据与脚本变更）→ 推送到 <code>main</code>。首页列表是读取清单动态渲染的，所以新一期出现<b>不需要改任何页面代码</b>。</p>
     </section>
 
     <section class="card" style="--i:6">
@@ -285,6 +342,16 @@ open https://liushengxian.github.io/ai-news/</pre>
       </ol>
     </section>
 
+    <section class="card" style="--i:7">
+      <h2><span class="tag">07</span>订阅与使用</h2>
+      <ol class="steps">
+        <li><b>RSS 订阅</b>：<code>rss.xml</code> 每天随发布自动更新，把 <code>https://liushengxian.github.io/ai-news/rss.xml</code> 加进任意阅读器即可订阅整份日报</li>
+        <li><b>全站搜索</b>：首页搜索框基于 <code>search-index.json</code>，可跨全部期数按标题 / 摘要 / 来源检索</li>
+        <li><b>日报翻页</b>：日报页顶部有上一篇 / 下一篇，也可以用键盘 <code>←</code> / <code>→</code> 切换日期</li>
+        <li><b>深浅色主题</b>：右上角按钮切换，默认跟随系统，选择会保存在浏览器</li>
+      </ol>
+    </section>
+
   </div>
 </main>
 
@@ -292,6 +359,26 @@ open https://liushengxian.github.io/ai-news/</pre>
   <div class="line"></div>
   <span>由 <a href="https://dimcode.dev/" target="_blank" rel="noopener">Dim Agent</a> 自动生成 · <a class="gh" href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener" aria-label="GitHub 仓库"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a></span>
 </footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('themeBtn');
+  function cur() { return document.documentElement.getAttribute('data-theme') || 'dark'; }
+  function sync() {
+    var ico = btn && btn.querySelector('.ico');
+    if (ico) ico.textContent = cur() === 'light' ? '🌙' : '☀️';
+    var m = document.querySelector('meta[name="theme-color"]');
+    if (m) m.setAttribute('content', cur() === 'light' ? '#f4f6fb' : '#070a12');
+  }
+  if (btn) btn.addEventListener('click', function () {
+    var t = cur() === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', t);
+    try { localStorage.setItem('theme', t); } catch (e) {}
+    sync();
+  });
+  sync();
+})();
+</script>
 
 </body>
 </html>

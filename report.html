@@ -3,11 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 科技日报</title>
+<title>AI 科技日报 · 每日 AI 新闻</title>
+<meta name="description" content="每日 AI 科技新闻日报：模型发布 / 前沿研究 / 融资动态 / 政策监管，由 DimAgent 自动生成。">
+<meta name="theme-color" content="#070a12">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI 新闻简报">
+<meta property="og:title" content="AI 科技日报 · 每日 AI 新闻">
+<meta property="og:description" content="每日 AI 科技新闻日报：模型发布 / 前沿研究 / 融资动态 / 政策监管。">
+<meta property="og:url" content="https://liushengxian.github.io/ai-news/report.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AI 科技日报 · 每日 AI 新闻">
+<meta name="twitter:description" content="每日 AI 科技新闻日报：模型发布 / 前沿研究 / 融资动态 / 政策监管。">
+<link rel="canonical" href="https://liushengxian.github.io/ai-news/report.html">
+<link rel="alternate" type="application/rss+xml" title="AI 新闻简报" href="rss.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+(function(){try{var t=localStorage.getItem('theme')||(window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
 <style>
   :root{
     --bg:#070a12;
@@ -31,7 +43,7 @@
       radial-gradient(700px 700px at 50% 120%, rgba(34,211,238,.06), transparent 60%),
       var(--bg);
     color:var(--text);
-    font-family:'Inter','Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Segoe UI',Roboto,sans-serif;
     min-height:100vh;
     -webkit-font-smoothing:antialiased;
   }
@@ -55,7 +67,7 @@
   .kicker-right{display:flex;align-items:center;gap:14px;flex-shrink:0}
   .kicker .powered{
     font-size:10px;letter-spacing:.08em;color:var(--faint);opacity:.85;
-    text-transform:none;font-family:'JetBrains Mono',monospace;
+    text-transform:none;font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
   }
   .kicker a{color:var(--faint);text-decoration:none}
   .kicker a:hover{color:var(--accent)}
@@ -130,11 +142,11 @@
   .badge.cat::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--cc)}
   .badge.src{
     color:var(--muted);background:rgba(255,255,255,.03);
-    border:1px solid var(--border);font-family:'JetBrains Mono','Noto Sans SC',monospace;
+    border:1px solid var(--border);font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
     font-size:10.5px;letter-spacing:.02em;
   }
   .card-date{
-    margin-left:auto;font-family:'JetBrains Mono',monospace;
+    margin-left:auto;font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
     font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums;
     white-space:nowrap;
   }
@@ -184,6 +196,77 @@
   @media (hover:none){
     .card:hover{transform:none}
   }
+
+  /* ---------- 主题切换 / RSS ---------- */
+  .theme-btn{
+    appearance:none;background:none;border:1px solid var(--border);border-radius:8px;
+    color:var(--muted);font-size:13px;line-height:1;padding:6px 8px;cursor:pointer;
+    display:inline-flex;align-items:center;transition:all .2s ease;
+  }
+  .theme-btn:hover{color:var(--text);border-color:rgba(148,163,184,.35);transform:translateY(-1px)}
+  .kicker a.rss{letter-spacing:.06em}
+
+  /* ---------- 上一篇 / 下一篇 ---------- */
+  .pager{display:flex;justify-content:space-between;gap:12px;margin:22px 0 6px}
+  .pager-link{
+    display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--muted);
+    border:1px solid var(--border);background:rgba(255,255,255,.03);
+    border-radius:12px;padding:10px 16px;transition:all .2s ease;min-width:0;
+  }
+  .pager-link:hover{color:var(--text);border-color:rgba(148,163,184,.35)}
+  .pager-link .nav-arr{font-size:16px;color:var(--faint);flex-shrink:0}
+  .pager-link:hover .nav-arr{color:var(--accent)}
+  .pager-link .pp{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .pager-link small{font-size:10.5px;color:var(--faint);letter-spacing:.08em}
+  .pager-link b{font-size:12.5px;color:var(--text);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:280px}
+  .pager-link.next{margin-left:auto;flex-direction:row-reverse}
+  .pager-link.ph{opacity:.32;pointer-events:none}
+
+  /* ---------- 浅色主题 ---------- */
+  :root[data-theme="light"]{
+    --bg:#f4f6fb;
+    --text:#1b2434;
+    --muted:#5d6b85;
+    --faint:#8b97ad;
+    --border:rgba(27,42,84,.15);
+    --accent:#2563eb;
+    --accent2:#7c3aed;
+    --cat-model:#2563eb;
+    --cat-research:#7c3aed;
+    --cat-business:#059669;
+    --cat-policy:#d97706;
+  }
+  :root[data-theme="light"] body{
+    background:
+      radial-gradient(1100px 560px at 82% -12%, rgba(124,90,255,.10), transparent 60%),
+      radial-gradient(900px 520px at -12% 8%, rgba(37,99,235,.10), transparent 60%),
+      radial-gradient(700px 700px at 50% 120%, rgba(6,182,212,.05), transparent 60%),
+      var(--bg);
+  }
+  :root[data-theme="light"] ::selection{background:rgba(37,99,235,.22)}
+  :root[data-theme="light"] header{background:rgba(244,246,251,.82)}
+  :root[data-theme="light"] h1{
+    background:linear-gradient(92deg,#0f1b33 10%,#2563eb 55%,#7c3aed 95%);
+    -webkit-background-clip:text;background-clip:text;
+  }
+  :root[data-theme="light"] .sub #count{color:#2563eb}
+  :root[data-theme="light"] .chip{background:rgba(255,255,255,.65)}
+  :root[data-theme="light"] .chip.active{
+    background:linear-gradient(135deg,rgba(37,99,235,.9),rgba(124,58,237,.9));
+    color:#fff;
+    box-shadow:0 4px 18px rgba(37,99,235,.3);
+  }
+  :root[data-theme="light"] .card,
+  :root[data-theme="light"] .card:hover{
+    background:linear-gradient(180deg,rgba(255,255,255,.95),rgba(255,255,255,.65));
+  }
+  :root[data-theme="light"] .card:hover{
+    box-shadow:0 14px 36px rgba(15,23,42,.12),0 0 0 1px rgba(255,255,255,.6) inset;
+  }
+  :root[data-theme="light"] .card-title a:hover{color:#1d4ed8}
+  :root[data-theme="light"] .badge.cat{background:rgba(37,99,235,.08)}
+  :root[data-theme="light"] .badge.src{background:rgba(255,255,255,.65)}
+  :root[data-theme="light"] .pager-link{background:rgba(255,255,255,.65)}
 </style>
 </head>
 <body>
@@ -193,8 +276,10 @@
     <div class="kicker">
       <span><a href="./">‹ 返回全部简报</a></span>
       <span class="kicker-right">
+        <a class="rss" href="rss.xml" target="_blank" rel="noopener">RSS</a>
         <a class="powered" href="https://dimcode.dev/" target="_blank" rel="noopener">powered by DimAgent</a>
         <a class="gh" href="https://github.com/liushengxian/ai-news" target="_blank" rel="noopener" aria-label="GitHub 仓库"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+        <button id="themeBtn" class="theme-btn" aria-label="切换浅色/深色主题"><span class="ico">☀️</span></button>
       </span>
     </div>
     <h1>AI 科技日报</h1>
@@ -215,6 +300,10 @@
 
 <main>
   <div class="container">
+    <nav class="pager" id="pager" style="display:none" aria-label="切换日期">
+      <a id="prev" class="pager-link" href=""><span class="nav-arr">‹</span><span class="pp"><small>上一篇</small><b>—</b></span></a>
+      <a id="next" class="pager-link next" href=""><span class="pp"><small>下一篇</small><b>—</b></span><span class="nav-arr">›</span></a>
+    </nav>
     <div class="cards" id="cards"></div>
     <div class="empty" id="empty" style="display:none">加载中…</div>
   </div>
@@ -233,6 +322,7 @@
     policy:   { label: '政策监管', cc: 'var(--cat-policy)' }
   };
   var state = { filter: 'all' };
+  var reports = [];
 
   function qs(name) {
     return new URLSearchParams(location.search).get(name);
@@ -290,8 +380,40 @@
     applyFilter();
   });
 
-  // 加载数据：优先 ?date=，否则最新一期
-  var date = qs('date');
+  // ---------- 上一篇 / 下一篇 ----------
+  var pager = document.getElementById('pager');
+  var prevLink = document.getElementById('prev');
+  var nextLink = document.getElementById('next');
+
+  function renderNav(date) {
+    var i = -1;
+    reports.forEach(function (r, idx) { if (r.date === date) i = idx; });
+    if (i < 0) { pager.style.display = 'none'; return; }
+    pager.style.display = 'flex';
+    var prev = reports[i + 1], next = reports[i - 1];
+    if (prev) {
+      prevLink.href = 'report.html?date=' + encodeURIComponent(prev.date);
+      prevLink.querySelector('b').textContent = prev.date;
+      prevLink.classList.remove('ph');
+    } else { prevLink.classList.add('ph'); }
+    if (next) {
+      nextLink.href = 'report.html?date=' + encodeURIComponent(next.date);
+      nextLink.querySelector('b').textContent = next.date;
+      nextLink.classList.remove('ph');
+    } else { nextLink.classList.add('ph'); }
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
+    if (e.key === 'ArrowLeft' && !prevLink.classList.contains('ph') && prevLink.href) {
+      location.href = prevLink.href;
+    }
+    if (e.key === 'ArrowRight' && !nextLink.classList.contains('ph') && nextLink.href) {
+      location.href = nextLink.href;
+    }
+  });
+
+  // ---------- 加载数据 ----------
   var empty = document.getElementById('empty');
   empty.textContent = '加载中…';
 
@@ -302,28 +424,51 @@
       return r.json();
     }).then(function (data) {
       render(data);
+      if (reports.length) renderNav(d);
     });
   };
 
-  if (date) {
-    load(date).catch(function () {
-      empty.style.display = '';
-      empty.textContent = '未找到 ' + date + ' 的数据';
-    });
-  } else {
-    fetch('reports.json', { cache: 'no-store' })
-      .then(function (r) { return r.json(); })
-      .then(function (m) {
-        var latest = (m.reports || [])[0];
-        if (!latest) throw new Error('no reports');
-        history.replaceState(null, '', '?date=' + latest.date);
-        return load(latest.date);
-      })
-      .catch(function () {
+  fetch('reports.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (m) {
+      reports = m.reports || [];
+      var requested = qs('date');
+      var target = requested || (reports[0] && reports[0].date);
+      if (!target) throw new Error('no reports');
+      if (!requested) history.replaceState(null, '', '?date=' + target);
+      renderNav(target);
+      return load(target);
+    })
+    .catch(function (err) {
+      if (qs('date')) {
+        load(qs('date')).catch(function () {
+          empty.style.display = '';
+          empty.textContent = '未找到 ' + qs('date') + ' 的数据';
+        });
+      } else {
         empty.style.display = '';
         empty.textContent = '暂无数据';
-      });
-  }
+      }
+    });
+
+  // ---------- 主题切换 ----------
+  (function () {
+    var btn = document.getElementById('themeBtn');
+    function cur() { return document.documentElement.getAttribute('data-theme') || 'dark'; }
+    function sync() {
+      var ico = btn && btn.querySelector('.ico');
+      if (ico) ico.textContent = cur() === 'light' ? '🌙' : '☀️';
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.setAttribute('content', cur() === 'light' ? '#f4f6fb' : '#070a12');
+    }
+    if (btn) btn.addEventListener('click', function () {
+      var t = cur() === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      try { localStorage.setItem('theme', t); } catch (e) {}
+      sync();
+    });
+    sync();
+  })();
 </script>
 </body>
 </html>
