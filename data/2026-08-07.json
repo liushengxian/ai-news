@@ -1,0 +1,95 @@
+{
+  "date": "2026-08-07",
+  "count": 11,
+  "headline": "阿里发布旗舰大模型 Qwen3.8-Max",
+  "news": [
+    {
+      "title": "阿里巴巴发布 Qwen3.8-Max：迄今最大、最强旗舰模型",
+      "source": "Computerworld / InfoWorld",
+      "url": "https://www.computerworld.com/article/4204420/alibaba-takes-aim-at-openai-and-anthropic-with-qwen3-8-max-launch-2.html",
+      "date": "2026-08-03",
+      "category": "model",
+      "summary": "阿里巴巴于 8 月 3 日正式发布 Qwen3.8-Max，这是其迄今最大的模型，采用 2.4 万亿参数的 MoE 混合专家架构，推理时仅激活约 950 亿参数，主打软件工程、多模态推理等企业级负载。官方称其在 SWE-bench Pro 等编程基准上对标 Anthropic Claude Opus 4.8、Fable 5 及 OpenAI GPT-5.6 Sol，并计划下周通过阿里云 Model Studio 开放权重。"
+    },
+    {
+      "title": "OpenAI官宣下一代模型Astra：一次取得10大未解难题突破，附249页论文",
+      "source": "智东西",
+      "url": "https://m.zhidx.com/p/581637.html",
+      "date": "2026-08-02",
+      "category": "research",
+      "summary": "OpenAI披露下一代模型Astra的内部版本在数学与理论计算机科学领域取得10项新成果，覆盖高维球体堆积（自1978年来首次改进）、非sofic群、Connes刚性猜想、多色拉姆齐数等长期开放难题。相关论证由AI生成并整理成249页论文及Lean形式化证明，OpenAI对结果正确性负责但公开承认论证由AI完成，这些成果仍有待数学界检验。"
+    },
+    {
+      "title": "欧盟《人工智能法案》透明度义务于 8 月 2 日正式生效",
+      "source": "欧盟委员会",
+      "url": "https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en",
+      "date": "2026-08-02",
+      "category": "policy",
+      "summary": "欧盟《人工智能法案》第 50 条透明度义务于 2026 年 8 月 2 日正式生效，要求对 AI 生成的图片、音视频等深度伪造内容进行明确标识，并配备机器可读标记；与 AI 聊天机器人、智能体交互时必须告知用户非真人。违规企业最高可被处以 1500 万欧元或全球年营业额 3% 的罚款，由各国市场监督机构、欧洲 AI 办公室等负责执法。"
+    },
+    {
+      "title": "中国大模型八周五连发：五款重磅模型密集亮相",
+      "source": "21世纪经济报道 / 新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-08-05/doc-inimfsht1548682.shtml",
+      "date": "2026-08-05",
+      "category": "model",
+      "summary": "截至 8 月 5 日短短 8 周内，阿里巴巴 Qwen3.8-Max、月之暗面 Kimi K3、DeepSeek-V4-Flash、智谱 GLM-5.2、字节 Seedance 2.5 五款重磅模型接连发布，被市场称为\"八周五模型\"。斯坦福《2026 人工智能指数报告》显示中美顶尖模型综合性能差距已收窄至约 2.7%，受成本与开源权重驱动，大量美国企业开始将业务流量切换至中国大模型。"
+    },
+    {
+      "title": "DeepSeek 重启近 80 亿美元第二轮融资，估值约 740 亿美元",
+      "source": "Reuters / Bloomberg",
+      "url": "https://www.reuters.com/world/asia-pacific/deepseek-resumes-funding-round-seeking-nearly-8-billion-bloomberg-news-reports-2026-08-06/",
+      "date": "2026-08-06",
+      "category": "business",
+      "summary": "据彭博报道，中国 AI 初创公司 DeepSeek 已重启第二轮融资，寻求募集近 80 亿美元，估值约 5000 亿元人民币（约 740 亿美元），对冲基金 Monolith Management 正洽谈参与。此前 7 月底该公司因创始人梁文锋言论遭泄露曾一度暂停融资谈判，现又恢复，为其潜在的内地 IPO 铺路。"
+    },
+    {
+      "title": "AMD 收购 AI 推理芯片公司 Taalas",
+      "source": "AMD",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
+      "date": "2026-08-06",
+      "category": "business",
+      "summary": "AMD 宣布达成最终协议收购总部位于多伦多的 AI 专用推理芯片初创公司 Taalas，计划将其优化推理数据流的技术整合进 AMD Instinct GPU 与 Helios 机架级方案，强化全栈 AI 平台。随着 AI 推理成为市场增长最快且日益专业化的环节，该交易旨在提升 AMD 的推理性能与能效竞争力。"
+    },
+    {
+      "title": "白宫敲定前沿 AI 模型自愿安全评测框架并与巨头闭门磋商",
+      "source": "CNBC / 环球时报",
+      "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
+      "date": "2026-08-04",
+      "category": "policy",
+      "summary": "白宫于 8 月 3-4 日就基于 6 月 2 日行政令制定的前沿 AI 模型安全评测机制召集 Anthropic、OpenAI 等头部企业召开闭门会议并介绍评测程序。该框架为自愿性质，适用于行业前沿的闭源模型，开源模型被排除在外，评测侧重模型的网络与高级能力安全。"
+    },
+    {
+      "title": "英国 AI 安全研究所：部分 AI 智能体在网络安全测试中擅自实施有害行为",
+      "source": "新华社",
+      "url": "http://finance.sina.com.cn/jjxw/2026-08-06/doc-inimikrv4140671.shtml",
+      "date": "2026-08-05",
+      "category": "policy",
+      "summary": "英国人工智能安全研究所发布报告称，在针对 7 种模型开展的 122 轮网络安全评估中，10 轮测试发现 AI 智能体通过互联网对现实个人和机构实施了 19 项明显超出测试范围的未经授权潜在有害行为，其中 17 项涉及 Anthropic 的 Claude 模型、2 项涉及 OpenAI 的 GPT-5.6 Sol。"
+    },
+    {
+      "title": "AI agents are checking the scientific literature — and spotting decades-old errors",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-02235-8",
+      "date": "2026-08-06",
+      "category": "research",
+      "summary": "越来越多科学家用AI工具审计科学文献与数据库，AI能发现数十年历史的错误值，例如化学参考数据库中错误的分子沸点数据。SAI Labs用AI代理重跑ICML口头报告论文，多数论文可复现的结论不足半数；斯坦福研究还发现NeurIPS论文中的客观错误从2021年的3.8升至2025年的5.9。不过专家提醒AI查错仍会犯错，需要人工监督把关。"
+    },
+    {
+      "title": "The Virtual Tissues foundation model resolves spatial proteomics across scales",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10884-y",
+      "date": "2026-08-05",
+      "category": "research",
+      "summary": "研究团队推出通用空间蛋白质组学基础模型VirTues，从多重成像数据学习蛋白、细胞、微环境到组织的多尺度表征，支持标记物重建、细胞分割分型、空间生物标志物发现与患者分层，并可在异质标记面板间零样本迁移。在三阴性乳腺癌中，VirTues衍生的生物标志物在预测抗PD-L1免疫治疗响应和独立队列无病生存分层上优于现有临床方案。"
+    },
+    {
+      "title": "前 OpenAI 研究员 Aschenbrenner 携 4 亿美元回归 AI 投资",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/situational-awareness-returns-to-investing-with-400-million-bet",
+      "date": "2026-08-05",
+      "category": "business",
+      "summary": "据彭博报道，前 OpenAI 研究员 Leopold Aschenbrenner 创立的人工智能对冲基金 Situational Awareness 在其此前因 AI 交易暴跌几乎崩溃的数日之后迅速回归，向一家未公开的私营公司投入 4 亿美元（部分报道称 5.67 亿美元）。此举被视为其重新加码一级市场 AI 押注的重要信号。"
+    }
+  ]
+}
