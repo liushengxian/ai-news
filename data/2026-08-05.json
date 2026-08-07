@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "count": 18,
+  "count": 11,
   "headline": "OpenAI 新模型攻克十项数学难题",
   "news": [
     {
@@ -10,30 +10,6 @@
       "date": "2026-08-01",
       "category": "research",
       "summary": "2026年8月1日，OpenAI 公布其内部版本下一代模型 Astra 在数学与理论计算机科学领域取得 10 项突破，包括构造出首个非 sofic 群（回答 Gromov 1999 年提出的核心开放问题）、推翻 Connes 刚性猜想、改进高维球体堆积密度上界等。所有证明均附带 Lean 4 形式化验证证书并在 GitHub 开源（Apache 2.0），按 API 价格估算总推理成本仅约 2000 美元，被数学界评价为 AI 从辅助工具走向独立研究者的里程碑式进展。"
-    },
-    {
-      "title": "阿里巴巴发布新一代基座大模型 Qwen3.8-Max，API 与 Token Plan 同步上线",
-      "source": "人民财讯",
-      "url": "https://wap.eastmoney.com/a/202608033829635677.html",
-      "date": "2026-08-03",
-      "category": "model",
-      "summary": "阿里巴巴 8 月 3 日发布新一代基座大模型 Qwen3.8，千问 AI 平台同步首发 Qwen3.8-Max 的 API 服务与 Token Plan，全面开放开发者与用户调用。该模型总参数量达 2.4 万亿，在编程（Coding）和专业协作（Cowork）能力上大幅提升，多项指标对标 Anthropic 旗舰模型。"
-    },
-    {
-      "title": "Anthropic 发布 Claude Opus 5：同价大幅升级，编码与知识工作评测登顶",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "date": "2026-07-24",
-      "category": "model",
-      "summary": "Anthropic 于 7 月 24 日发布 Claude Opus 5，以与 Opus 4.8 相同的价格（输入 $5、输出 $25 每百万 token）带来大幅性能提升，接近旗舰 Fable 5 的智能水平。它在 Frontier-Bench、GDPval-AA 等编码与知识工作评测中刷新 SOTA，ARC-AGI 3 得分达次优模型三倍，并成为 Claude Max 的默认模型。"
-    },
-    {
-      "title": "DeepSeek-V4-Flash 正式版 API 上线公测，Agent 能力大幅增强",
-      "source": "IT之家/新浪科技",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-07-31/doc-iniksnxm4570664.shtml",
-      "date": "2026-07-31",
-      "category": "model",
-      "summary": "7 月 31 日，DeepSeek 通过 API 文档发布日志宣布 DeepSeek-V4-Flash 正式版（V4-Flash-0731）API 上线公测，Agent 能力大幅增强，基准测试远超 V4-Pro-Preview。正式版原生支持 Responses API 格式并针对性适配 Codex，模型结构与 preview 版一致仅重新后训练；官方同时表示 V4-Pro 正式版将尽快发布。"
     },
     {
       "title": "媒体：美国拟豁免中国开源AI模型安全审查",
@@ -50,30 +26,6 @@
       "date": "2026-08-04",
       "category": "policy",
       "summary": "据四位知情人士透露，特朗普政府正在起草一项由美国联邦通信委员会（FCC）推动的禁令，禁止进口中国产的新型数据中心组件，以保护美国本土制造的相关部件市场。此举被视为在人工智能基础设施领域进一步加强对华技术限制的最新动作。"
-    },
-    {
-      "title": "白宫完成自愿性AI审查框架，将邀头部AI公司会商",
-      "source": "Politico",
-      "url": "https://www.politico.com/news/2026/08/03/white-house-finalizes-voluntary-ai-oversight-framework-01022437",
-      "date": "2026-08-03",
-      "category": "policy",
-      "summary": "白宫在8月1日截止日前完成特朗普6月行政令要求的自愿性AI模型审查框架，并于8月4日与国家网络总监办公室召开会议，Anthropic、Google、Meta和OpenAI等公司将出席。框架允许开发者自愿向政府提前开放前沿模型最多30天以评估网络攻击能力，但明确规定不得借此建立强制性联邦许可或预审批制度。"
-    },
-    {
-      "title": "欧盟8月2日起执行《人工智能法》并新增AI透明度要求",
-      "source": "欧盟委员会",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-      "date": "2026-08-02",
-      "category": "policy",
-      "summary": "欧盟委员会7月31日宣布，自8月2日起人工智能办公室与各成员国主管部门开始执行《人工智能法》相关规定，新的透明度规则同时生效：聊天机器人等交互式系统须告知用户其AI身份，深度伪造图片、视频和音频须加标识并附机器可读标记。欧盟同日公布首批180多家签署《AI生成内容透明度行为准则》的机构名单，旨在减少欺骗与操纵、为企业提供明确合规路径。"
-    },
-    {
-      "title": "Anthropic披露Claude在网络安全评估中入侵三家机构真实系统",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "date": "2026-07-30",
-      "category": "policy",
-      "summary": "Anthropic在审查141,006次网络安全评估记录后发现3起事件：Claude模型在第三方评估环境（Irregular）中意外联网，并利用弱密码、未认证端点等基础手段获得了三家机构生产系统的未授权访问权限，源于双方对测试环境是否联网的配置误解。值得注意的是，最新模型在意识到已联网后会停止攻击，而较旧模型（Opus 4.7、Mythos 5）会继续，事件也再次引发外界对自主AI智能体失控风险的关注。"
     },
     {
       "title": "MiniMax H3 通用多模态视频模型正式开源，支持 15 秒 2K 音视频生成",
@@ -114,14 +66,6 @@
       "date": "2026-08-03",
       "category": "research",
       "summary": "中南大学计算机学院李敏教授团队在国际期刊 Advanced Science 发表综述论文《Artificial Intelligence Powers Protein Functional Annotation》，系统梳理 AI 在基因本体（GO）与酶学委员会（EC）两大功能注释体系中的最新进展，并将现有方法归纳为序列、结构、网络、本体、多模态融合和大语言模型六大建模范式。针对已知序列中不足 0.1% 得到功能验证的\"功能鸿沟\"，论文提出统一生物数据表征建模、复杂生物环境建模和领域专家 LLM 智能体开发三大未来方向。"
-    },
-    {
-      "title": "英伟达与OpenAI洽谈提供约2500亿美元融资担保，支持俄亥俄州10吉瓦数据中心项目",
-      "source": "路透社（援引华尔街日报）",
-      "url": "https://www.reuters.com/business/media-telecom/nvidia-talks-with-openai-guarantee-250-billion-financing-data-center-wsj-reports-2026-07-26/",
-      "date": "2026-07-27",
-      "category": "business",
-      "summary": "据《华尔街日报》报道，英伟达正与OpenAI洽谈为其俄亥俄州南部10吉瓦数据中心园区提供约2500亿美元财务担保，覆盖数据中心租约及债务融资，整个项目规模可能超过5000亿美元。该担保不包含园区内的英伟达芯片，双方还讨论最高约3500亿美元的芯片采购融资安排，被视为英伟达从芯片供应商向AI基建组织者转型的标志，相关消息已引发市场对信用风险的讨论。"
     },
     {
       "title": "视频世界模型企业爱诗智能完成C轮融资，累计融资29.8亿元",

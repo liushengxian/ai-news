@@ -83,7 +83,7 @@ export default async function workflow(api) {
   api.phase("清洗并写入 JSON")
 
   await api.agent(
-    `你是数据工程师。下面是今天(${today})收集的 ${allNews.length} 条 AI 新闻数据(JSON):\n\n${JSON.stringify(allNews, null, 2)}\n\n请:\n1. 按标题相似度做语义去重（保留更完整的一条）\n2. 按重要性和时效性排序，最重要的在前\n3. 挑选今天最重要或最有趣的一条新闻，用一行（20 字以内）概括成本期总标题 headline（例如"阿里发布旗舰大模型 Qwen3.8-Max"，不要照抄原标题）\n4. 用 write 工具把严格合法的 JSON 写入文件: ${outputPath}\n   文件内容格式（不要写任何其它内容到该文件）:\n   {\n     "date": "${today}",\n     "count": 去重后的条数,\n     "headline": "本期总标题",\n     "news": [\n       { "title": "...", "source": "...", "url": "...", "date": "YYYY-MM-DD", "category": "model|research|business|policy", "summary": "..." }\n     ]\n   }\n   注意: count 必须等于 news 数组长度；category 必须是四个枚举值之一；每条都必须有 title/url/summary。\n5. 完成后回复文件路径和最终 count。`,
+    `你是数据工程师。下面是今天(${today})收集的 ${allNews.length} 条 AI 新闻数据(JSON):\n\n${JSON.stringify(allNews, null, 2)}\n\n请:\n0. 先读取 data/ 目录下已有的历史 JSON（用 read 工具逐个读取最近的几期，例如 data/*.json 里最新的 5 个文件），做「跨期去重」：如果某条新闻与历史某期中的条目是同一事件（标题高度相似或内容同一事件），则跳过该条，不重复收录；除非是同一事件的重大新进展（例如新一轮融资、正式版发布），才可保留并写清新进展内容\n1. 对剩下的条目按标题相似度做语义去重（保留更完整的一条）\n2. 按重要性和时效性排序，最重要的在前\n3. 挑选今天最重要或最有趣的一条新闻，用一行（20 字以内）概括成本期总标题 headline（例如"阿里发布旗舰大模型 Qwen3.8-Max"，不要照抄原标题）\n4. 用 write 工具把严格合法的 JSON 写入文件: ${outputPath}\n   文件内容格式（不要写任何其它内容到该文件）:\n   {\n     "date": "${today}",\n     "count": 去重后的条数,\n     "headline": "本期总标题",\n     "news": [\n       { "title": "...", "source": "...", "url": "...", "date": "YYYY-MM-DD", "category": "model|research|business|policy", "summary": "..." }\n     ]\n   }\n   注意: count 必须等于 news 数组长度；category 必须是四个枚举值之一；每条都必须有 title/url/summary。\n5. 完成后回复文件路径、最终 count 和「跨期去重」跳过了哪几条（列出原标题）。`,
     { label: "清洗数据并写入 JSON" }
   )
 

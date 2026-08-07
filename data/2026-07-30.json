@@ -1,15 +1,8 @@
 {
   "date": "2026-07-30",
-  "count": 17,
+  "count": 13,
+  "headline": "DeepSeek V4 正式版上线：完整开源 1.6T 参数模型",
   "news": [
-    {
-      "title": "月之暗面全面开源 Kimi K3：2.8 万亿参数，全球最大开源权重模型",
-      "url": "https://wap.eastmoney.com/a/202607283823215821.html",
-      "date": "2026-07-27",
-      "source": "科创板日报 · Digital Applied",
-      "category": "model",
-      "summary": "7 月 27 日晚，月之暗面正式开源最强模型 Kimi K3 的权重、47 页技术报告及 MoonEP、FlashKDA、AgentEnv 三项训练 Infra 技术。K3 为 2.8 万亿参数 MoE 模型（每 token 激活 1040 亿，896 专家选 16），支持 100 万 token 上下文与原生视觉理解，是全球首个开源的 3 万亿级模型，30 分钟登顶 Hugging Face 趋势榜，在 Artificial Analysis 智能指数居开放权重模型之首。华为昇腾、阿里云及 Cursor、Devin 等已 Day0 适配接入。需注意其采用自定义 Kimi K3 License（对 MaaS 转售设 2000 万美元营收阈值），并非 MIT/Apache 许可。"
-    },
     {
       "title": "Sam Altman 赴华盛顿，向特朗普政府与国会议员预览 OpenAI 即将发布的新模型",
       "url": "https://www.cnbc.com/2026/07/29/altman-white-house-wiles-ai-framework.html",
@@ -41,22 +34,6 @@
       "source": "36氪 / 智东西（援引彭博社）",
       "category": "business",
       "summary": "据彭博社援引知情人士报道，月之暗面（Kimi）最新一轮融资筹集超 35 亿美元，远超原计划 10-20 亿美元的目标，投后估值达 350 亿美元，创中国大模型公司单轮融资第二大纪录（仅次于 DeepSeek 今年 6 月的约 510 亿元）。公司已开始接触潜在投资者，计划以 500 亿美元投前估值启动 Pre-IPO 融资，并希望年内在香港上市。本轮超募的重要背景是其 2.8 万亿参数开源模型 Kimi K3 发布后的爆火。"
-    },
-    {
-      "title": "英伟达拟为 OpenAI 俄亥俄州 10GW 数据中心提供约 2500 亿美元融资担保",
-      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
-      "date": "2026-07-27",
-      "source": "华尔街日报（WSJ）",
-      "category": "business",
-      "summary": "据《华尔街日报》报道，英伟达正洽谈为 OpenAI 租赁俄亥俄州一座 10 吉瓦数据中心园区提供约 2500 亿美元融资担保，若达成将是两家私营公司间有史以来最大规模的担保；双方还在讨论英伟达另提供至多 3500 亿美元帮助 OpenAI 采购芯片。该园区由软银旗下 SB Energy 开发，含芯片总成本或超 5000 亿美元。由于 OpenAI 尚无投资级信用评级，英伟达的担保将帮助其获得贷款，但也引发市场对 AI 行业「供应商为客户买单」循环交易的质疑。"
-    },
-    {
-      "title": "欧盟 AI Omnibus 正式生效：高风险 AI 合规期限推迟，新增「一键脱衣」应用禁令",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
-      "date": "2026-07-27",
-      "source": "欧盟委员会",
-      "category": "policy",
-      "summary": "7 月 27 日，欧盟「AI 综合条例」（AI Omnibus）正式生效，对《人工智能法案》进行定向简化：附录 III 高风险 AI 系统义务推迟至 2027 年 12 月 2 日适用，嵌入机械等物理产品的高风险 AI 推迟至 2028 年 8 月 2 日。同时新增禁止生成非自愿色情内容的「一键脱衣」类 AI 系统、扩大监管沙盒适用范围，并强化欧盟 AI 办公室对基于通用目模型系统的监管权。"
     },
     {
       "title": "Meta 宣布签署欧盟《AI 法案》AI 生成内容透明度行为准则",
@@ -115,14 +92,6 @@
       "summary": "美国杜克大学医学院团队开发出名为 Raygun 的 AI 工具，基于已训练的蛋白质语言模型，将氨基酸序列规律转化为标准化数学表征，只需调整两个参数即可在保持蛋白质三维结构与关键功能的前提下对其尺寸和性质进行大规模改造。活细胞实验显示，改造后的荧光蛋白、代谢酶和表皮生长因子变体均保持正常功能。成果于 7 月 29 日刊发于《自然》杂志。"
     },
     {
-      "title": "Uber 创始人 Travis Kalanick 的物理 AI 公司 Atoms 完成 17 亿美元融资，a16z 领投",
-      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
-      "date": "2026-07-22",
-      "source": "TechCrunch",
-      "category": "business",
-      "summary": "Uber 创始人 Travis Kalanick 旗下的机器人与工业 AI 公司 Atoms 宣布完成 17 亿美元股权融资，由 Andreessen Horowitz 领投，Ben Horowitz 将加入董事会，Bain Capital、Fifth Wall 以及 Uber 本身参投。Atoms 定位为「物理 AI」公司，目标是用软件理解、预测和控制物理世界，推动大型工业部门全面数字化，这是当周美国最大的一笔融资。"
-    },
-    {
       "title": "ChipAgents 扩展 A 轮融资至 1.34 亿美元，美光、联发科等产业资本参投",
       "url": "https://www.reuters.com/business/nvidia-partner-chipagents-raises-60-million-accelerate-chip-design-with-ai-2026-07-29/",
       "date": "2026-07-29",
@@ -138,6 +107,5 @@
       "category": "business",
       "summary": "据 Crunchbase 每周融资盘点，硅谷 3D 生成基础模型公司 Meshy AI 完成 4 亿美元 B 轮融资，估值达 15 亿美元，投资方包括 Monolith Capital、IDG 资本和经纬中国等。该轮融资是本周美国十大融资之一，显示 AI 应用层中 3D 内容生成赛道持续受到资本追捧。"
     }
-  ],
-  "headline": "DeepSeek V4 正式版上线：完整开源 1.6T 参数模型"
+  ]
 }
