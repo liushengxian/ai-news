@@ -17,13 +17,12 @@ cd "$WORKDIR"
 
 echo "===== $(date '+%Y-%m-%d %H:%M:%S') 开始运行 ai-news-daily =====" >> "$LOGDIR/ai-news-daily.log"
 
-# 用 heredoc 把 workflow 源文件(.mjs)原样传给 dim exec，避免脚本与源文件不同步
-# dim exec 的无头 agent 会用 workflow 工具以 inline script 方式运行
-{
-  echo "请用 workflow 工具运行以下 inline script。直接调用 workflow 工具，把下面整个脚本作为 script 参数传入，不要修改、不要省略、不要添加任何解释："
-  echo ""
-  cat "$WORKFLOW_FILE"
-} | dim exec 2>&1 >> "$LOGDIR/ai-news-daily.log"
+# 同步仓库中的 workflow 源文件到 DimAgent 已注册 workflow 目录
+# 然后按名称运行现存 workflow，避免每次 inline script 重新注册导致 name conflict
+mkdir -p "$HOME/.dimcode/v2/data/workflows/saved"
+cp "$WORKFLOW_FILE" "$HOME/.dimcode/v2/data/workflows/saved/ai-news-daily.mjs"
+
+dim exec '请用 workflow 工具运行已注册 workflow：ai-news-daily。直接调用 workflow 工具，参数 name 为 "ai-news-daily"，不要传 script，不要添加任何解释。' >> "$LOGDIR/ai-news-daily.log" 2>&1
 
 # 兜底发布：workflow 内部已执行 update.sh，这里再跑一次保证定时任务一定发布（无变化时不会重复提交）
 if ./update.sh >> "$LOGDIR/ai-news-daily.log" 2>&1; then

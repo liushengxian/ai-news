@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-11",
+  "count": 12,
+  "headline": "Claude 推进黎曼零点研究",
+  "news": [
+    {
+      "title": "Anthropic 披露 Claude 研究版推进黎曼 zeta 函数零点问题",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "date": "2026-08-10",
+      "category": "research",
+      "summary": "Anthropic 披露，未发布的 Claude 研究版在尝试黎曼猜想时，意外推进了相关的黎曼 zeta 函数零点问题：把满足黎曼猜想的零点比例下界从长期的 41.6% 提高到 67.2%。该结果由 Anthropic 数学家审阅，并提供论文、专家版简短说明和 Lean 形式化验证，显示前沿模型在高等数学研究中的自主探索能力正在快速提升。"
+    },
+    {
+      "title": "Meta 发布 300 亿参数开放权重模型 Muse Glimmer",
+      "source": "Thurrott / Meta",
+      "url": "https://www.thurrott.com/a-i/340267/meta-releases-open-source-open-weight-version-of-its-most-powerful-ai-model",
+      "date": "2026-08-10",
+      "category": "model",
+      "summary": "Meta 发布 Muse Glimmer，一个面向本地智能体工作流的 300 亿参数开源、开放权重模型，采用 Apache 2.0 许可，可在配备单张消费级 GPU 的 Mac 或 PC 上运行。该模型基于 Meta 最强闭源模型 Muse Spark，强调工具调用、多步推理、失败恢复、多模态输入与本地编码等 agentic 用例。"
+    },
+    {
+      "title": "OpenAI 向免费用户开放 ChatGPT 无限文本对话",
+      "source": "OpenAI / TechCrunch",
+      "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "date": "2026-08-06",
+      "category": "model",
+      "summary": "OpenAI 更新 ChatGPT 模型配置：Plus 和 Pro 用户获得新版 GPT-5.6 Sol，并新增可调节推理强度的 thinking slider；Free 和 Go 用户将默认使用 GPT-5.6 Luna，并逐步获得无限文本对话和 Think 按钮。OpenAI 称，相比 GPT-5.5 Instant，GPT-5.6 Luna 和 Sol 的事实错误分别减少 62% 和 68%，但文件、图片、语音与图像生成仍有单独限制。"
+    },
+    {
+      "title": "OpenAI 完成 70 亿美元员工股份回购",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "date": "2026-08-10",
+      "category": "business",
+      "summary": "OpenAI 据报完成一笔 70 亿美元的员工股份回购/要约收购，为员工提供流动性；交易估值为 8520 亿美元，与其 3 月最近一轮融资估值一致。报道认为，此举可能意味着 OpenAI 短期内未必马上 IPO，而是在继续强化企业业务和改善上市前财务表现。"
+    },
+    {
+      "title": "法院首次认定 Meta 构成社交媒体“公共滋扰”",
+      "source": "Tech Policy Press",
+      "url": "https://techpolicy.press/newsletter-august-9-2026",
+      "date": "2026-08-09",
+      "category": "policy",
+      "summary": "新墨西哥州第一司法地区法院在 State of New Mexico v. Meta Platforms Inc. 的救济阶段裁定，Meta 平台通过加剧青少年心理健康危机并便利儿童性剥削构成“公共滋扰”，并命令 Meta 出资 5.67 亿美元设立减害基金。Tech Policy Press 指出，这是社交媒体平台首次被认定构成公共滋扰，若类似责任逻辑被其他司法辖区采纳，可能显著改变平台安全治理和产品设计激励。"
+    },
+    {
+      "title": "Meta 发布 Muse Spark 1.2 与终端编码智能体 Muse Code",
+      "source": "Digital Applied / Meta",
+      "url": "https://www.digitalapplied.com/blog/meta-muse-spark-1-2-muse-code-launch-guide",
+      "date": "2026-08-05",
+      "category": "model",
+      "summary": "Meta 于 8 月 5 日同步发布 Muse Spark 1.2 与 Muse Code beta：前者是面向编码和通用智能体场景的 1M 上下文模型，后者是与模型协同训练的终端编码智能体。此次更新显示大模型厂商正把“模型+工具执行框架”打包成产品，Muse Code 通过本地事件日志记录模型调用、工具运行与编辑过程，以支持可复现和可恢复的复杂编码任务。"
+    },
+    {
+      "title": "美国参议院委员会推进四项儿童线上安全法案",
+      "source": "Tech Policy Press",
+      "url": "https://techpolicy.press/senate-committee-advances-four-bills-aimed-at-protecting-children-online",
+      "date": "2026-08-06",
+      "category": "policy",
+      "summary": "美国参议院商务委员会推进四项儿童线上安全法案，覆盖社交媒体、AI 聊天机器人和 AI 玩具等场景；其中 KOSA 将对常被未成年人使用的平台施加注意义务，CHATBOT Act 要求未成年人创建账户前获得父母同意并默认启用最强安全设置。Youth AI Privacy Act 还拟禁止通过 AI 聊天机器人向未成年人投放广告，并限制企业保存和使用儿童对话记忆，显示美国国会正把儿童 AI 互动风险纳入监管重点。"
+    },
+    {
+      "title": "MIT 与清华提出面向工业仿真的物理预训练模型 GeoPT",
+      "source": "MIT News / MIT CSAIL",
+      "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+      "date": "2026-08-10",
+      "category": "research",
+      "summary": "MIT CSAIL 与清华大学提出 GeoPT，通过 130 万个“合成动力学”样本为仿真模型预训练物理直觉，使其能更高效地模拟车辆、船体、机器人等 3D 对象在风、水、碰撞和光照中的响应。GeoPT 在多项工业物理仿真基准上超过现有模型，最高可减少 60% 标注数据，并将达到峰值精度的速度提升到两倍至四倍，被研究者视为迈向“物理基础模型”的一步。"
+    },
+    {
+      "title": "AI 与超算结合更易产生高影响力科学突破",
+      "source": "arXiv",
+      "url": "https://arxiv.org/html/2511.12686v2",
+      "date": "2026-08-06",
+      "category": "research",
+      "summary": "这篇 arXiv 论文基于 2000-2024 年 27 个领域超过 500 万篇科学出版物，统计分析 AI 与高性能计算（HPC）结合对科学突破的影响。研究发现，同时使用 AI 与 HPC 的工作更可能产生新颖思想并进入高被引行列，且这种优势集中在科研前沿；论文也警示超算资源和 AI 专长正向少数国家、地区和机构集中，可能加剧全球科研不平等。"
+    },
+    {
+      "title": "FLUX 3 Video 正式 GA，支持 20 秒视频与原生音频",
+      "source": "Digital Applied / Black Forest Labs",
+      "url": "https://www.digitalapplied.com/blog/flux-3-video-ga-guide-20-second-native-audio",
+      "date": "2026-08-04",
+      "category": "model",
+      "summary": "Black Forest Labs 的 FLUX 3 Video 于 8 月 4 日正式 GA，通过 BFL API 和部分合作方开放，支持文本生成视频、图生视频和视频续写三种模式。该模型可生成最长 20 秒视频，并原生同步生成音频；不过本次 GA 仅覆盖 FLUX 3 家族的视频部分，图像模型和开放权重 Dev 版本仍属路线图。"
+    },
+    {
+      "title": "Lumilens 完成超 7 亿美元 C 轮融资",
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/lumilens-raises-700m-series-c/",
+      "date": "2026-08-09",
+      "category": "business",
+      "summary": "AI 数据中心连接平台 Lumilens 完成超过 7 亿美元 C 轮融资，估值达到 55.1 亿美元，融资方包括 Atreides Management、Bain Capital Ventures、Meritech、Seligman Ventures 和 Spark Capital 等。公司计划把资金用于扩大产能、支持数十亿美元级客户承诺，并推进面向 AI 数据中心的光互连产品制造。"
+    },
+    {
+      "title": "OpenAI 收购演示文稿创业公司 NextSlide",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "date": "2026-08-08",
+      "category": "business",
+      "summary": "OpenAI 收购了演示文稿创业公司 NextSlide，后者可将提示词、笔记、文档或研究资料转化为可编辑的精美演示文稿，团队已加入 ChatGPT 相关产品工作。交易金额未披露，创始人称收购实际发生在今年早些时候，此次披露显示 OpenAI 正继续通过小型收购补强 ChatGPT 的生产力与视觉表达能力。"
+    }
+  ]
+}
