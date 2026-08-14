@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-14",
+  "count": 12,
+  "headline": "智谱发布最强开源大模型 GLM-5.3",
+  "news": [
+    {
+      "title": "智谱发布新一代基座模型 GLM-5.3，成编程能力最强开源模型",
+      "source": "21世纪经济报道/智谱AI",
+      "url": "https://finance.sina.com.cn/roll/2026-08-14/doc-ininhtfh4120245.shtml",
+      "date": "2026-08-14",
+      "category": "model",
+      "summary": "8月14日，智谱发布新一代基座模型GLM-5.3，总参数规模7430亿，能力跃升全部来自后训练（IndexShare架构、SAO单轨迹异步优化与新一代强化学习框架slime）。在多项主流基准测试中GLM-5.3是当前排名最高的开源模型，编程与智能体能力接近Claude Fable 5，编程体感较GLM-5.2提升50%，并补齐了网络安全能力。"
+    },
+    {
+      "title": "谷歌发布 Gemini 3.7 Flash，代码与智能体能力显著增强",
+      "source": "新浪网/Google DeepMind",
+      "url": "https://k.sina.com.cn/article_7880068207_1d5b04c6f06801p6wy.html?from=tech",
+      "date": "2026-08-13",
+      "category": "model",
+      "summary": "8月13日，Google DeepMind推出Gemini 3.7 Flash，距3.6 Flash发布仅三周，定位面向智能体任务、代码开发与复杂知识工作的高速主力模型，FrontierCode、DeepSWE等代码基准及长文档推理能力大幅提升。该模型支持最高100万token上下文，2026年底前采用输入输出限时半价策略，并直接驱动谷歌AI生产力智能体Gemini Spark。"
+    },
+    {
+      "title": "OpenAI 预览 Ultrafast 模式，GPT-5.6 Sol 提速 14 倍",
+      "source": "TechCrunch/OpenAI",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "date": "2026-08-13",
+      "category": "model",
+      "summary": "8月13日，OpenAI推出Ultrafast模式，使旗舰模型GPT-5.6 Sol的处理速度达到标准模式的14倍（最高每秒约750个输出token），实现实时速度下保留旗舰推理能力，依托与芯片商Cerebras的合作。该模式目前仅向少量客户预览，将随产能扩大逐步向更多用户开放。"
+    },
+    {
+      "title": "Databricks 完成 50 亿美元融资，估值升至 1900 亿美元",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
+      "date": "2026-08-13",
+      "category": "business",
+      "summary": "Databricks 于 8 月 13 日宣布完成 50 亿美元融资，估值达 1900 亿美元，由 Coatue、Blackstone、MGX、T. Rowe Price 和 Sixth Street Growth 领投。公司季度营收同比增速超 80%，年化收入突破 70 亿美元，其中面向 AI Agent 的 Lakebase 数据库已实现超 1 亿美元年化收入。CEO 表示公司暂不急于 IPO，以避免公开市场的干扰，优先投入企业 AI 产品研发。"
+    },
+    {
+      "title": "英伟达联手六大华尔街机构，为 AI 基础设施撬动超 5000 亿美元资金",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+      "date": "2026-08-10",
+      "category": "business",
+      "summary": "英伟达宣布与 Apollo、Blackstone、BlackRock、Brookfield、Goldman Sachs 和 KKR 六家华尔街巨头签署谅解备忘录，建立面向英伟达客户的融资平台，目标撬动超 5000 亿美元第三方资本，用于超大规模云厂商、前沿 AI 实验室和企业建设数据中心及采购英伟达硬件。CEO 黄仁勋称这是芯片首次成为可投资资产类别，将 GPU 算力视为可长期抵押的基础设施，但市场对其循环融资风险仍有质疑。"
+    },
+    {
+      "title": "新论文揭示可窃取 Anthropic、OpenAI、Google 闭源大模型的加密思维链（CoT）推理轨迹",
+      "source": "arXiv（EPFL 等机构研究者）",
+      "url": "https://arxiv.org/abs/2608.09867",
+      "date": "2026-08-10",
+      "category": "research",
+      "summary": "arXiv 论文《Stealing Reasoning Traces from Proprietary LLM APIs》发现主流闭源模型的加密思维链块在同一厂商生态内可跨会话、跨用户、跨模型互换复用，攻击者将强模型的加密推理轨迹注入同厂商较弱的模型即可诱导其以明文输出，从而绕过防蒸馏机制窃取推理内容。研究者从公开仓库抓取的 31.5 万+ 推理块中恢复出 367 项个人身份信息与 182 个凭据，并指出该漏洞还可用于隐形提示注入，已成为近期 AI 安全研究热点。"
+    },
+    {
+      "title": "OmniScientist：面向全模态、跨学科的新一代 AI 科学家框架发布",
+      "source": "arXiv（NUS / 牛津等）",
+      "url": "https://arxiv.org/abs/2608.13558",
+      "date": "2026-08-13",
+      "category": "research",
+      "summary": "新加坡国立大学与牛津大学等研究者提出 OmniScientist，一个端到端全模态 AI 科学家系统，可直接从图像、信号、音频、视频、3D 结构、表格、公式与图等异构原始证据出发开展多学科研究，并由感知层与三个自主智能体（构思、实验、写作）在确定性流程中完成从数据到论文的全过程。在覆盖 5 大学科族的 36 个真实数据案例上，系统全部走通完整流程并获 6.3 的平均论文评分，直接感知相较仅用预计算特征的盲基线在 7 个维度全部占优。"
+    },
+    {
+      "title": "PitchBook：2026 年上半年美国 87.5% 风投资金流向 AI",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/08/12/venture-capital-funding-ai-pitchbook-us-vc-valuations-series-d/",
+      "date": "2026-08-12",
+      "category": "business",
+      "summary": "PitchBook 发布 2026 年二季度美国风投估值报告，显示上半年美国 87.5% 的风险投资资金流向 AI 公司，非 AI 公司中位数估值增幅仅 1.6 倍，而 AI 公司达 2.2 倍，D 轮及以后 AI 公司估值增幅更高达 6.6 倍。报告指出 AI 大幅抬高了超级估值的门槛，如 Anthropic 估值在八个月内增长 5.3 倍，头部 AI 公司虹吸了绝大多数资金，其余公司融资环境严峻。"
+    },
+    {
+      "title": "加州8月13日集中表决30项AI法案，玩具禁令与模型监管引争议",
+      "source": "赢政天下（Winzheng.com）",
+      "url": "https://www.winzheng.com/article/california-30-ai-bills-vote-august-2026",
+      "date": "2026-08-14",
+      "category": "policy",
+      "summary": "8月13日加州参众两院拨款委员会同日举行“悬念文件”表决，集中处理约30项AI法案，涵盖禁止AI玩具使用聊天机器人四年、限制职场AI监控与基于数据的动态定价、要求大型模型进行安全测试并公开协议等。其中SB 813/AB 1405拟设立全美首个州级AI安全认证与独立审计框架，AB 412要求AI公司披露训练数据中的版权内容，OpenAI、谷歌、Meta等产业界担忧合规成本与技术可行性。在联邦立法缺位背景下，加州作为全球50强AI企业中35家的所在地被视为事实上的先行监管者，表决结果将影响全美AI监管走向。"
+    },
+    {
+      "title": "中国全方位推动人工智能全球治理走深走实",
+      "source": "人民网（人民日报）",
+      "url": "http://finance.people.com.cn/n1/2026/0813/c1004-40778640.html",
+      "date": "2026-08-13",
+      "category": "policy",
+      "summary": "人民日报发文系统阐述中国推动AI全球治理的顶层设计与落地举措，包括发布《全球人工智能治理倡议》《人工智能安全治理框架》1.0/2.0版，并将安全要求嵌入模型研发、部署与应用全过程，同时推动成立全球首个AI政府间国际组织“世界人工智能合作组织”（38个创始成员国）。文章强调坚持开放共赢、强化风险意识，主张让人工智能成为造福人类的公共产品，并宣布未来5年面向发展中国家提供5000个人工智能研修名额、建设国际AI应用合作中心等具体行动。"
+    },
+    {
+      "title": "传 Silver Lake 洽谈收购企业软件公司 Workday",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/silver-lake-talks-buy-workday-sources-say-2026-08-13/",
+      "date": "2026-08-13",
+      "category": "business",
+      "summary": "据路透社 8 月 13 日报道，私募股权公司 Silver Lake 正在洽谈收购人力资源平台 Workday，消息公布后 Workday 股价大涨近 18%，市值升至超 500 亿美元。双方已就收购磋商数月，Silver Lake 可能联合其他投资者共同收购。Workday 近年在 AI 领域投入重金布局，但摩根士丹利认为其 AI 产品仍处早期部署阶段，短期内难以显著推动增长。"
+    },
+    {
+      "title": "美团、淘宝闪购、京东外卖将率先集中在京落地“红灯停表”，多方协商优化骑手算法",
+      "source": "新京报",
+      "url": "https://www.bjnews.com.cn/detail/1786589733129073.html",
+      "date": "2026-08-13",
+      "category": "policy",
+      "summary": "8月13日北京市市场监管局组织平台经济“破卷向善”第二次协商对话，美团、淘宝闪购、京东外卖与骑手代表共商共治，在京率先落地“红灯停表”（等红灯时长在考核中顺延）等算法优化措施。三家平台承诺适度增加配送考核时长、电动车配送按平均时速不超15公里/小时计算并加大恶劣天气补时，同时履行算法备案并主动公开以提升算法透明度；美团还发布全国首个骑手AI智能体助手“团宝”，用AI为骑手提供等灯、事故多发路段、逆行驶等风险预警。"
+    }
+  ]
+}
