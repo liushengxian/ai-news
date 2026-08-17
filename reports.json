@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-08-14",
+  "updated_at": "2026-08-17",
   "reports": [
+    {
+      "date": "2026-08-17",
+      "title": "SpaceX斥资600亿收购Cursor",
+      "count": 10
+    },
     {
       "date": "2026-08-14",
       "title": "智谱发布最强开源大模型 GLM-5.3",
