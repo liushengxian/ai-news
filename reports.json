@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-08-17",
+  "updated_at": "2026-08-19",
   "reports": [
+    {
+      "date": "2026-08-19",
+      "title": "OpenAI 放缓模型开发强化安全",
+      "count": 10
+    },
     {
       "date": "2026-08-17",
       "title": "SpaceX斥资600亿收购Cursor",
