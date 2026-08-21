@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-08-19",
+  "updated_at": "2026-08-21",
   "reports": [
+    {
+      "date": "2026-08-21",
+      "title": "开源旗舰 Ornith-1.5 对标前沿",
+      "count": 10
+    },
     {
       "date": "2026-08-19",
       "title": "OpenAI 放缓模型开发强化安全",

@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-21",
+  "count": 10,
+  "headline": "开源旗舰 Ornith-1.5 对标前沿",
+  "news": [
+    {
+      "title": "DeepReinforce 发布 Ornith-1.5 开源模型家族，MIT 许可对标前沿闭源模型",
+      "source": "DataNorth",
+      "url": "https://datanorth.ai/news/ornith-releases-ornith-1-5/",
+      "date": "2026-08-19",
+      "category": "model",
+      "summary": "DeepReinforce 团队于8月19日发布 Ornith-1.5 开源模型家族，采用 MIT 许可，提供 397B MoE、35B MoE 与 9B dense 三种尺寸，权重已在 Hugging Face 开放。旗舰版 397B 在 Terminal-Bench 2.1 得分 86.1，超过 Claude Opus 4.8 的 85.0；该系列采用端到端自我改进训练机制（模型自提任务并生成强化学习回滚），发布后迅速被 vLLM、Ollama 集成。",
+      "category": "model"
+    },
+    {
+      "title": "Claude 自主设计 de novo 蛋白结合剂：AI 驱动蛋白质设计取得突破",
+      "source": "Anthropic",
+      "url": "https://www-cdn.anthropic.com/30bf50e22a01388bb29bf077ee3f244531594b7a.pdf",
+      "date": "2026-08-18",
+      "category": "research",
+      "summary": "Anthropic 旗下 Claude Science 团队发布技术报告，展示 Claude 在人类专家只给出设计目标的情况下，自主编排开源计算工具、完整运行从零（de novo）设计蛋白结合剂的计算流程，成功针对 15 个靶标中的 14 个设计出新型蛋白结合剂，部分设计还经湿实验室验证。该成果被视为 AI 驱动科学发现在蛋白质设计领域的一次重要突破。"
+    },
+    {
+      "title": "首份前沿 AI 公司“控制力”审计出炉：Anthropic/OpenAI 仅 C+，Meta 得 F",
+      "source": "Guidelight（Reuters 报道）",
+      "url": "https://guidelight.ai/blog/control-assessment-august-2026",
+      "date": "2026-08-18",
+      "category": "research",
+      "summary": "由前 OpenAI 员工创立的非营利机构 Guidelight 发布首份针对前沿 AI 公司的控制力评估，基于公开材料对 Anthropic、OpenAI、Google、Meta、xAI 在日志记录、监控、门槛动作、熔断、第三方审查、遏制方案六项实践进行打分。结果显示各公司对 AI 系统的控制最多只是“部分实施”：Anthropic 与 OpenAI 各得 C+，Google 为 D+，xAI 为 D-，Meta 仅得 F。报告警告基础控制能力缺失可能使系统在恶意 AI 或协同攻击下失守。"
+    },
+    {
+      "title": "OpenAI预览\"私有安全处理\"机制，兼顾前沿模型安全与客户零数据留存",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+      "date": "2026-08-19",
+      "category": "policy",
+      "summary": "OpenAI发布前沿模型\"零数据留存（ZDR）\"更新，预览全新的\"私有安全处理（Private Safety Processing）\"机制，可在不向OpenAI人员暴露客户提示词与响应内容的前提下，跨多次交互识别恶意使用与越权行为。客户内容在由客户控制密钥加密的存储中处理，旨在平衡企业数据合规、隐私承诺与日渐复杂的前沿AI安全监测需求，计划9月起逐步上线并发布技术白皮书。"
+    },
+    {
+      "title": "FTC主席称AI反垄断最大风险在上游算力、数据与芯片环节",
+      "source": "Broadband Breakfast",
+      "url": "https://broadbandbreakfast.com/federal-trade-commission-chairman-sees-ai-antitrust-risks-upstream/",
+      "date": "2026-08-19",
+      "category": "policy",
+      "summary": "美国联邦贸易委员会（FTC）主席Andrew Ferguson在科技政策研究所（TPI）Aspen论坛与CNBC对话时表示，大语言模型开发商之间的竞争\"相当激烈\"，AI领域最大的竞争风险并不在于模型本身，而在于上游的算力、数据与芯片等投入环节。这释放出FTC将反垄断审查重点转向AI基础设施上游市场的信号，与近期FTC收紧AI应用虚假承诺执法的方向一脉相承。"
+    },
+    {
+      "title": "人民日报：为携手构建公正合理的全球人工智能治理体系贡献中国方案",
+      "source": "人民日报",
+      "url": "http://theory.people.com.cn/n1/2026/0820/c40531-40783056.html",
+      "date": "2026-08-20",
+      "category": "policy",
+      "summary": "《人民日报》理论版（作者为中国信通院副院长）系统阐述习近平主席在2026世界人工智能大会暨全球AI治理高级别会议上提出的\"携手构建公正合理的全球人工智能治理体系\"主张，强调统筹发展、安全、文明、治理四个维度。文中重申中国将向发展中国家提供5000个人工智能研修培训名额、建设面向各区域组织的国际AI应用合作中心，并坚持在联合国框架下推动多边共治、反对\"筑墙设垒\"，代表中国官方在全球AI治理上的最新政策立场。"
+    },
+    {
+      "title": "智谱发布 GLM-5.2 Turbo 快速变体，面向长程编码与 Agent 任务",
+      "source": "LLM Gateway",
+      "url": "https://llmgateway.io/models/glm-5.2-fast",
+      "date": "2026-08-17",
+      "category": "model",
+      "summary": "智谱于8月17日发布 GLM-5.2 Turbo（glm-5.2-fast），作为 GLM-5.2 的加速变体，面向长程编码与 Agent 工程任务，支持 100 万 token 上下文窗口。该模型已通过 LLM Gateway 等多渠道提供 API 接入，输入约 1.99 美元/百万 token、输出约 6.16 美元/百万 token（近5天窗口内的补充新闻）。"
+    },
+    {
+      "title": "英国 AI 初创 Callosum 完成 1 亿美元种子轮，英国主权 AI 基金首次出手",
+      "source": "Vestbee",
+      "url": "https://www.vestbee.com/insights/articles/callosum-raises-100-m",
+      "date": "2026-08-20",
+      "category": "business",
+      "summary": "伦敦 AI 初创公司 Callosum 宣布完成 1 亿美元种子轮融资，由 Atomico 领投，Plural、DCVC 及英国主权 AI 基金等参投，这也是英国主权 AI 基金的首笔投资。该公司开发\"异构智能\"技术，将 AI 任务按成本、速度与能耗匹配到最适合的模型与芯片，并与 Cerebras 等芯片厂商达成合作。"
+    },
+    {
+      "title": "AI 初创 Temporal 洽谈 5 亿美元融资，估值或达 120 亿美元",
+      "source": "观点网",
+      "url": "https://www.guandian.cn/article/20260819/586990.html",
+      "date": "2026-08-19",
+      "category": "business",
+      "summary": "8 月 19 日，AI 初创公司 Temporal 正洽谈新一轮融资，金额约 5 亿美元，目标估值至少 120 亿美元，较今年 2 月翻逾一倍。目前该轮融资尚未敲定，具体细节仍可能发生变化。"
+    },
+    {
+      "title": "AI 跨境营销公司钛动科技完成新一轮融资，华泰泛大西洋领投",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4090378.html",
+      "date": "2026-08-20",
+      "category": "business",
+      "summary": "8 月 20 日，AI 跨境营销公司钛动科技宣布完成新一轮融资，由华泰泛大西洋基金领投，鲲鹏光远、广汽资本、金沙江联合资本等跟投，其中华泰泛大西洋为其首个人民币投资项目。资金将用于钛极专业大模型与 Navos 多智能体等 AI 技术研发及全球业务拓展，公司业务已覆盖全球 200 多个国家和地区。"
+    }
+  ]
+}
