@@ -87,6 +87,15 @@ export default async function workflow(api) {
     { label: "清洗数据并写入 JSON" }
   )
 
+  api.phase("确定性跨期去重")
+  // 兜底：用 dedupe.py 做确定性跨期去重 + count 修正（幂等），
+  // 与 update.sh 第 0 步同一套逻辑，避免跨期去重只依赖 LLM 提示词。
+  await api.tool(
+    "exec",
+    { command: `cd "${api.cwd}" && python3 dedupe.py` },
+    { label: "运行 dedupe.py 去重" }
+  )
+
   api.phase("发布到 GitHub")
   await api.agent(
     `数据已写入 ${outputPath}。请在仓库目录执行一键发布脚本完成「重建 reports.json 清单 → git 提交 → 推送 GitHub Pages」：\ncd ${api.cwd} && ./update.sh\n\n要求：执行后确认输出包含「✓ 已推送」，没有报错；然后用一两句话简要回复发布结果（commit 号、推送状态）。如果 update.sh 报错，请读取报错内容并重试一次，仍失败则如实回复失败原因。`,

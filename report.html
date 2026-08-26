@@ -317,6 +317,12 @@
     return new URLSearchParams(location.search).get(name);
   }
 
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
   function render(data) {
     var date = data.date || qs('date');
     var news = data.news || [];
@@ -329,17 +335,17 @@
 
     var html = news.map(function (n, i) {
       var cat = CATS[n.category] || CATS.model;
-      var dateText = n.date ? '<span class="card-date">' + n.date + '</span>' : '';
-      var src = n.source ? '<span class="badge src">' + n.source + '</span>' : '';
+      var dateText = n.date ? '<span class="card-date">' + esc(n.date) + '</span>' : '';
+      var src = n.source ? '<span class="badge src">' + esc(n.source) + '</span>' : '';
       return (
-        '<article class="card" data-cat="' + (n.category || 'model') + '" style="--i:' + (i + 1) + ';--cc:' + cat.cc + '">' +
+        '<article class="card" data-cat="' + esc(n.category || 'model') + '" style="--i:' + (i + 1) + ';--cc:' + cat.cc + '">' +
           '<div class="card-meta">' +
             '<span class="badge cat">' + cat.label + '</span>' +
             src +
             dateText +
           '</div>' +
-          '<h2 class="card-title"><a href="' + n.url + '" target="_blank" rel="noopener">' + n.title + '<span class="arrow">↗</span></a></h2>' +
-          '<p class="card-summary">' + n.summary + '</p>' +
+          '<h2 class="card-title"><a href="' + esc(n.url) + '" target="_blank" rel="noopener">' + esc(n.title) + '<span class="arrow">↗</span></a></h2>' +
+          '<p class="card-summary">' + esc(n.summary) + '</p>' +
         '</article>'
       );
     }).join('');
