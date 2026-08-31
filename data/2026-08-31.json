@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-31",
+  "count": 13,
+  "headline": "腾讯开源770B混元Hy4预览版",
+  "news": [
+    {
+      "title": "腾讯混元发布 Hy4 Preview：770B 参数、49B 激活、1M 上下文的开源权重模型",
+      "source": "腾讯混元 (Tencent Hy)",
+      "url": "https://hy.tencent.ai/research/hy4-preview",
+      "date": "2026-08-29",
+      "category": "model",
+      "summary": "腾讯发布开源权重混元 Hy4 Preview，为纯文本输入大模型，总参数量 770B、激活参数 49B，上下文窗口扩展至 1M token，权重已在 Hugging Face 开放下载（约 1.56TB）。相比 7 月的 Hy3（295B 总参、21B 激活、256K 上下文）规模大幅提升，模型支持 high 与 no_think 两档推理强度。"
+    },
+    {
+      "title": "Anthropic 发布自动化对齐研究论文：AI 修复 AI 的安全缺口",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "date": "2026-08-28",
+      "category": "research",
+      "summary": "Anthropic 发表论文《Automated Researchers Can Reliably Mitigate Alignment Failures》，让 Claude 自主完成文献检索、方法设计、模型训练与测试，针对 10 类对齐失败（如欺骗、谄媚、越狱）进行修复，全部基准均获提升且不损害通用能力。在欺骗类问题上，其最佳方法比 28 名人类安全研究者的方案高出约 20%，且方法对最大 4.7 倍规模的模型依然有效；据 TechCrunch 报道，最佳 AAR 方法平均 6 小时即可超越人类方案，成本约每小时 4 美元（人类研究员约 150 美元），被视为迈向递归自我改进的早期实证。"
+    },
+    {
+      "title": "OpenAI 宣布终止向 Cursor 提供模型访问，因 Cursor 被马斯克的 SpaceX 收购",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+      "date": "2026-08-29",
+      "category": "business",
+      "summary": "SpaceX 于 8 月 14 日以 600 亿美元完成对 AI 编程初创 Cursor 母公司 Anysphere 的收购后，OpenAI 宣布将终止通过 Cursor 提供模型的开发者访问，拟议关停日期为 2026 年 11 月 12 日，且不再向其提供未来模型。OpenAI 称基于与马斯克旗下公司过往的合同违约经历，无法确信 SpaceX 会遵守其服务条款。Cursor CEO 回应称 OpenAI 模型仅占 Cursor 用户流量约 5%，双方正在沟通解决，而 Anthropic 则表示将继续扩大对 Cursor 的 Claude 模型算力支持。"
+    },
+    {
+      "title": "通义千问开源 Qwen3.8-Flash-Next：Qwen4 架构预览",
+      "source": "Qwen（通义千问）",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "date": "2026-08-26",
+      "category": "model",
+      "summary": "阿里通义千问团队开源 Qwen3.8-Flash-Next，是一个多模态混合专家（MoE）模型，同时作为 Qwen4 架构的早期预览。该模型总参数约 125B、激活参数仅 6B，可在消费级设备上高效运行，社区已有量化版本可供本地部署测试。"
+    },
+    {
+      "title": "Google DeepMind 试点全球首个双盲 AI 评估",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "date": "2026-08-27",
+      "category": "research",
+      "summary": "Google DeepMind 联合新加坡 AI Safety Institute、OpenMined、MLCommons 等机构完成全球首次针对专有前沿模型的\"双盲\"评估，在基于机密计算的加密 GPU enclave 中测试 Gemini Flash Lite 模型。评估方看不到模型权重、Google 也看不到测试题，从技术上杜绝基准污染，为独立可信的 AI 模型评测建立了新范式。"
+    },
+    {
+      "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "date": "2026-08-29",
+      "category": "policy",
+      "summary": "索尼音乐出版与华纳查普尔向加州北区联邦法院起诉 Anthropic，指控其大规模盗版下载与抓取受版权作品训练 Claude 模型，并首次将 CEO 达里奥·阿莫代等创始人列为个人被告。按每件作品最高 15 万美元索赔，总金额可能达数十亿美元，是 AI 版权领域最新一起重量级诉讼。"
+    },
+    {
+      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+      "date": "2026-08-28",
+      "category": "policy",
+      "summary": "加州联邦法官裁定，五角大楼因 Anthropic 拒绝让其 AI 用于大规模监控美国人和致命自主武器而将其列入\"供应链风险\"黑名单，属于违反第一修正案的非法报复。法官认为\"以国家安全为名的空洞借口不是惩罚批评者的空白支票\"，这是 AI 实验室与特朗普政府博弈中的重大转折。"
+    },
+    {
+      "title": "Salesforce 财报超预期并上调 AI 增长指引，股价创上市以来第二大单日涨幅",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
+      "date": "2026-08-28",
+      "category": "business",
+      "summary": "Salesforce 最新财报营收同比增长 11% 超预期，并上调下季度增长指引至约 12%，股价 8 月 27 日大涨近 23%，创 2020 年以来最佳单日表现。其 Agentforce AI 产品年化收入同比飙升 240% 至超过 15 亿美元，公司还因早期投资 Anthropic 录得 26 亿美元账面收益，并宣布与 Anthropic 达成名为\"Claudeforce\"的合作。CEO 贝尼奥夫宣称\"前沿模型依赖 CRM 而非取代它\"，市场对\"SaaS 被 AI 颠覆\"的担忧明显降温。"
+    },
+    {
+      "title": "Meta 提出 EvoHarness-RL 框架，8B 模型在长程任务上匹敌前沿模型",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag/",
+      "date": "2026-08-28",
+      "category": "research",
+      "summary": "Meta AI 与伊利诺伊大学香槟分校的研究者发布 EvoHarness-RL 论文，教 8B 小模型通过\"信念-进度-经验\"(BPE) 统一工作区管理环境信息，并用成本感知强化学习学会何时调用外部状态，在长时程智能体任务上表现可媲美 Claude Opus 4.5 等前沿模型。该方法把工具使用从硬编码规则转变为可学习的运行时行为，大幅降低复杂企业工作流智能体的部署成本。"
+    },
+    {
+      "title": "Marvell 财季营收超预期但指引未达高预期，股价下跌 6%",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
+      "date": "2026-08-28",
+      "category": "business",
+      "summary": "Marvell 第二财季营收同比增长 37% 至 27 亿美元，超出公司指引，其中数据中心业务增长 46%，AI 相关订单依然异常强劲。公司上调 2028 财年营收展望至约 180 亿美元（同比增长约 50%），但因缺乏细节且市场对上月与谷歌最高 122 亿美元股份合作（涵盖 TPU 配套的 AI 推理芯片、存储及网络控制器）预期过高，股价周五仍下跌约 6%。该股今年迄今已累计上涨 184%。"
+    },
+    {
+      "title": "AI 云厂商 Lambda 获得 10 亿美元私募债务融资，用于采购英伟达芯片",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "date": "2026-08-28",
+      "category": "business",
+      "summary": "AI 云计算公司 Lambda 完成 10 亿美元私募短期债务融资，用于购买英伟达 AI 芯片并租借给微软，该笔交易由摩根大通安排。这是 Lambda 近期一系列债务融资的最新一笔：今年 5 月它已关闭 10 亿美元担保信贷额度，本周又宣布完成 9.26 亿美元贷款用于采购英伟达 GB300 GPU。据彭博统计，2026 年迄今全球银行和科技公司已募集超过 4000 亿美元 AI 相关债务，Lambda 同时还在洽谈 30 亿美元的 IPO 前融资。"
+    },
+    {
+      "title": "Trump's EPA wants to let data centers hide their air pollution",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+      "date": "2026-08-28",
+      "category": "policy",
+      "summary": "EPA 计划废除自 1970 年代起要求工业设施申请空气污染许可时必须公示并接受公众评论的联邦规则。环保组织警告，此举将让 AI 数据中心开发商得以在居民不知情的情况下\"秘密\"获批建设，进一步加剧围绕 AI 数据中心的环境争议。"
+    },
+    {
+      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+      "date": "2026-08-30",
+      "category": "policy",
+      "summary": "得州州长阿博特宣布冻结州政府对 Flock AI 监控摄像头的所有支出，此前《德州论坛报》调查披露该州通过保险附加费筹集逾 3000 万美元采购此类摄像头。由于警察滥用系统跟踪他人、数据共享不透明等丑闻频发，针对 AI 监控的反对声浪已在两党间蔓延。"
+    }
+  ]
+}
