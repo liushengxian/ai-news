@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-02",
   "reports": [
+    {
+      "date": "2026-09-02",
+      "title": "Anthropic 发布旗舰模型 Fable 5.1",
+      "count": 12
+    },
     {
       "date": "2026-08-31",
       "title": "腾讯开源770B混元Hy4预览版",

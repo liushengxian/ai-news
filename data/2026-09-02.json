@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-02",
+  "count": 12,
+  "headline": "Anthropic 发布旗舰模型 Fable 5.1",
+  "news": [
+    {
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1，号称最强编码与知识工作模型",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "summary": "Anthropic 于 9 月 1 日推出新一代旗舰模型 Claude Fable 5.1（及受限访问的 Mythos 5.1），在编码、知识工作和长期多步任务上全面超越前代 Fable 5，Terminal-Bench-Science 得分 52.6%（Fable 5 为 24.7%）。新模型还大幅下调缓存读取价格（较 Fable 5 低 75%），典型工作负载成本估计下降 25%，同时网络安全防护的误报率降低 60%，并展示了用 AI 设计高亲和力蛋白结合物、绘制金星高分辨率地形图等科研能力。",
+      "date": "2026-09-01",
+      "source": "Anthropic",
+      "category": "model"
+    },
+    {
+      "title": "可灵 AI 完成 204.47 亿元增资，投后估值约 1228 亿元",
+      "url": "https://finance.sina.com.cn/roll/2026-09-01/doc-iniqipiu1570176.shtml",
+      "summary": "快手科技 9 月 1 日披露，旗下视频生成大模型公司北京可灵本轮增资额度全部用完，投资者合计出资 204.47 亿元（约合 30 亿美元），投后估值约 1228.1 亿元，为目前全球视频大模型赛道规模最大的一笔融资。国家人工智能产业投资基金出资 14 亿元入股约 1.14% 股权，阿里云、百度、正大机器人等也参与认购；融资完成后快手仍保持控制权。",
+      "date": "2026-09-01",
+      "source": "云头条（新浪财经）",
+      "category": "business"
+    },
+    {
+      "title": "Anthropic 与英伟达支持的 Lambda 签署约 350 亿美元云计算协议",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqiatw4836539.shtml",
+      "summary": "知情人士 8 月 31 日透露，Anthropic 与英伟达支持的云服务商 Lambda 达成一份为期六年的云计算协议，合同金额约 350 亿美元，为 Claude 等产品快速扩充算力。交易呈三层结构：Hut 8 开发得州 Nueces County 机房、英伟达持有租约、Lambda 转售算力给 Anthropic；Anthropic 今年已签约的算力协议合计至少 1350 亿美元。",
+      "date": "2026-08-31",
+      "source": "华尔街日报/新浪财经",
+      "category": "business"
+    },
+    {
+      "title": "Google DeepMind 推出 Gemini 系列 agentic video understanding 视频理解能力",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+      "summary": "Google DeepMind 于 9 月 1 日为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 发布 agentic video understanding 功能，模型通过原生视频工具动态检索画面、音频与字幕，而非固定帧率静态处理。该能力可将视频分析 token 消耗最高降低 88%、成本降低 66%，同时准确率提升最高 7%，支持亚秒级片段检索与长视频内容搜索，即日起在 Gemini API 与 AI Studio 可用。",
+      "date": "2026-09-01",
+      "source": "Google DeepMind",
+      "category": "model"
+    },
+    {
+      "title": "加州立法收官：2026 会期通过 30 项 AI 相关法案，含社交防成瘾与 AI 玩具禁令",
+      "url": "https://www.transparencycoalition.ai/news/california-legislature-nears-adjournment-after-passing-ai-bills",
+      "summary": "在 8 月 24 日周报披露 24 项法案临近终审后，加州议会于 2026 会期最后一天（8 月 31 日）收官，累计通过 30 项 AI 相关法案并送交州长。其中 AB 1709 禁止社交媒体向 16 岁以下用户提供个性化推送、自动播放等成瘾性功能，SB 867 拟对内置 AI 聊天机器人的儿童玩具设四年禁售期，另有禁止雇主用 AI 采集神经数据监测员工情绪、AI 审计机构注册等条款。州长需在 9 月 30 日前决定签署与否。",
+      "date": "2026-08-31",
+      "source": "Transparency Coalition",
+      "category": "policy"
+    },
+    {
+      "title": "加州参议院通过青少年 AI 聊天机器人安全法案 SB 1119，OpenAI 公开支持",
+      "url": "https://www.politico.com/news/2026/09/01/sam-altman-called-gavin-newsom-over-kids-chatbot-safety-bill-01058850",
+      "summary": "加州参议院 9 月 1 日对 SB 1119 进行最终表决并送交州长 Newsom 待签，该法案为 13-17 岁青少年使用 AI 聊天机器人建立安全框架，要求年龄验证、独立安全审计、家长控制、有害内容防护与危机支持等。OpenAI 公开表态支持并呼吁州长签署，强调 AI 不应等同于社交媒体，主张在保护青少年的同时保留 AI 的教育用途。若获签署，将可能成为全美领先的青少年 AI 安全立法。",
+      "date": "2026-09-01",
+      "source": "Politico",
+      "category": "policy"
+    },
+    {
+      "title": "Meta 就儿童安全诉讼与各州达成最高 171 亿美元和解",
+      "url": "https://www.npr.org/2026/08/26/nx-s1-5944781/meta-settlement-child-safety-lawsuit",
+      "summary": "Meta 与 47 个州、哥伦比亚特区及美属领地达成里程碑式和解，同意十年内最高支付 171 亿美元，并承诺为 Facebook 和 Instagram 18 岁以下用户执行一系列家长控制与安全防护新措施。该案源于各州指控 Meta 设计令人成瘾的社交平台伤害未成年人，州总检察长称这是青少年网络安全的转折点，也是迄今规模最大的同类和解。",
+      "date": "2026-08-26",
+      "source": "NPR",
+      "category": "policy"
+    },
+    {
+      "title": "AI 3D 独角兽 VAST 完成 B 轮及 B+ 轮融资 30 亿元，半年累计融资约 50 亿",
+      "url": "https://finance.sina.com.cn/roll/2026-09-01/doc-iniqipiu1558823.shtml",
+      "summary": "AI 3D 大模型公司 VAST（三启万物）9 月 1 日宣布完成 B 轮和 B+ 轮融资合计约 30 亿元，加上 7 月的 A3 轮，不到半年累计融资约 50 亿元，刷新 3D 原生智能领域融资纪录。投资阵容覆盖游戏、汽车、影视、电商等产业资本；同日公司发布旗舰 3D 原生基座模型 Tripo P2.0，支持原生四边面拓扑网格。",
+      "date": "2026-09-01",
+      "source": "智东西（新浪财经）",
+      "category": "business"
+    },
+    {
+      "title": "Meta 收购被中国监管叫停后，Manus 正式恢复独立运营",
+      "url": "https://global.hk01.com/%E5%8D%B3%E6%97%B6%E4%B8%AD%E5%9B%BD/60385733/%E4%B8%AD%E5%9B%BD%E5%8F%AB%E5%81%9Cmeta%E6%94%B6%E8%B4%AD%E6%A1%88%E5%BE%8C-manus%E6%81%A2%E5%A4%8D%E7%8B%AC%E7%AB%8B%E8%BF%90%E8%90%A5-%E5%8E%9F%E5%88%9B%E5%A7%8B%E5%9B%A2%E9%98%9F%E7%BB%A7%E7%BB%AD%E6%8E%8C%E8%88%B5",
+      "summary": "中国通用人工智能初创企业 Manus 在经历 Meta 收购风波后，9 月 1 日正式宣布恢复独立运营，原创始团队将继续领导公司。此前 Meta 拟以逾 20 亿美元收购 Manus，但该交易因中国外商投资安全审查被叫停，双方随后逐步完成拆分。",
+      "date": "2026-09-01",
+      "source": "香港01/中央社",
+      "category": "business"
+    },
+    {
+      "title": "清华AIR与域变换提出Zeva：首个实现In-Context Causal Learning的具身WAM",
+      "url": "https://www.qbitai.com/2026/09/482337.html",
+      "summary": "清华AIR与域变换联合提出Zeva，这是首个实现In-Context Causal Learning（ICCL）的具身WAM模型，可在参数完全冻结的情况下于部署中自进化。在RoboCasa365基准上累计成功率从26%提升到73%，在真实化学实验室任务中单调增长，且一次人类演示即可让模型学会新操作。该工作提出把具身模型scaling从参数空间延伸到上下文空间的新范式。",
+      "date": "2026-09-01",
+      "source": "量子位",
+      "category": "research"
+    },
+    {
+      "title": "港科大团队提出超越人类监督的推理模型扩展框架，迈向超级智能",
+      "url": "https://arxiv.org/abs/2608.31075",
+      "summary": "该论文研究大型推理模型（LRM）在人类监督逐步退出学习闭环后如何持续进化，提出从L0到L4的五级监督阶梯，区分学习流程中仍由人类控制的部分。作者系统分析了自主奖励与经验生成带来的风险（奖励黑客、反馈漂移、课程坍塌、环境错误等），并围绕策略能力、反馈保真度与经验质量给出评估框架，为构建自持续学习系统提供结构化路径。",
+      "date": "2026-08-31",
+      "source": "arXiv（香港科技大学团队）",
+      "category": "research"
+    },
+    {
+      "title": "复旦NeoLab发布「生命算子」框架，尝试统一全尺度生命建模",
+      "url": "https://www.qbitai.com/2026/09/482300.html",
+      "summary": "复旦大学上海医学院王烁与香港科技大学郭毅可团队发布预印本，提出「生命算子」框架，将生命视为开放、随机、受控的多尺度动力系统，通过感知、演化、生成三类算子配合尺度桥，试图统一从细胞、组织到器官的跨尺度生命建模。该框架由团队多年积累的6篇Nature系列期刊研究（如Nature Biomedical Engineering、Nature Communications等）支撑，并提出证据驱动的自进化机制。",
+      "date": "2026-09-01",
+      "source": "量子位",
+      "category": "research"
+    }
+  ]
+}
