@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-04",
   "reports": [
+    {
+      "date": "2026-09-04",
+      "title": "OpenAI 最强推理旗舰 GPT-6 Astra 问世",
+      "count": 14
+    },
     {
       "date": "2026-09-02",
       "title": "Anthropic 发布旗舰模型 Fable 5.1",

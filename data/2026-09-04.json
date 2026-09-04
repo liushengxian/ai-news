@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-04",
+  "count": 14,
+  "headline": "OpenAI 最强推理旗舰 GPT-6 Astra 问世",
+  "news": [
+    {
+      "title": "OpenAI 发布旗舰推理模型 GPT-6 Astra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "summary": "OpenAI 于 9 月 3 日发布旗舰推理模型 GPT-6 Astra（API 标识 gpt-6-astra），面向复杂推理、软件工程、计算机操作与研究等任务，支持 105 万 token 上下文与 12.8 万 token 最大输出，提供 low 至 max 五档推理强度。模型先向 Trusted Access Program 企业客户开放，ChatGPT 各付费方案将在随后数日逐步上线；其高级网络安全能力仅面向特定机构开放。",
+      "date": "2026-09-03",
+      "source": "OpenAI",
+      "category": "model"
+    },
+    {
+      "title": "英伟达以 129.3 亿美元收购开源 AI 平台 Hugging Face",
+      "url": "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/",
+      "summary": "9 月 3 日，英伟达正式宣布以 129.3 亿美元收购开源 AI 模型平台 Hugging Face，这是其迄今最大的战略并购之一（此前 8 月下旬仅有收购洽谈传闻，本次为官方落定），意图扩大在开源模型生态中的影响力。Hugging Face 拥有超过 1800 万开发者、300 万个模型，黄仁勋表示收购后将保持开放中立，开发者仍可自由选择模型、框架与算力，英伟达算力并非强制绑定。",
+      "date": "2026-09-03",
+      "source": "Reuters / NVIDIA 官方博客",
+      "category": "business"
+    },
+    {
+      "title": "阿里通义千问发布 Qwen3.8-Max-0902 升级快照",
+      "url": "https://www.qwencloud.com/models/qwen3.8-max-0902",
+      "summary": "阿里巴巴通义千问团队于 9 月 2 日发布 Qwen3.8-Max 升级快照 Qwen3.8-Max-0902，沿用 2.4T 总参数（激活 950 亿）与 1M 上下文，重点强化工程级编程、长周期自主开发、多工具协作与原生视觉理解。该版本已在 QwenCloud 上线，API 定价为每百万 token 输入 2 美元、输出 6 美元。",
+      "date": "2026-09-02",
+      "source": "阿里巴巴（通义千问）",
+      "category": "model"
+    },
+    {
+      "title": "Google 正式 GA 多模态模型 Gemini 3.8 Flash",
+      "url": "https://deepmind.google/models/evals-methodology/gemini-3-8-flash/",
+      "summary": "Google 于 9 月 2 日将多模态 Flash 模型 gemini-3.8-flash 正式转为 GA，提供 1M 上下文与 64K 最大输出，支持文本、图像、音频、视频输入，面向长周期软件工程、自主 Agent 与复杂企业工作流。该模型在 Terminal-Bench 2.1 等多项 Agent 与编程评测中位列前茅。",
+      "date": "2026-09-02",
+      "source": "Google DeepMind",
+      "category": "model"
+    },
+    {
+      "title": "Meta 发布多模态推理模型 Muse Spark 1.3",
+      "url": "https://research.meta.ai/static/muse-spark-1-3-multimodal-evaluation-methodology",
+      "summary": "Meta Superintelligence Labs 于 9 月 2 日发布闭源多模态推理模型 Muse Spark 1.3，已在 Muse Code 与 Meta Model API 上线，提供 1M 上下文，重点提升长周期 Agent 工作流、复杂指令跟随、工具调用与编程效率。官方称相较 1.2 版本约减少 20% 工具调用和 25% token 使用，max reasoning 档位待安全测试后开放。",
+      "date": "2026-09-02",
+      "source": "Meta Superintelligence Labs",
+      "category": "model"
+    },
+    {
+      "title": "月之暗面（Kimi）秘密递表港交所启动 IPO，投前估值 500 亿美元",
+      "url": "https://www.guandian.cn/m/show/596465",
+      "summary": "9 月 2 日，据《晚点LatePost》等报道，Kimi 母公司月之暗面已以保密形式向港交所递交 A1 文件，正式启动港股 IPO 流程，公司对此不予置评。同时其正以 500 亿美元投前估值推进新一轮融资，很可能是上市前最后一轮；此前该公司今年 7 月刚完成超 35 亿美元 F 轮融资，投后估值 350 亿美元。",
+      "date": "2026-09-02",
+      "source": "观点网 / 晚点LatePost",
+      "category": "business"
+    },
+    {
+      "title": "美国拟收紧对华 AI 出口管制，堵住云端远程访问芯片的漏洞",
+      "url": "https://www.tomshardware.com/tech-industry/policy/new-us-export-controls-reportedly-target-chinese-access-to-remote-ai-servers-trump-admins-cut-down-ai-diffusion-rule-could-be-shared-with-industry-as-soon-as-september",
+      "summary": "美国商务部正起草新的出口管制规则，旨在封堵中国企业通过数据中心远程租用、访问美国先进 AI 芯片服务的漏洞，相关方案最早可能于 9 月与行业共享。此前美国主要管控实体芯片出口，但中国企业已转向通过海外云服务获取算力训练模型。分析认为，管控重点正从实体芯片转向云端算力，标志对华 AI 技术封锁进入新阶段。",
+      "date": "2026-08-29",
+      "source": "Tom's Hardware / The Information",
+      "category": "policy"
+    },
+    {
+      "title": "G20 创新部长级会议闭幕并发布共识声明，确立新兴技术与 AI 治理六大支柱",
+      "url": "https://www.whitehouse.gov/releases/2026/09/g20-innovation-ministerial-concludes-with-consensus-statement/",
+      "summary": "9 月 1-2 日，G20 各国部长在北卡罗来纳州 Chapel Hill 举行创新部长级会议，会后发表共识声明并通过《卡罗莱纳新兴技术原则》。声明围绕六大支柱达成共识：亲创新的政策框架、AI 知识产权政策、AI 标准互认、技术劳动力培养等；美方强调以灵活政策框架促进创新。会上美欧就 AI 监管路线分歧明显：美国主张去监管，欧盟则推动新立法，凸显跨大西洋治理路径分化。",
+      "date": "2026-09-02",
+      "source": "The White House / Al Jazeera",
+      "category": "policy"
+    },
+    {
+      "title": "Anthropic 与 OpenAI、Google 分裂：支持马萨诸塞州 AI 安全法案",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-breaks-with-peers-on-massachusetts-ai-safety-bill/",
+      "summary": "据 The Information 报道，Anthropic 公开支持马萨诸塞州参议院经济法案中的 AI 条款，要求大型 AI 开发商每四个月聘请独立评估机构对其模型进行灾难性风险评估，并获 Encode 等安全组织声援。OpenAI 与 Google 反对该提案，认为会造成碎片化监管，并建议参照伊利诺伊州每年一次第三方安全审计的模式。此举被视为州级 AI 监管在联邦立法停滞背景下加速推进的信号。",
+      "date": "2026-09-03",
+      "source": "PYMNTS / The Information",
+      "category": "policy"
+    },
+    {
+      "title": "Google DeepMind 发布 WeatherNext 3：迄今最先进全球 AI 天气预报模型",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+      "summary": "Google DeepMind 与 Google Research 推出旗舰天气模型 WeatherNext 3，直接学习实时卫星观测数据，支持每小时更新、5 公里分辨率预报，整体清晰度约为前代 WeatherNext 2 的五倍。降水预测精度显著提升（中期预报 CRPS 最高改善 60%），并新增风机高度风速、云量、太阳辐射等清洁能源变量；模型已接入 Search、Gemini、Maps 及 Google Cloud，并配套发布研究论文。",
+      "date": "2026-09-03",
+      "source": "Google DeepMind",
+      "category": "research"
+    },
+    {
+      "title": "AI 初创公司 Wonderful 完成 5.5 亿美元 C 轮融资，估值半年翻倍至 50 亿美元",
+      "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
+      "summary": "9 月 2 日，以色列-荷兰 AI 初创公司 Wonderful 宣布完成 5.5 亿美元 C 轮融资，估值达 50 亿美元，较半年前 20 亿美元估值翻倍有余，Insight Partners 继续领投，Salesforce 首次参投。该公司以客户服务 AI Agent 起家，现主打企业级「Wonderful AI OS」平台，业务已覆盖 35 多个国家。",
+      "date": "2026-09-02",
+      "source": "TechCrunch",
+      "category": "business"
+    },
+    {
+      "title": "前苹果工程师创立的物理 AI 公司 Lyte 融资 1.65 亿美元，估值 16 亿美元",
+      "url": "https://news.crunchbase.com/venture/robotics-ai-startup-lyte-seriesc-raise-maverick/",
+      "summary": "9 月 2 日，物理 AI 初创公司 Lyte 宣布完成 1.65 亿美元 C 轮融资，投后估值 16 亿美元，累计融资达 2.72 亿美元，本轮由 Maverick Silicon 领投。Lyte 由曾参与苹果 Face ID 研发的三位前工程师创立，专注为机器人打造定制芯片与 4D 感知技术，客户主要集中在仓储和制造业。",
+      "date": "2026-09-02",
+      "source": "Crunchbase News",
+      "category": "business"
+    },
+    {
+      "title": "新研究：语言模型可自行声明注意力范围，长上下文解码大幅省算力",
+      "url": "https://arxiv.org/abs/2609.02737",
+      "summary": "该论文提出 Declarative Attention（声明式注意力）协议：让模型在思维链中声明需要关注哪段上下文，推理引擎据此跳过大部分 KV 缓存读取。在 15 项长上下文任务零样本评估中，现成模型（Gemma-4-31B、Qwen-3.6-27B）的解码参与注意力 token 分别减少 52.0% 和 31.1%，准确率仅小幅下降，为稀疏注意力开辟了新方向。",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "research"
+    },
+    {
+      "title": "知识蒸馏在中段训练中重推理轻事实记忆，新方法 Switch Distillation 可兼顾",
+      "url": "https://arxiv.org/abs/2609.01532",
+      "summary": "研究通过受控实验发现：标准的前向 KL 蒸馏在预训练阶段能同时提升推理与事实记忆，但在中段训练（mid-training）中却拖慢事实记忆获取。团队提出 Switch Distillation，以教师模型置信度作为路由信号在蒸馏与交叉熵间切换，推理性能提升 1.61-1.71 倍的同时保住约 97% 的事实记忆，且收益在后续对齐训练后依然保持。",
+      "date": "2026-09-01",
+      "source": "arXiv",
+      "category": "research"
+    }
+  ]
+}
