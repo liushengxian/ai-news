@@ -6,7 +6,14 @@
   <description>由 DimAgent 自动生成的每日 AI 科技新闻简报（模型发布 / 前沿研究 / 融资动态 / 政策监管）</description>
   <language>zh-cn</language>
   <atom:link href="https://liushengxian.github.io/ai-news/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 04 Sep 2026 09:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 09:00:00 +0800</lastBuildDate>
+    <item>
+      <title>中美拟首次举行AI安全高层会谈 · 2026-09-07</title>
+      <link>https://liushengxian.github.io/ai-news/report.html?date=2026-09-07</link>
+      <guid isPermaLink="false">https://liushengxian.github.io/ai-news/report.html?date=2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0800</pubDate>
+      <description><![CDATA[<p>中美拟首次举行AI安全高层会谈 —— 共 5 条新闻</p><ul><li><a href="https://www.cnbc.com/2026/09/05/us-china-gear-up-for-mid-september-ai-safety-talks-reuters.html">中美拟于 9 月中旬举行首次 AI 安全高层会谈</a><small>　· Reuters</small><br>据路透社报道，中美计划于 9 月中旬举行特朗普第二任期以来首次专门针对 AI 的双边官方会谈，美方由财长贝森特牵头，中方或由副总理何立峰带队。议程包括合作监控 AI 定向网络攻击、推动两国 AI 实验室自我监管并共享信息，以及美方对中国蒸馏美国模型能力的担忧。此次会谈被视为 9 月 24 日特朗普与习近平华盛顿峰会的重要成果之一。</li><li><a href="https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/">Mira Murati旗下Thinking Machines Lab洽谈以约400亿美元估值融资10亿美元</a><small>　· TechCrunch</small><br>前OpenAI CTO Mira Murati创立的Thinking Machines Lab正在洽谈以不低于400亿美元估值融资约10亿美元，现有股东Accel有望领投，英伟达亦考虑参投约25亿美元。该公司年化收入已超1亿美元，此轮估值低于其此前寻求的500亿美元目标；其7月刚发布开源权重模型Inkling，上一轮20亿美元种子融资曾创历史纪录。</li><li><a href="https://www.prnewswire.com/news-releases/institute-of-foundation-models-launches-the-industrys-largest-fully-open-source-fleet-of-ai-models-complete-with-weights-code-training-data-and-methodologies-302868628.html">IFM 发布 K2 Horizon：迄今最大规模全开源 AI 基础模型系列</a><small>　· Institute of Foundation Models（PR Newswire）</small><br>阿布扎比基础模型研究所（IFM，隶属 MBZUAI）发布 K2 Horizon 系列六款模型，参数从 0.9B 到 375B（375B-A23B 稀疏 MoE），并同时开源权重、代码、训练数据与方法论，号称 AI 史上最大规模的全开源模型发布。0.9B、3.7B 和 7B 模型分别在其规模档位刷新 SOTA，最小模型可运行在手表上；系列还引入扩散蒸馏并行解码（提速约 3 倍）与 MoVA 注意力架构等技术创新。</li><li><a href="https://www.reuters.com/legal/transactional/waymo-taps-pimco-blackstone-raise-3-billion-debt-bloomberg-news-reports-2026-09-02/">Waymo拟首次债务融资逾30亿美元，Pimco与黑石参与</a><small>　· Reuters</small><br>据路透社报道，Alphabet旗下自动驾驶公司Waymo已进入首次债务融资的最后谈判阶段，拟从Pimco、黑石等大型机构借入逾30亿美元，用于扩张新的美国市场。此前Waymo于2月刚完成160亿美元股权融资，投后估值达1260亿美元，为全球估值最高的自动驾驶公司。</li><li><a href="https://www.sciencedaily.com/releases/2026/09/260903064215.htm">普林斯顿团队用 AI 在毫秒级控制核聚变等离子体并预判不稳定性</a><small>　· 普林斯顿等离子体物理实验室 / ScienceDaily</small><br>美国能源部普林斯顿等离子体物理实验室（PPPL）与普林斯顿大学开发出 AI 软件框架 PACMAN，约 20 毫秒即可完成数据采集、状态预测与控制指令输出，远快于人类操作员的秒级响应。团队在 DIII-D 托卡马克上完成五次真实实验验证，其中一次在破坏性不稳定性出现前约 200 毫秒预测并阻止其形成；论文发表于《Nuclear Fusion》期刊。</li></ul>]]></description>
+    </item>
     <item>
       <title>OpenAI 最强推理旗舰 GPT-6 Astra 问世 · 2026-09-04</title>
       <link>https://liushengxian.github.io/ai-news/report.html?date=2026-09-04</link>

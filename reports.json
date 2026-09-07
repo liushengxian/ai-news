@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-09-04",
+  "updated_at": "2026-09-07",
   "reports": [
+    {
+      "date": "2026-09-07",
+      "title": "中美拟首次举行AI安全高层会谈",
+      "count": 5
+    },
     {
       "date": "2026-09-04",
       "title": "OpenAI 最强推理旗舰 GPT-6 Astra 问世",
