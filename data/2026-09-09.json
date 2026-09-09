@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-09",
+  "count": 10,
+  "headline": "OpenAI 攻克纳维-斯托克斯难题",
+  "news": [
+    {
+      "title": "OpenAI 宣称 AI 攻克千禧年难题「纳维-斯托克斯方程」",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-02842-5",
+      "date": "2026-09-08",
+      "category": "research",
+      "summary": "OpenAI 于 9 月 8 日宣布，其内部原型模型给出了纳维-斯托克斯方程存在性与光滑性问题的解，并附上论文与 Lean 形式化证明。研究团队先用 1000 个 AI 智能体在 50 小时内解决简化版本，随后投入 1 万个智能体、耗时 88 小时攻下完整问题，结论是存在初始状态正常的流体在有限时间内速度趋于无穷，暗示方程在某些情形下并非物理现实的可靠描述。若获同行验证，这将是计算机首次解决真正重大的公开数学难题。"
+    },
+    {
+      "title": "DeepMind 发布 AlphaGenome Atlas：覆盖人类基因组 90 亿个单碱基变异的预测图谱",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "date": "2026-09-08",
+      "category": "research",
+      "summary": "Google DeepMind 于 9 月 8 日推出 AlphaGenome Atlas，用 AI 预计算了人类基因组中全部约 90 亿种单碱基变异的分子效应，数据集规模达 1PB，是 AlphaFold 数据库的 30 多倍，并向学术研究者免费开放。团队同时发布 AlphaGenome 变异影响（AVI）评分，可同时覆盖编码区与非编码区，在多项致病性与罕见病变异基准上表现领先。合作方已据此在罕见病研究中定位到 DNM1 基因上一个与癫痫性脑病相关的关键变异，并实验验证了预测结果。"
+    },
+    {
+      "title": "Anthropic IPO 时间表推迟至 10 月中旬，估值或接近 2 万亿美元",
+      "source": "TechRepublic（引述路透社）",
+      "url": "https://www.techrepublic.com/article/news-anthropic-ipo-mid-october-2-trillion-valuation/",
+      "date": "2026-09-08",
+      "category": "business",
+      "summary": "据路透等媒体 9 月 8 日报道，Claude 开发商 Anthropic 的 IPO 进程推迟，预计 9 月底才公开递交招股书，路演最快 10 月中旬启动，部分投资者讨论的估值接近 2 万亿美元。公司同时正在敲定 150 亿美元循环信贷额度，摩根士丹利、高盛、摩根大通和花旗等投行参与承销，这将成为检验公开市场对头部 AI 公司估值接受度的关键一役。"
+    },
+    {
+      "title": "AI 编程公司 Cognition 完成 20 亿美元 E 轮融资，估值达 480 亿美元",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "date": "2026-09-08",
+      "category": "business",
+      "summary": "开发 AI 编程助手 Devin 的 Cognition 于 9 月 8 日宣布完成 20 亿美元 E 轮融资，投后估值达 480 亿美元，由 a16z、Accel、Founders Fund、General Catalyst 和 Avenir 联合领投。这距离其 5 月以 260 亿美元估值完成的上一轮融资仅四个月，公司年化收入已从 4.92 亿美元增长至约 9 亿美元。"
+    },
+    {
+      "title": "Mistral AI 完成 35 亿美元 D 轮融资，估值翻倍至逾 240 亿美元",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/",
+      "date": "2026-09-08",
+      "category": "business",
+      "summary": "法国大模型公司 Mistral AI 于 9 月 8 日宣布完成 35 亿美元 D 轮融资，估值近乎翻倍至超过 240 亿美元，由三星电子领投，Scaleup Europe Fund 与 PSG Equity 参与。这是欧洲私营科技公司史上规模最大的股权融资，公司自 2023 年成立以来累计融资已达 75 亿美元。"
+    },
+    {
+      "title": "高通与亚马逊达成 AI 数据中心芯片合作，采购规模最高 600 亿美元",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+      "date": "2026-09-08",
+      "category": "business",
+      "summary": "高通 9 月 8 日宣布与亚马逊 AWS 建立跨多代定制芯片的长期合作，为 AWS 的 AI 基础设施（重点面向推理场景）提供定制硅片，亚马逊可采购最高 600 亿美元的高通服务器芯片及相关产品。作为协议一部分，高通还向亚马逊发行 2500 万股认股权证，价值约 40 亿美元，此举被视为高通进军英伟达主导的数据中心市场的重要突破。"
+    },
+    {
+      "title": "OpenAI 发布 ChatGPT Images 2.5：更快生成、更精准编辑，新增 Sketch 手绘功能",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/",
+      "date": "2026-09-08",
+      "category": "model",
+      "summary": "OpenAI 于 9 月 8 日发布图像模型 ChatGPT Images 2.5，主打更细腻的细节、更自然的打光和更可靠的多轮编辑，并将图像生成延迟较 2.0 版本最多降低 50%。新版本还带来可在 ChatGPT 内直接手绘并作为生成参考的 Sketch 功能，以及模板、提示词分享等工具。API 侧同步推出 GPT-Image-2.5 Flare（默认、追求速度与高性价比）和 GPT-Image-2.5 Sunburst（面向精细编辑与商业创意工作流）两款模型。"
+    },
+    {
+      "title": "Anthropic 的 Claude 用 11 天完成费马大定理首个机器验证证明",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "date": "2026-09-04",
+      "category": "research",
+      "summary": "Anthropic 于 9 月 4 日发布成果：数十个 Claude 智能体在约 11 天内基本自主地写出了费马大定理的完整 Lean 形式化证明，产出 1300 万行代码、证明 2.95 万个中间定理，规模超过 Mathlib 五倍。该证明仅依赖 Lean 的三条标准公理，并通过比较器确认命题与 Mathlib 中的表述一致。数学家 Kevin Buzzard 称其为「非凡的自动形式化成就」，认为 AI 自动形式化的产物已足够稳健、可被后续工作继续搭建。"
+    },
+    {
+      "title": "中国最高法发布首部涉人工智能纠纷案件裁判规则",
+      "source": "新华社／人民网",
+      "url": "http://society.people.com.cn/n1/2026/0907/c1008-40794067.html",
+      "date": "2026-09-07",
+      "category": "policy",
+      "summary": "最高人民法院 9 月 7 日发布《关于依法审理涉人工智能纠纷案件的意见》，这是首部由国家最高审判机构发布的涉 AI 司法裁判规则文件。意见共 5 个部分 24 条，精准聚焦「AI 换脸拟声」、AI 幻觉侵权、网络开盒、大数据杀熟、自动驾驶、AI 模型训练、开源软件、知识产权保护等争议，明确了涉 AI 案件的实体裁判与诉讼程序规则，强调坚持发展和安全并重。"
+    },
+    {
+      "title": "联合国人权高专警告：先进 AI 或对人类构成「存续威胁」",
+      "source": "俄罗斯卫星通讯社",
+      "url": "https://sputniknews.cn/20260908/1073129409.html",
+      "date": "2026-09-08",
+      "category": "policy",
+      "summary": "联合国人权事务高级专员图尔克 9 月 8 日在联合国人权理事会第 63 届会议上警告，先进人工智能系统可能对人类构成「存续威胁」，呼吁趁现在还为时不晚，在 AI 领域建立可靠、牢固的安全保障。他表示将在未来几天向所有主要 AI 开发公司发函，要求 AI 系统所在国家及供应链参与者就遵守某些「红线」达成一致，并指出目前只有极少数人拥有对 AI「几乎不受限制的权力」。"
+    }
+  ]
+}
