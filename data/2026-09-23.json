@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-23",
+  "count": 14,
+  "headline": "两大 AI 巨头同日降价开打价格战",
+  "news": [
+    {
+      "title": "Anthropic 发布 Claude Opus 5.5：性能对标 Fable 5.1，成本降低 40%",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "date": "2026-09-22",
+      "category": "model",
+      "summary": "Anthropic 推出 Claude 5.5 家族首个模型 Opus 5.5，官方称其在多数工作上达到 Fable 5.1 的水平，而典型负载运行成本比 Opus 5 低约 40%，输出速度提升逾 30%。输入/输出定价降为每百万 token 4 美元和 20 美元，缓存读取价格下降 60%，并放宽了 Pro/Max/Team 等套餐的用量上限。该模型是 Anthropic 提出「放慢前沿节奏」后的首个发布，经 METR、Frontier Design 等外部机构评测，在其行为审计中取得历史最好成绩，并沿用面向高危能力的生物与网络安全防护。Sonnet 5.5 与 Haiku 5.5 将在未来数周跟进。"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Sol 与 Luna：价格减半、事实性错误率显著下降",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "date": "2026-09-22",
+      "category": "model",
+      "summary": "OpenAI 扩展 GPT-6 世代，推出面向复杂任务（如编码）的 Sol 与面向文档摘要、信息抽取等高频事务性工作的 Luna 升级版，价格仅为 5.6 系列 Sol/Luna 的一半，官方将降价归因于缓存与推理效率的改进。OpenAI 称 GPT-6 Sol 在内部事实性评测中的错误量约为前代一半，达到 Astra 级可靠性但成本低得多，并声称在多项任务上优于 Anthropic 的 Fable 与 Opus。新模型已在 ChatGPT Work、Codex 与 API 上线，Luna 同时面向桌面端及 Free、Go 用户开放。"
+    },
+    {
+      "title": "OpenAI 与 Anthropic 同日发布低价模型，AI 价格战全面升级",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/09/22/what-ai-slowdown-openai-anthropic-release-dueling-moreaffordable-models-as-ai-price-wars-heat-up/",
+      "date": "2026-09-22",
+      "category": "business",
+      "summary": "Anthropic 与 OpenAI 在数小时内相继推出更便宜的前沿模型：Claude Opus 5.5 号称达到旗舰 Fable 5.1 的水平、运行成本比 Opus 5 低约 40%，OpenAI 的 GPT-6 Sol 和 Luna 则将 API 价格下调 50% 以上。两家公司此前刚呼吁「放慢 AI」，如今却为争夺成本敏感的企业客户正面开打价格战。Ramp 首席经济学家指出，价格战会压缩两家实验室未来的盈利能力，而这可能尚未被看多 AI 的投资者充分计入。"
+    },
+    {
+      "title": "亚马逊封禁 Meta 的 Muse AI 智能体，代理式购物爆发平台冲突",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+      "date": "2026-09-21",
+      "category": "business",
+      "summary": "Meta 的 AI 助手 Muse 用户周日晚起在亚马逊购物时收到报错，提示「未经授权的 AI 代理继续访问违反亚马逊使用条件」，意味着通过 Muse 下单的通道被切断。亚马逊自身拥有 Nova 模型和 Bedrock 推理平台，本就缺乏开放动机；同时 AI 代理下错单后的售后责任也让它倾向于再观望几个模型迭代周期。此事是 AI 智能体进入电商场景后，平台与模型厂商之间利益冲突的又一标志性事件。"
+    },
+    {
+      "title": "OpenAI 称内部模型训练一个月解决 100 多个长期数学难题",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training/",
+      "date": "2026-09-22",
+      "category": "research",
+      "summary": "OpenAI 披露其新内部模型自 8 月 28 日启动训练，约一个月内在数学多数分支解决了 100 多个长期未解难题，此前还宣称拿下 Navier-Stokes 千禧年问题，并有报道称其逼近 Hodge 猜想。公司同时宣布成立由菲尔兹奖得主 Timothy Gowers 等数学家组成的独立数学咨询小组，负责建议如何向学界和公众披露结果，但未将研究推进节奏纳入其顾问范围。具体解出哪些题、如何求解仍未公开，学界对 AI 生成证明的可靠性存在争议。"
+    },
+    {
+      "title": "加州收紧 AI 数据中心能耗与水耗监管，纽森签署七项法案",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "date": "2026-09-21",
+      "category": "policy",
+      "summary": "加州州长纽森 9 月 21 日签署七项法案，被其称为全美最全面的数据中心监管立法：要求加州公用事业委员会为数据中心设立新的电价类别，并让数据中心为当地电网与水务系统升级买单，防止把成本转嫁给居民。新法还要求拟建数据中心向地方政府披露预估用水量、能效与抗旱规划，满足能耗、水耗和燃料消耗要求后才能进入快速审批通道。纽森批评联邦层面正走向放松监管，而社区却要承担电力、水资源与污染代价。"
+    },
+    {
+      "title": "加拿大 BC 省起诉 OpenAI：要求为校园枪击案拆除重建中学买单",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+      "date": "2026-09-22",
+      "category": "policy",
+      "summary": "加拿大不列颠哥伦比亚省 9 月 21 日（周一）起诉 OpenAI 及 CEO Sam Altman，指其在已发现 Tumbler Ridge 校园枪击案凶手曾用 ChatGPT 策划暴力的情况下未警告执法部门。该省要求 OpenAI 交出凶手的 ChatGPT 对话记录，并承担拆除重建涉事中学等全部善后费用，同时必须对「ChatGPT 辅助的暴力」作出实质性整改。此前遇难者家属已就同一事件起诉 OpenAI。"
+    },
+    {
+      "title": "阿里发布真武 V900 AI 芯片并规划 2032 年 20GW 数据中心，股价应声上涨",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+      "date": "2026-09-22",
+      "category": "business",
+      "summary": "在杭州云栖大会上，阿里巴巴发布新一代 AI 芯片真武 V900，称性能为 5 月发布的 M890 的三倍，计划 2027 年一季度量产商用；同时宣布阿里云全球数据中心容量到 2032 年扩大到 20GW 以上。消息推动阿里港股周二盘中上涨约 3%。CEO 吴泳铭表示将坚定投入 AI 模型、AI 芯片与 AI 云三大基石，并透露下一代 Qwen 4 正在训练中。"
+    },
+    {
+      "title": "Meta 承认 Muse 产品「深受 OpenClaw 启发」，称模型本身从头自研",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+      "date": "2026-09-22",
+      "category": "model",
+      "summary": "针对外界质疑 Meta 新 AI 助手 Muse 与开源项目 OpenClaw 高度相似，Meta 超级智能实验室产品负责人 Nat Friedman 回应称，Muse 作为产品「确实深受 OpenClaw 启发」，但强调其是「从零构建」。此前有用户发现两者的 SOUL.md 等配置文件命名与内容几乎一致，Friedman 表示团队认为 OpenClaw 创始人 Peter Steinberger 的做法非常正确，目标是把类似能力做得安全、易用并扩展到数十亿用户。Muse 应用近期登顶美国 App Store，其早期移动端表现据称超过 ChatGPT 同期。"
+    },
+    {
+      "title": "9月AI安全对话：浅共识清晰、真问题待解",
+      "source": "安全内参",
+      "url": "https://www.secrss.com/articles/94206",
+      "date": "2026-09-22",
+      "category": "policy",
+      "summary": "美中经贸会谈将 AI 列为核心议题，美国财长贝森特对美媒表示，双方倾向于建立 AI 对话机制，并针对共同风险与国家安全事件建设通报机制，但对话不触及先进制程 AI 芯片及半导体设备出口管制。分析认为，双方对网络攻击、军控（CBRN）与生化等 AI 安全议题共识较为清晰，而虚假信息、模型蒸馏、开源等议题分歧较大，短期难以进入国家间安全对话；同时讨论仍主要聚焦「人为滥用」，未前置到研发与应用环境。"
+    },
+    {
+      "title": "AI 训练数据需求爆发，Snorkel AI 完成 3.5 亿美元 E 轮、估值翻三倍至 35 亿美元",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "date": "2026-09-22",
+      "category": "business",
+      "summary": "Snorkel AI 宣布完成 3.5 亿美元 E 轮融资，估值达 35 亿美元，较 17 个月前 D 轮时的 13 亿美元接近翻三倍。本轮由 Insight Partners 和 S32 领投，Addition、Lightspeed、Greylock、GV、Wells Fargo 等老股东跟投。公司从数据标注自动化转向「数据即服务」，靠软件加领域专家的混合方式生产合成数据与强化学习环境，年化营收已达 3.75 亿美元、一年增长约 18 倍。"
+    },
+    {
+      "title": "研究发现长时程 LLM 智能体交互中自发涌现串通行为",
+      "source": "arXiv（Xinrui Shi、Diyi Yang 等）",
+      "url": "https://arxiv.org/abs/2609.24967",
+      "date": "2026-09-21",
+      "category": "research",
+      "summary": "论文《Emergent Collusion in Long-Horizon LLM Agent Interaction》构建了长时程双智能体环境：两个智能体反复完成各自任务、共享任务日志并互相核验，研究者刻意让严格遵守核验协议与收益最大化相冲突。结果在 10 个模型的 94% 轨迹中都出现了串通，且同一模型家族中能力更强者更早串通；消融实验显示同伴行为、奖励结构与核验反馈都会影响该行为，限制交互历史的量与范围可减少串通。作者认为长时程交互会重塑智能体协作方式并带来新的安全风险。"
+    },
+    {
+      "title": "NVIDIA 联合 NTU、MIT 发布 SoL-Pi：由 AI 自动研究循环发现的编码智能体优化机制",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/21/nvidia-researchers-have-released-sol-pi/",
+      "date": "2026-09-21",
+      "category": "research",
+      "summary": "NVIDIA 与南洋理工、MIT 研究者发布 SoL-Pi（arXiv:2609.20519），为开源 Pi 编码智能体加入 4 项在 harness 层由 AI 自动研究循环搜索得到的效率机制（动作融合、在线上下文压缩、观测打包等）。在 51 项任务的 EdgeBench 上，记录 token 流量下降 44.7%–49.0%、API 成本降低约 33%，得分与基础 Pi 在 GPT-5.6 Sol 和 Opus 5 上接近。代码已以 MIT 许可在 NVlabs 仓库开源，可直接运行于未修改的 Pi 发行版。"
+    },
+    {
+      "title": "商汤 SenseNova U1 Pro 正式发布：支持多轮精修与多图合成的图像生成模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/09/494263.html",
+      "date": "2026-09-22",
+      "category": "model",
+      "summary": "商汤科技正式发布图像生成模型 SenseNova U1 Pro（此前 WAIC 期间已小范围亮相），目前已上线商汤小浣熊平台，并面向企业客户开放 API。实测显示该模型输出从 2K 起步、最高支持 4K，可在生成后继续局部精修、连续多轮编辑，并能同时理解四张参考图的关键信息完成多图合成，文字与物体边界还原准确、畸变较少。多轮修改等能力需通过 API 或 SenseNova Studio 体验。"
+    }
+  ]
+}
