@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-09-25",
+  "updated_at": "2026-10-12",
   "reports": [
+    {
+      "date": "2026-10-12",
+      "title": "OpenAI 公开 722 篇数学手稿",
+      "count": 14
+    },
     {
       "date": "2026-09-25",
       "title": "Claude 自主发现新型酶系统",
