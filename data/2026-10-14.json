@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-14",
+  "count": 13,
+  "headline": "谷歌旗舰 Gemini 4 全面开放",
+  "news": [
+    {
+      "title": "谷歌将旗舰模型 Gemini 4 Argon 全面开放，推出限时低价",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token",
+      "date": "2026-10-13",
+      "category": "model",
+      "summary": "谷歌于 10 月 13 日将旗舰多模态模型 Gemini 4 Argon 面向开发者与企业全面开放，此前仅限网络安全测试项目 Fairwind 参与者使用。该模型通过 Gemini API、Google AI Studio、Antigravity 开发环境及 Gemini 企业版提供，并推出每百万输入/输出 token 2 美元与 10 美元的限时优惠价。谷歌称内部已有超 10 万名员工通过 Antigravity 使用该模型，四周内智能体代码提交量提升 35%、代码回滚减少 30%。"
+    },
+    {
+      "title": "Meta 发布首款前沿模型 Muse Wonder 与 Muse Wonder Full",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "date": "2026-10-12",
+      "category": "model",
+      "summary": "Meta 旗下超级智能实验室于 10 月 12 日发布其首款前沿模型 Muse Wonder 与 Muse Wonder Full，官方称两者在编码等复杂任务上的基准成绩可对标 Claude Fable 5.1 和 GPT-6 Astra。模型通过 Meta Model API 对外提供，Wonder 定价为每百万输入/输出 token 4 美元与 20 美元，Wonder Full 仅向 Muse Code 订阅用户开放。两者主打被称为 Active Memory 的长期记忆能力，并将用于驱动 Meta 的 Muse 智能体。"
+    },
+    {
+      "title": "DeepSeek 第二轮融资规模翻倍至约1000亿元，投前估值约5000亿元",
+      "source": "36氪（援引《财经》）",
+      "url": "https://m.36kr.com/p/4024052021776517",
+      "date": "2026-10-13",
+      "category": "business",
+      "summary": "据《财经》报道，大模型公司 DeepSeek 的第二轮融资规模从此前计划的500亿元增至约1000亿元，投前估值仍约5000亿元；新老股东拟投资金额各占约一半。本轮由腾讯和宁德时代联合领投，宁德时代拟增资约100亿元，新进投资方包括石溪资本、中芯聚源、CPE源峰、君联资本、吉利等，以产业资本为主。"
+    },
+    {
+      "title": "微软发布决策模型 Microsoft-Decision-1",
+      "source": "Microsoft",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "date": "2026-10-09",
+      "category": "model",
+      "summary": "微软于 10 月 9 日发布面向快速决策场景的新模型 Microsoft-Decision-1，专用于路由、分类、优先级排序、验证与工作流控制，而非生成式对话。该模型已在 Microsoft Foundry 上线，微软称其在速度与准确率测试中优于同类方案，是继大语言模型、智能体之后兴起的决策模型新品类。"
+    },
+    {
+      "title": "Sakana AI 发布 MASS 方法：单一27B模型实现递归自我改进",
+      "source": "Sakana AI",
+      "url": "https://pub.sakana.ai/mass/",
+      "date": "2026-10-12",
+      "category": "research",
+      "summary": "Sakana AI 发布 MASS（多智能体自我监督）方法，让同一个开源 27B 模型 Qwen3.6-27B 同时扮演任务求解、工作流优化与自我评估三种角色，无需外部监督即可循环迭代改进。论文报告单位输出 token 得分在 MLR-Bench 等科研基准上达基线的 1.2–1.6 倍，两轮后对基线的胜率为 69.9%，但编码类基准 SWE-bench Verified 反降至 0.94 倍。作者指出同质循环中的共享盲点可能让错误结果被误当作进步，是递归自我改进的“阿喀琉斯之踵”。"
+    },
+    {
+      "title": "Anthropic 公布蒸馏防御措施，称可削减90-99%推理数据窃取",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "date": "2026-10-12",
+      "category": "research",
+      "summary": "Anthropic 于10月12日发布研究文章，称通过“保留思考”（preserved thinking）等机制，已将其模型推理轨迹被蒸馏窃取的量降低 90-99%。文章披露，用 Claude 完整推理日志蒸馏出的模型在 SWE-bench Verified 上达 80.4%，而仅用摘要推理仅为 71.8%，量化了推理轨迹的价值。Anthropic 点名智谱 GLM-5.3 与 Moonshot Kimi 蒸馏其能力，称已封禁数万个账号，但该数据尚未经第三方验证。"
+    },
+    {
+      "title": "西班牙数据保护局收到首例由 AI 智能体实施的数据泄露通报",
+      "source": "DLA Piper（涉及西班牙 AEPD）",
+      "url": "https://www.dlapiper.com/en-us/insights/publications/innovation-law-insights/2026/innovation-law-insights-13-october-2026",
+      "date": "2026-10-13",
+      "category": "policy",
+      "summary": "西班牙数据保护局（AEPD）通报，收到该国首例由 AI 智能体自主实施攻击触发的个人数据泄露通知：该智能体自主在文件中扫描漏洞、获取系统访问权限，进而篡改个人数据并读取发票。律师指出，这一“首次”把 AI 驱动的网络攻击与 GDPR 72 小时通报义务、NIS2、DORA 等多重监管响应交织在一起，企业需更早启动法律评估并落实最小权限管控。"
+    },
+    {
+      "title": "白宫撤销限制，英国 AI 安全研究院重新获得前沿模型预发布访问权",
+      "source": "路透社（Reuters）",
+      "url": "https://www.reuters.com/legal/litigation/uk-given-access-safety-test-latest-ai-models-minister-says-2026-10-12/",
+      "date": "2026-10-12",
+      "category": "policy",
+      "summary": "白宫撤销了 9 月下达的限制令，英国 AI 安全研究院（AISI）重新获得 Anthropic、Google DeepMind 和 OpenAI 最新模型的预发布访问权，可在模型上线前进行安全测试。此前该限制曾促使 Anthropic 收紧对新模型的共享。解禁是在英国 AI 大臣 Kanishka Narayan 的外交斡旋后实现的，他计划发表演讲推出更严格的关键基础设施 AI 安全事件报告要求。"
+    },
+    {
+      "title": "IMF 警告 AI 市场回调或引发全球金融动荡",
+      "source": "路透社 / IMF",
+      "url": "https://www.reuters.com/business/finance/imf-cites-ai-slowdown-spiking-yields-looming-global-market-risks-2026-10-13/",
+      "date": "2026-10-13",
+      "category": "business",
+      "summary": "IMF 在最新《全球金融稳定报告》中将 AI 相关市场回调列为全球金融体系面临的三大风险之一，另两项为主权债券收益率飙升与网络攻击，并警告「AI 回调的后果可能波及全球」，呼吁政策制定者限制杠杆使用。与此同时，IMF 将2026年全球经济增长预期从7月的3.0%上调至3.1%，认为 AI 基础设施投资热潮是重要的支撑动力。"
+    },
+    {
+      "title": "丘成桐牵头成立数学与人工智能实验室联盟，自主研发中国数学专用大模型",
+      "source": "联合早报",
+      "url": "https://www.zaobao.com.sg/news/china/story20261012-9821517",
+      "date": "2026-10-11",
+      "category": "research",
+      "summary": "菲尔兹奖得主、清华大学讲席教授丘成桐于10月11日在清华大学牵头成立“丘成桐数学与人工智能实验室联盟”，联合求真书院、丘成桐数学科学中心、北京雁栖湖应用数学研究院、中科院晨兴数学中心等8家一流机构，集结逾1000名数学家。联盟将自主研发中国数学科学专用大模型、建设AI辅助数学研究的基础设施，推动数学与AI双向赋能。丘成桐称AI对数学的冲击“像海啸来了”，主张主动冲浪而非回避。"
+    },
+    {
+      "title": "绳驱AI机器人公司星尘智能完成10亿元新一轮融资，估值达150亿元",
+      "source": "中国证券报·中证网",
+      "url": "http://finance.eastmoney.com/a/202610133894111559.html",
+      "date": "2026-10-13",
+      "category": "business",
+      "summary": "量产绳驱AI机器人公司星尘智能完成10亿元规模新一轮融资，公司估值达150亿元，本轮由投控东海（深投控）领投，洪泰基金、光华阳光旗下基金、善恒资本等参与，老股东先沐追投。这是公司近半年内完成的第4轮融资，3个月内估值从百亿元升至150亿元，资金将用于模型迭代、人才扩充、产能建设及商业化落地。"
+    },
+    {
+      "title": "Salesforce 签署最终协议收购 AI 分析平台 Loops，加码智能体分析",
+      "source": "Salesforce（官方）/ 财联社",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/",
+      "date": "2026-10-12",
+      "category": "business",
+      "summary": "Salesforce 宣布已签署最终协议收购 AI 分析平台 Loops，交易金额未披露。Loops 利用机器学习模型持续监测业务表现、解释关键指标变化，并可被 Slack、邮件直接触发；收购完成后其技术与团队将并入 Tableau，用于推进 Salesforce 的 agentic analytics（智能体分析）战略，交易预计在其2027财年11月初完成。"
+    },
+    {
+      "title": "微软总裁 Brad Smith 呼吁全球 AI 监管：称 AI 面临的安全规则比牛奶还少",
+      "source": "BBC（福克斯商业报道）",
+      "url": "https://www.foxbusiness.com/technology/microsoft-president-says-ai-faces-fewer-safety-rules-than-milk-call-global-regulation",
+      "date": "2026-10-12",
+      "category": "policy",
+      "summary": "微软总裁 Brad Smith 在 BBC 采访中批评 AI 受到的安全监管比牛奶、洗衣机等普通商品还少，呼吁建立一套全球统一的 AI 安全规则。他主张以立法要求企业在 AI 失控时提交事件报告，并赋予开发者“紧急刹车／急停开关”，同时认为英国可借 AI 安全研究院在规则制定上发挥主导作用。"
+    }
+  ]
+}
