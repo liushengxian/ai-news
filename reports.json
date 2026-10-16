@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-16",
   "reports": [
+    {
+      "date": "2026-10-16",
+      "title": "Anthropic 冲刺史上最大 IPO",
+      "count": 12
+    },
     {
       "date": "2026-10-14",
       "title": "谷歌旗舰 Gemini 4 全面开放",
