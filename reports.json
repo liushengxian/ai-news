@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-19",
   "reports": [
+    {
+      "date": "2026-10-19",
+      "title": "DeepSeek 开源 V4.1 新检查点",
+      "count": 12
+    },
     {
       "date": "2026-10-16",
       "title": "Anthropic 冲刺史上最大 IPO",
