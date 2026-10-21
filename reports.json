@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-21",
   "reports": [
+    {
+      "date": "2026-10-21",
+      "title": "Anthropic 招股书曝半年巨亏",
+      "count": 10
+    },
     {
       "date": "2026-10-19",
       "title": "DeepSeek 开源 V4.1 新检查点",
