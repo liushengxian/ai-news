@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-23",
   "reports": [
+    {
+      "date": "2026-10-23",
+      "title": "微软AI诊断准确率超医生四倍",
+      "count": 13
+    },
     {
       "date": "2026-10-21",
       "title": "Anthropic 招股书曝半年巨亏",
