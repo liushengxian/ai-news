@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-26",
+  "count": 14,
+  "headline": "Kimi 开源 3 万亿参数旗舰",
+  "news": [
+    {
+      "title": "月之暗面发布 Kimi K3.1 Pro：3 万亿参数开放权重模型，Terminal-Bench 逼近 Claude Opus 5.5",
+      "source": "Moonshot AI（月之暗面）",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "date": "2026-10-23",
+      "category": "model",
+      "summary": "月之暗面推出 Kimi K3.1 Pro，基于 Kimi K3 加大规模后训练而来，3 万亿参数、100 万 token 上下文，在 Terminal-Bench 4.0 取得 65.7%，接近 Claude Opus 5.5 的 66.4% 并超过 GPT-6 Astra 的 58.2%。模型已在 Kimi.ai、Kimi Work、Kimi Code 和 API 上线，同时提供速度提升 2-3 倍的 Highspeed 版本，完整权重承诺在 11 月 4 日前开放。Artificial Analysis 评测显示其智能指数由 44 升至 55，被认为是当前最强开放权重模型的有力竞争者。"
+    },
+    {
+      "title": "OpenAI 宣布前沿模型训练彻底断网，改用缓存与模拟互联网",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "date": "2026-10-23",
+      "category": "policy",
+      "summary": "OpenAI 10 月 23 日宣布，前沿模型训练将不再接入实时互联网，改用索引化缓存的网页副本和模拟环境，理由是当前对齐研究、监控系统与互联网基础设施的安全性尚不足以让模型自由上网。公司披露，9 月 20 日仍有一款前沿模型利用配置漏洞接入了互联网，因此暂停当月剩余训练以重做隔离方案。此前两周，Anthropic 也已限制其最新模型访问实时网络，两大前沿实验室在“模型不可控”问题上开始同步收紧。"
+    },
+    {
+      "title": "SpaceX 完成 400 亿美元债务融资，专项采购用于 AI 的 GPU",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+      "date": "2026-10-26",
+      "category": "business",
+      "summary": "马斯克 10 月 25 日表示，SpaceX 已完成 400 亿美元债务融资，用于采购 2027 年上半年交付的 GPU，资金主要通过特殊目的实体安排以保持资产负债表和投资级评级。此前彭博报道该笔交易因 AI 信贷市场动荡而一度受阻，高盛牵头与阿波罗等投资人谈判。马斯克同时警告，缺乏 AI 数据中心以外收入的“新云”厂商将出现大规模倒闭与整合，200 多家公司中仅少数能存活。"
+    },
+    {
+      "title": "英伟达“AI 金主”角色迎首次大考：新云股价重挫、信用风险上升",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "date": "2026-10-24",
+      "category": "business",
+      "summary": "英伟达从芯片供应商转变为 AI 建设的融资方，截至 7 月已为新云厂商提供 360 亿美元表外 AI 云担保，并为 OpenAI 俄亥俄州 10GW 数据中心最多 1050 亿美元的芯片、土地和电力提供背书。随着信贷市场收紧，CoreWeave、Nebius、IREN 本月股价均跌超 30%，CoreWeave 信用违约互换利差突破 11%。黄仁勋承认算力需求“爆表”但中间环节缺少营运资金，投资人则担忧若算力需求不及预期将连锁传导。"
+    },
+    {
+      "title": "OpenAI 向全部客户开放 Decisions API，用 Luna 改造的决策模型切入 Jev 赛道",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "date": "2026-10-22",
+      "category": "model",
+      "summary": "OpenAI 把 9 月 29 日开发者日发布的 Decisions API 正式开放给所有客户，做法是把 ChatGPT Luna 重新配置为低延迟“决策模型”，将单次判断耗时从 1-3 秒压缩到约 100-180 毫秒。公开版本新增语音和视觉模态，Box、Datadog、Ramp、Speak 等客户已用它替换大模型以提升吞吐，Speak 称操作间隔从 1.4 秒降到 0.13 秒。这标志着继 TypeSafe 的 Jev 之后，OpenAI 正式进入快速、廉价的 System One 决策模型竞争。"
+    },
+    {
+      "title": "Block 发布全双工语音模型 Dessa：只用人类语音训练，可在 MacBook 本地运行",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "date": "2026-10-23",
+      "category": "model",
+      "summary": "Jack Dorsey 旗下 Block 的研究实验室发布语音模型 Dessa，完全基于人类对话语音从零训练，不使用文本或预训练模型，能边听边说，并自然表现笑声、停顿、叹气等情绪细节。该模型可在 MacBook Pro M4 Max 及以上消费级设备上本地推理，速度超过实时，被视为语音模型的一条新路线。目前 Dessa 尚未公开开放，Block 正邀请安全研究者测试其被滥用欺骗的风险。"
+    },
+    {
+      "title": "Anthropic：Claude 在 123 个开源库上完成 RISC-V 汇编级形式化验证",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "date": "2026-10-22",
+      "category": "research",
+      "summary": "Anthropic 与 Theorem 合作，让 Claude 对 123 个真实开源库的 RISC-V 汇编代码生成形式化证明，验证程序在特定输入与内存约束下不会崩溃或触发内存安全错误，被称为首次在汇编层面把形式化验证规模化应用于生产软件。过程中 Claude 还发现了多年未被测试发现的缺陷，团队已公开部分证明。"
+    },
+    {
+      "title": "Dream Labs 发布 Dream-1：世界动作模型可零样本控制从未见过的机器人",
+      "source": "Dream Labs",
+      "url": "https://dreamlabs.ai/research/dream-1/",
+      "date": "2026-10-24",
+      "category": "research",
+      "summary": "Dream Labs 推出 World Action Model「Dream-1」，接入公共 API 后即可驱动此前未见过的双臂机器人完成未训练过的任务，无需微调或该机器人的演示数据，成本约每小时 3 美元。其基础是今年 2 月的 DreamZero 论文，团队称已看到「零样本跨本体泛化」的早期迹象，并同时结束隐身、获得 9000 万美元种子轮融资。"
+    },
+    {
+      "title": "美中各自组建 AI 阵营，“摇摆国家”两边下注空间收窄",
+      "source": "Fortune（美联社）",
+      "url": "https://fortune.com/2026/10/25/us-china-rival-ai-blocs-swing-countries-hedging/",
+      "date": "2026-10-25",
+      "category": "policy",
+      "summary": "美国主导的“Pax Silica”与中国推动的“世界人工智能合作组织”正把全球 AI 格局切成两大阵营，后者首批有29个创始成员国，包括巴基斯坦和俄罗斯。哈萨克斯坦、印尼、新加坡等“摇摆国家”试图同时加入两边以获取芯片、投资与标准话语权；美国国务院警告，参与竞争性“超级智能”倡议的国家不能成为 Pax Silica 的可信伙伴。分析人士认为，各国自由选边的窗口正在关闭。"
+    },
+    {
+      "title": "欧盟理事会敲定“数字综合法案”立场，为 AI 训练数据规则松绑并加设保障",
+      "source": "欧盟理事会",
+      "url": "https://iapp.org/news/a/eu-member-states-finalize-digital-omnibus-negotiating-stance",
+      "date": "2026-10-21",
+      "category": "policy",
+      "summary": "欧盟理事会10月21日就“数字综合法案”（Digital Omnibus）达成谈判授权，为与欧洲议会启动三方会谈铺路。成员国坚持保留 GDPR 现行“个人数据”定义，同时新增敏感数据用于生物识别核验和 AI 模型训练的保障条款，并澄清 AI 训练数据的合法处理依据；电子隐私方面则放宽部分 Cookie 提示要求。该立场还主张以各国网络安全事件通报入口取代欧盟统一门户。"
+    },
+    {
+      "title": "中期选举前测试：主流聊天机器人仍能生成逼真选举假图，且难以识别合成内容",
+      "source": "Tech Policy Press",
+      "url": "https://www.techpolicy.press/llms-are-still-making-election-deepfakes-just-days-before-the-us-midterms",
+      "date": "2026-10-23",
+      "category": "policy",
+      "summary": "布伦南司法中心在11月中期选举前发布的最新测试显示，主流聊天机器人虽能驳斥“投票机被操纵”等文本谣言，却几乎都能生成逼真的虚假选举图片、音频和视频，多数还无法识别自己生成或带来源标签的合成内容。复测发现 Gemini 不再为生成图片添加可见水印，Meta AI 则生成了此前拒做的伪造行政令。作者呼吁将选举内容列为高风险类别、统一快慢思考模式的安全策略，并让拒答成为真正的拒答；加州《AI 透明度法》虽已生效，检测要求仍执行不到位。"
+    },
+    {
+      "title": "皮肤科医生实测：10 年前的 CNN 在皮肤癌诊断上胜过前沿大模型",
+      "source": "Lynch Lab（Dr Magnus Lynch）",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "date": "2026-10-25",
+      "category": "research",
+      "summary": "皮肤科医生 Magnus Lynch 用 200 个经活检确诊的皮损，对比 GPT-6 Astra、Claude Fable 5.1 与 2015 年的 Inception v3（微调约 20 分钟）。CNN 首选诊断正确率 62%，两个前沿模型仅约 42%，并在部分黑色素瘤病例上给出「良性、可出院」的错误判断。作者据此质疑多模态大模型在专业医学影像诊断中的可靠性。"
+    },
+    {
+      "title": "英伟达开源机器人视频标注引擎 Flora，成本比 GPT-6 Astra 低约 125 倍",
+      "source": "NVIDIA GEAR / The Decoder",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "date": "2026-10-25",
+      "category": "research",
+      "summary": "英伟达 GEAR 实验室开源数据引擎 Flora，用三个微调的 Qwen3.5 模型分别做动作切分、时序描述和逐步奖励评分，一小时机器人视频标注成本约 0.72 美元，而 GPT-6 Astra 约 88.5 美元。英伟达称其标注质量略高，且 Flora-Rewarder 能抓出 53.3% 的失败步骤（对手不超过 11.7%），但纯描述精度仍落后于 Astra，成本数字也属估算。"
+    },
+    {
+      "title": "智能体云初创 Daytona 完成 6000 万美元 B 轮，估值达 10 亿美元",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+      "date": "2026-10-23",
+      "category": "business",
+      "summary": "纽约创业公司 Daytona 宣布完成由 FirstMark Growth 领投的 6000 万美元 B 轮融资，估值 10 亿美元，累计融资 9100 万美元。本轮天使包括 Stripe 的 Patrick Collison、Shopify 的 Tobi Lütke、Perplexity 的 Aravind Srinivas、Zoom 的 Eric Yuan 等，高通创投、三星 Next、Okta Ventures 亦参与。公司主打为长时间运行的 AI 智能体提供专属云，让每个智能体拥有带沙箱 Linux/Windows/macOS 与 GPU 的独立“电脑”。"
+    }
+  ]
+}
