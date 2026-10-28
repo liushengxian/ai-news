@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-28",
   "reports": [
+    {
+      "date": "2026-10-28",
+      "title": "OpenAI 称模型推翻指数时间假设",
+      "count": 14
+    },
     {
       "date": "2026-10-26",
       "title": "Kimi 开源 3 万亿参数旗舰",
