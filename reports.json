@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-30",
   "reports": [
+    {
+      "date": "2026-10-30",
+      "title": "谷歌 Gemini 4 重夺基准榜首",
+      "count": 11
+    },
     {
       "date": "2026-10-28",
       "title": "OpenAI 称模型推翻指数时间假设",
