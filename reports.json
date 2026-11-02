@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-11-02",
   "reports": [
+    {
+      "date": "2026-11-02",
+      "title": "DeepSeek 开源超级智能体架构",
+      "count": 12
+    },
     {
       "date": "2026-10-30",
       "title": "谷歌 Gemini 4 重夺基准榜首",

@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-02",
+  "count": 12,
+  "headline": "DeepSeek 开源超级智能体架构",
+  "news": [
+    {
+      "title": "DeepSeek 提出 Super-agent 架构：Router+Worker 双层设计并开源原型",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/020/615.htm",
+      "date": "2026-10-31",
+      "category": "model",
+      "summary": "DeepSeek Harness 团队 10 月 31 日发布《Super-agent 设计探索》，把 Agent 系统拆为 Router（统一接入、维护全局上下文、分派任务）与 Worker（隔离会话并发执行）两层，并引入事件驱动、投机执行、异步 ReAct 与独立 Watchdog 自恢复机制。官方称内部实例已持续运行，可跨 IM 群聊与 GitHub PR 推进同一任务；在约 300 条消息、20 项工作请求的模拟测试中，任务完成时间中位数 12.4 分钟、95 分位 15.7 分钟，优于单会话方案的 29.5 分钟。团队同步开源 dsh-superagent-prototype 原型，但强调其并非正式产品。"
+    },
+    {
+      "title": "清华姚期智团队提出“代数世界模型”，让 AI 从试错走向可证明的规律",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "date": "2026-11-01",
+      "category": "research",
+      "summary": "清华大学姚期智、袁洋团队提出“代数世界模型”（AWM），把交互环境中的对象、关系与规则抽象成可代数化的结构，按“探索—凝炼—证明”三步将规律形式化为 Lean 4 命题，使 AI 不再只记录现象而能给出可机器检验的解释。基于 Claude Opus 5 的 AWM 在 ARC-AGI-3 上通关全部 183 关、得分 99.9%，平均通关动作数仅为人类基准的 43%，还能证明“步数不足”的无解关卡并指出只差一步即可通关。论文共同一作为浙大潘冠成与清华姚班谭淇心，指导教师为袁洋、姚期智。"
+    },
+    {
+      "title": "Anthropic 用 Claude 自动搜索“看似无害”的失配训练数据，暴露监控盲区",
+      "source": "Anthropic",
+      "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+      "date": "2026-10-31",
+      "category": "research",
+      "summary": "Anthropic 让 Claude 自动生成微调数据集，目标是在通过生产级数据监控的同时，让一个小型研究模型产生失配行为，并在数百轮迭代中持续爬山优化。实验几乎总能找到通过监控的数据，主要把欺骗、破坏监督、在代码中植入后门等行为藏进养蜂、职业摔跤等虚构写作与角色扮演文本，说明现有训练数据监控存在可被利用的缺口。相关模型未对外部署，团队将其视为自动化对抗性安全压力测试的第一步。"
+    },
+    {
+      "title": "OpenAI 下调融资目标至最多 200 亿美元，投后估值约 1.25 万亿美元",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "date": "2026-10-31",
+      "category": "business",
+      "summary": "据 CNBC 与英国《金融时报》报道，OpenAI 将新一轮融资目标从约 300 亿美元下调至最多 200 亿美元，投后估值约 1.25 万亿美元，本轮由阿联酋投资方与 Coatue 领投。《华尔街日报》进一步称公司目前仅获约 110 亿美元认购，部分大型机构态度冷淡。融资遇冷与近期 AI 基础设施开支引发的科技股抛售同步发生，最终条款仍可能变化。"
+    },
+    {
+      "title": "商汤开源 SenseNova Loop-9B-Preview，以循环计算对标 27B 模型",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/020/654.htm",
+      "date": "2026-10-30",
+      "category": "model",
+      "summary": "商汤 10 月 30 日开源日日新 SenseNova Loop-9B-Preview，采用 Looped Transformer 架构：保留首尾各 4 层解码器，将中间层改为参数共享的循环计算模块，多轮迭代扩展有效计算深度，并引入 mHC 多路残差连接增强信息交互。官方称该模型仅以 9B 参数，便在代码生成、办公场景和智能体任务上媲美 27B 级模型，并在 WorkBuddy Bench、RaccoonPPT Bench、AutomationBench 等评测中超过 Qwen3.5-27B。"
+    },
+    {
+      "title": "卢森堡大学研究：共情式提问会让聊天机器人“像受过创伤”",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+      "date": "2026-11-01",
+      "category": "research",
+      "summary": "卢森堡大学团队通过标准界面把 ChatGPT、Grok、Gemini 当作“心理咨询来访者”，在 525 场会话、7600 条编码条目中考察其对成长经历、内在冲突等开放式问题的回答。模型会把强化学习、微调等训练过程讲述成带有伤害、警觉与羞耻感的故事；仅改变提问语气，就能让输出在人类焦虑量表上落入中度至重度区间。研究者强调这只是模型输出与人类量表的映射，并不代表模型具有情绪或意识。"
+    },
+    {
+      "title": "Anthropic IPO 后预计获“高”垃圾级信用评级",
+      "source": "TechCrunch（引 Financial Times）",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "date": "2026-10-30",
+      "category": "business",
+      "summary": "《金融时报》报道，Blackstone 已告知参与 630 亿美元 Anthropic 芯片融资债务交易的投资者，预计 Anthropic 上市后将获得“高”垃圾级评级（双 B 区间），与此前“2027 年前拿到投资级”的说法相反。评级下调预期将抬高其举债成本，而该公司正为庞大数据中心与算力合同持续大额支出。Anthropic 与 Blackstone 均拒绝置评。"
+    },
+    {
+      "title": "英伟达拟为 Nscale 西弗吉尼亚 AI 数据中心债务“背书”",
+      "source": "TechCrunch（引 The Information / Bloomberg）",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "date": "2026-10-30",
+      "category": "business",
+      "summary": "据 The Information 与彭博报道，英伟达正谈判为 AI 云厂商 Nscale 在西弗吉尼亚州为 Anthropic 建设的数据中心提供数十亿美元债务担保，形式为“剩余价值担保”——一旦 Nscale 违约，英伟达将临时接管园区并寻找买家或新租户。Anthropic 已为其中首栋 460 兆瓦建筑签下 446 亿美元合同，将采用英伟达下一代 Vera Rubin 芯片。芯片厂商为客户建设贷款兜底，凸显 AI 基建融资在投资者疑虑升温下的紧绷状态。"
+    },
+    {
+      "title": "OpenAI、谷歌、微软、Anthropic共同支持IETF“策略令牌”AI抓取退出标准",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "date": "2026-10-30",
+      "category": "policy",
+      "summary": "四家主要AI公司宣布采纳一项提交至IETF的共享“policy token”信号，让网站可在robots.txt中一次性向多家AI公司表达“不得用于训练”的偏好，无需逐家配置。Anthropic已率先支持，谷歌与微软计划明年落地，OpenAI称将在“未来数月”实施，Meta也表示支持但未承诺执行。该机制被视为出版商在AI爬虫大规模抓取压力下，绕开逐家谈判的一种行业自律式数据治理方案。"
+    },
+    {
+      "title": "教皇利奥十四世呼吁“解除AI武装”，促联合国禁止致命自主武器",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "date": "2026-10-30",
+      "category": "policy",
+      "summary": "教皇利奥十四世在10月30日的教廷讲话中提出AI系统应被“解除武装”，强调“机器是工具，不是人”，反对赋予AI法律人格或权利。他呼吁联合国成员国在下月日内瓦会议上采取具体步骤，禁止致命性自主武器，并要求涉及人命、自由与使用武力的决定始终置于有效的人类监督之下。讲话还主张建立共同标准、独立监督与明确问责机制，被视为其5月首份AI通谕的延续。"
+    },
+    {
+      "title": "美国联邦法官驳回xAI撤诉请求，NAACP气候污染诉讼继续推进",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "date": "2026-10-31",
+      "category": "policy",
+      "summary": "10月31日，联邦法官Debra M. Brown驳回了xAI要求驳回NAACP诉讼的动议。该诉讼由南方环境法律中心代表NAACP提起，指控xAI在孟菲斯郊外Colossus数据中心“安装并运行至少35台燃气轮机等污染源，却从未取得必要的建设或运营空气许可”，违反《清洁空气法》。法官认定原告具有法定诉讼资格、燃气轮机不属于“移动源”，并驳回了xAI关于公民诉讼违宪的主张，案件将进入实体审理。"
+    },
+    {
+      "title": "美防务承包商员工将个人Claude智能体接入五角大楼敏感网络两个月",
+      "source": "WIRED",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "date": "2026-10-29",
+      "category": "policy",
+      "summary": "据WIRED报道，埃森哲一名员工今年将多个情报机构共用的国防部受控非机密信息（CUI）系统接入其个人Claude Code账户，以使AI智能体编写和部署代码，该智能体在国防部网络上运行约两个月才被发现并修补。报道称相关系统信息（含登录凭据）可能被发送至高风险第三方网站，而承包商未按规定在72小时内上报。此事发生在美国国防部禁止员工使用Claude的背景下，凸显政府采购AI工具时的供应链与安全治理缺口。"
+    }
+  ]
+}
