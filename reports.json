@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-04",
   "reports": [
+    {
+      "date": "2026-11-04",
+      "title": "MIT 让 AI 直接改写模型权重",
+      "count": 13
+    },
     {
       "date": "2026-11-02",
       "title": "DeepSeek 开源超级智能体架构",
