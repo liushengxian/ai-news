@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-06",
+  "count": 14,
+  "headline": "腾讯发布多模态大模型 HY4",
+  "news": [
+    {
+      "title": "腾讯发布新一代大模型 HY4，首次加入视觉理解与 Computer Use 能力",
+      "source": "腾讯",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+      "date": "2026-11-04",
+      "category": "model",
+      "summary": "腾讯发布新一代大模型 HY4，首次支持视觉理解和通过命令行、图形界面操作电脑，并强化指令遵循、长上下文及长程智能体任务能力。模型已接入腾讯云、元宝、WorkBuddy、CodeBuddy 等产品，腾讯表示模型权重和系统卡将在随后几天开放。"
+    },
+    {
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "date": "2026-11-05",
+      "category": "business",
+      "summary": "OpenAI 联合创始人兼总裁 Greg Brockman 表示，公司到 2027 年可能具备 IPO 条件，但上市仍取决于合适时机。他透露，OpenAI 第三季度年化收入环比增长 70%，企业业务翻倍并已成为主要收入来源，显示其商业化重心正从消费端进一步转向企业市场。"
+    },
+    {
+      "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+      "date": "2026-11-05",
+      "category": "policy",
+      "summary": "美国民主党在2026年中期选举赢得国会参众两院后，多名进步派议员迅速施压加强AI监管：桑德斯呼吁全国暂停新建数据中心，众议员Yassamin Ansari主张暂停先进AI开发并禁止人工超级智能。CNBC民调显示，56%的选民称AI和数据中心是其投票的重要或关键因素，显示地方环境、能源与就业争议正上升为联邦AI政策议程。"
+    },
+    {
+      "title": "Ricursive 发布 Ripple-65B Preview 开放权重模型，主攻智能体编码",
+      "source": "Ricursive Intelligence",
+      "url": "https://www.ricursive.com/ripple",
+      "date": "2026-11-04",
+      "category": "model",
+      "summary": "Ricursive Intelligence 发布从零预训练的 650 亿参数稠密模型 Ripple-65B Preview，训练数据为 12 万亿 token，支持最长 100 万 token 上下文，并已开放权重及多家推理平台接入。公司称其 Terminal-Bench 2.1 得分 80.52，在美国开放权重模型的智能体编码评测中领先，完整研发成本约 3200 万美元；这些成绩和成本对比均为厂商自报。"
+    },
+    {
+      "title": "悉尼大学揭示深度学习可预测性与可复现性的数学极限",
+      "source": "悉尼大学（EurekAlert!）",
+      "url": "https://www.eurekalert.org/news-releases/1150055",
+      "date": "2026-11-05",
+      "category": "research",
+      "summary": "悉尼大学团队在《Nature Machine Intelligence》发表研究，通过训练约 50 万个神经网络发现，不同训练结果形成的吸引盆具有“riddled basins”分形结构，因此即使排除数据顺序和硬件随机性，极小的初始参数差异仍可能导致不同结果。在一个较大图像识别网络中，将初始设置精度提高 100 亿倍仍未改善可复现性，单比特扰动则有约 48% 的情况导向不同内部配置；研究还揭示了学习效果与可复现性之间的权衡。"
+    },
+    {
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "date": "2026-11-05",
+      "category": "business",
+      "summary": "Dropbox 宣布以 3.5 亿美元收购分布式云存储公司 Tigris Data，预计交易于 2026 年第四季度完成，这也是其迄今规模最大的收购。此次交易将强化 Dropbox 的 AI 基础设施，并支持新推出的 DBX Agent Cloud，为企业及开发者提供面向 AI 模型和智能体的存储与文件管理能力。"
+    },
+    {
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+      "date": "2026-11-05",
+      "category": "business",
+      "summary": "Agility Robotics 将通过 SPAC 反向并购上市，成为首家上市的人形机器人纯业务公司，并计划从散户及私募融资中募集 4.65 亿美元。其新一代 Digit 5 已获得来自 30 家客户的 3 亿美元意向合同，但公司 2026 年上半年收入仅 17.4 万美元、亏损 3.62 亿美元，规模化交付能力仍待验证。"
+    },
+    {
+      "title": "Pruna AI 发布开放权重图像模型 P-H3-Image，体积缩小 7 倍、生成提速 5 倍",
+      "source": "Pruna AI",
+      "url": "https://www.pruna.ai/blog/oss-p-h3-image-launch",
+      "date": "2026-11-03",
+      "category": "model",
+      "summary": "Pruna AI 基于 MiniMax-H3 视频模型改造并发布开放权重的 P-H3-Image，支持文生图和图像编辑，可生成 200 万至 1600 万像素图像。官方称量化版本下载体积由 143GB 降至 20GB，4MP 图像在单张 B200 上的生成时间由 12.4 秒降至 2.6 秒，但使用需遵守 MiniMax H3 Community License 的地区限制等条款。"
+    },
+    {
+      "title": "中国科学技术大学开源 RNA 基础模型 structRFM，论文登上 Nature",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/32107",
+      "date": "2026-11-05",
+      "category": "research",
+      "summary": "中国科学技术大学团队发布 RNA 序列基础模型 structRFM，利用约 2100 万条序列—二级结构配对记录进行预训练，可提取序列、核苷酸及核苷酸对三个层次的特征。研究显示该模型能改善零样本同源分类、RNA 二级结构与三维构型预测，并支持剪接位点和非编码 RNA 识别等任务；配对数据、模型权重及源代码均已开放。"
+    },
+    {
+      "title": "苹果提出学习型检索方法，提升 RAG 速度与召回率",
+      "source": "Apple Machine Learning Research",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "date": "2026-11-05",
+      "category": "research",
+      "summary": "苹果研究人员提出用小型神经网络学习最大内积搜索的支持函数，其中 SupportNet 改进聚类路由，KeyNet 作为“查询重写器”辅助现有索引，面向 RAG、搜索和推荐系统。Natural Questions 基准显示，KeyNet 达到 99% 召回率时延迟最多降低约 8 倍、需扫描的键数量最多减少约 11 倍，代价是增加一次性离线训练成本。"
+    },
+    {
+      "title": "In-depth view on how EU copyright law applies to gen-AI offered by CJEU adviser",
+      "source": "Pinsent Masons",
+      "url": "https://www.pinsentmasons.com/out-law/news/in-depth-eu-copyright-law-applies-gen-ai-offered-cjeu-adviser",
+      "date": "2026-11-05",
+      "category": "policy",
+      "summary": "欧盟法院总法律顾问Maciej Szpunar就Google Gemini相关案件发表不具约束力的意见：使用受版权保护作品训练大模型原则上涉及复制，但可能适用文本与数据挖掘例外，须逐案判断；权利人若以机器可读方式明确退出，开发者则需获得许可。他还认为，聊天机器人输出若可识别地再现新闻内容或绕过付费墙，可能侵犯新闻出版者权利，最终裁决预计2027年中作出。"
+    },
+    {
+      "title": "NIST发布超级智能安全事件管理报告，提出完善人工智能安全响应机制",
+      "source": "安全内参",
+      "url": "https://www.secrss.com/articles/95404",
+      "date": "2026-11-05",
+      "category": "policy",
+      "summary": "NIST发布NIST IR 8621《超级智能安全事件管理研讨会报告》，将AI事件分为针对系统的网络攻击，以及误用、异常行为或运行故障两类，主张把提示词注入、数据投毒、智能体失控及有害输出纳入统一事件管理。报告建议强化模型运行日志、机器可读取证格式、权限撤销和跨主体信息共享，并提出在法律允许时以30天作为提示词和模型输出留存基线，为后续AI事件响应指南与标准奠定框架。"
+    },
+    {
+      "title": "OCC Releases Strict Supervisory Framework for Bank AI Use",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/banking/2026/occ-releases-supervisory-framework-for-bank-ai-use/",
+      "date": "2026-11-04",
+      "category": "policy",
+      "summary": "美国货币监理署（OCC）发布银行AI监管审查框架，供审查员评估银行在日常业务中使用人工智能和智能体AI的风险。框架要求按应用后果、自主程度和人工监督配置控制强度，并将AI纳入现有模型、治理、合规和操作风险体系，而非单设风险类别；它属于审查指导，不新增可执行标准或强制性银行义务。"
+    },
+    {
+      "title": "新研究检验大语言模型是否具备“内省”能力",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
+      "date": "2026-11-04",
+      "category": "research",
+      "summary": "Quanta 梳理了 Anthropic 及多个独立团队对语言模型“内省”的后续实验：研究者向模型内部注入特定概念激活，再测试其能否识别异常。结果发现，模型对内部异常的确表现出较稳健的检测能力，但对注入概念的具体描述很大程度上可由激活转向效应解释；这些结果尚不能证明模型具有意识或类人主观体验。"
+    }
+  ]
+}
