@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-13",
   "reports": [
+    {
+      "date": "2026-11-13",
+      "title": "黄仁勋辞任英伟达CEO",
+      "count": 11
+    },
     {
       "date": "2026-11-11",
       "title": "Anthropic 冲刺万亿美元 IPO",
