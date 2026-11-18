@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-18",
+  "count": 13,
+  "headline": "OpenAI 发布 GPT-6.2 双模型",
+  "news": [
+    {
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "date": "2026-11-17",
+      "category": "model",
+      "summary": "OpenAI 于 11 月 17 日正式推出 GPT-6.2 Astra 与 GPT-6.2 Sol（此前 11 月初已在 Codex 灰度出现），前者面向最复杂的工程与智能体任务，后者主打日常编码与写作的效率与低成本。官方称两款模型能用更少的输出 token 完成同等任务，Sol 在 Cognition 的 FrontierCode 2.0 上仅比 Astra 低约 0.5 分，成本约为其五分之一。二者同步上线 ChatGPT Work、Codex 与 API，Astra 标准价格较 GPT-6 Astra 降低 20%，部分套餐还新增最高 4.5 倍速的 Ultrafast 模式。"
+    },
+    {
+      "title": "AMD 完成收购 World Labs，李飞飞出任执行副总裁兼首席科学家",
+      "source": "AMD",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+      "date": "2026-11-16",
+      "category": "business",
+      "summary": "AMD 于 11 月 16 日宣布完成对空间智能公司 World Labs 的收购，后者专注可交互 3D 环境生成与机器人学习仿真，其研究团队将并入 AMD 继续推进基础模型研究。World Labs 创始人、斯坦福教授李飞飞同时加入 AMD，担任执行副总裁兼首席科学家，直接向 CEO 苏姿丰汇报。AMD 称此举旨在把模型研究与硬件、软件和系统协同优化，强化开放 AI 生态的算力平台。"
+    },
+    {
+      "title": "阿里巴巴正式发布 Qwen4-Max：2.4T MoE、百万上下文",
+      "source": "阿里巴巴通义千问",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "date": "2026-11-16",
+      "category": "model",
+      "summary": "继 11 月 11 日预览版后，阿里巴巴于 11 月 16 日正式发布 Qwen4-Max，采用基于 Qwen 稀疏注意力（QSA）的全新 MoE 架构，总参数 2.4T、每 token 激活 71B，原生支持视觉理解并具备 100 万 token 上下文。官方称其在智能体与编程能力上实现跨越式提升，同时大幅压低调用成本，国际 API 定价为输入 1.5 美元、输出 4.5 美元每百万 token。模型已在千问 AI 平台首发，并同步开放 API 与 Token Plan。"
+    },
+    {
+      "title": "美国商务部收紧先进 AI 芯片「远程访问」出口管制",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "date": "2026-11-16",
+      "category": "policy",
+      "summary": "美国商务部工业与安全局（BIS）11 月 15 日发布临时最终规则，首次把先进 AI 芯片及服务器的「远程访问」纳入出口管制，要求出口商在知晓相关算力将提供给中国（含港澳）等 D:5 国家企业时申请许可，堵住通过第三国数据中心规避管制的漏洞。规则同时正式撤销拜登时期的「AI 扩散规则」，并将在《联邦公报》刊登后生效、开放 60 天公众意见。此举发生在英伟达前 CEO 黄仁勋涉间谍风波、新加坡数据中心公司 Megaspeed 被调查的背景下。"
+    },
+    {
+      "title": "Isomorphic Labs 完成 50 亿美元 C 轮融资，加速 AI 药物研发",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
+      "date": "2026-11-17",
+      "category": "business",
+      "summary": "由 Demis Hassabis 创立的 AI 药物发现公司 Isomorphic Labs 于 11 月 17 日宣布完成 50 亿美元 C 轮融资，由 Greenoaks 与红杉资本联合领投，a16z 跟投，Alphabet 继续出资。公司上一轮 B 轮融资为 21 亿美元，新资金将用于构建基础生物学模型、深化疾病机制理解，并推动首批候选药物进入临床试验。Dealroom 数据显示，2026 年 AI 药物发现赛道融资已达 232 亿美元，创历史纪录。"
+    },
+    {
+      "title": "微软 Microsoft-Decision-1.1 正式可用，新增多模态输入",
+      "source": "Microsoft",
+      "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+      "date": "2026-11-17",
+      "category": "model",
+      "summary": "继 10 月 9 日 Decision-1 发布后，微软 11 月 17 日宣布决策模型 Microsoft-Decision-1.1 正式可用（GA），智能水平、置信度校准和速度均较初代明显提升，速度提升超过一倍，并首次支持图像输入。模型基于 Gemma 4 26B A4B 中型 MoE 底座与定制推理引擎，面向路由、分类、优先级判断、校验和工作流控制等场景，官方称其比通用大模型快约 10 倍、成本低至约 1/200。现已在 Microsoft Foundry、OpenRouter 和 Vercel 上线，可直接用于企业生产环境。"
+    },
+    {
+      "title": "腾讯混元发布高性价比模型 Hy4 flash",
+      "source": "IT之家",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-16/doc-iniyxcif2464223.shtml",
+      "date": "2026-11-16",
+      "category": "model",
+      "summary": "腾讯混元 11 月 16 日推出 Hy4 flash，总参数 224B（含 64B Engram 查表参数），每 token 仅激活 12B，支持多模态输入与 100 万 token 上下文。官方称其单任务成本约为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8，解码速度超过 150 tps，是迄今性价比最高的 Hy 模型。该模型已上线腾讯云 TokenHub、元宝、企业微信等产品，官方并计划开源权重。"
+    },
+    {
+      "title": "LangChain 完成 3 亿美元 C 轮融资，估值升至 30 亿美元",
+      "source": "LangChain",
+      "url": "https://www.langchain.com/blog/series-c",
+      "date": "2026-11-13",
+      "category": "business",
+      "summary": "AI 智能体开发平台 LangChain 于 11 月 13 日宣布完成 3 亿美元 C 轮融资，投后估值达 30 亿美元，较一年前翻倍以上。本轮由 Alphabet 旗下 CapitalG 领投，新投资方 GIC、DFJ Growth 大额参与，IVP、Sapphire Ventures 等老股东跟投。其 LangSmith 平台已服务超过 7000 家机构，客户包括英伟达、丰田、Salesforce 等，资金将用于完善智能体的运行、评估与治理体系。"
+    },
+    {
+      "title": "美联储理事巴尔警告 AI 可能威胁金融稳定",
+      "source": "美国联邦储备委员会",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "date": "2026-11-16",
+      "category": "policy",
+      "summary": "美联储理事迈克尔·巴尔 11 月 16 日在米兰发表演讲，系统阐述 AI 对金融稳定的潜在风险，包括 AI 投资热潮中的高杠杆债务、算法交易可能放大市场波动、AI 驱动的网络攻击以及消费者和投资者保护问题。他指出，美国七大 AI 公司的表内债务 2026 年预计将超过 8000 亿美元，呼吁在推进 AI 应用的同时落实更广泛的负责任开发与风险管理保障。"
+    },
+    {
+      "title": "AI 从常规心电图中发现可预测心源性猝死的隐藏信号",
+      "source": "ScienceDaily / UC Berkeley",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230456.htm",
+      "date": "2026-11-14",
+      "category": "research",
+      "summary": "UC Berkeley 团队用瑞典逾 44 万份心电图结合死亡登记数据训练 AI，找出常规筛查忽略的细微电活动模式，可提前识别心源性猝死高风险人群。模型随后在美国和台湾的数万份病历上验证，识别效果优于医生目前依赖的射血分数等常规指标，有望帮助决定谁需要植入式除颤器。"
+    },
+    {
+      "title": "纽约州设立 AI 安全执法部门，备战 2027 年 RAISE 法案",
+      "source": "纽约州总检察长办公室",
+      "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-announces-creation-ai-safety-standards-enforcement-and",
+      "date": "2026-11-17",
+      "category": "policy",
+      "summary": "纽约州总检察长詹姆斯 11 月 17 日宣布成立「AI 安全、标准、执法与透明度部门」（ASSET Unit），专门监管 AI 新兴技术并执行该州 AI 法律。该部门将主要负责执行 2027 年 1 月 1 日生效的《负责任 AI 安全教育法案》（RAISE Act），要求大型前沿 AI 模型开发商公开安全措施并及时报告安全事件，同时统筹儿童聊天机器人限制、深度伪造等法律的执法工作。这是继该州 11 月 10 日开放 RAISE 注册门户后的又一步落地。"
+    },
+    {
+      "title": "Technion 研究：行为相同的神经网络在学习中暴露隐藏结构",
+      "source": "EurekAlert / Technion",
+      "url": "https://www.eurekalert.org/news-releases/1152013",
+      "date": "2026-11-15",
+      "category": "research",
+      "summary": "Technion 的 Omri Barak 与 Yoav Ger 针对低秩循环网络建立了一套学习的数学描述，把决定当前行为的属性与不影响现有表现、却左右未来学习轨迹的「隐藏」属性区分开来。研究中两个对相同输入反应完全一致的网络，在同样训练条件下走出了明显不同的学习曲线，说明学习过程本身可以当作探测网络结构的工具。该论文从 30709 篇投稿中入选 NeurIPS 2026 仅 112 篇的口头报告（约 0.36%）。"
+    },
+    {
+      "title": "欧盟就 AI 法案基本权利影响评估模板公开征求意见",
+      "source": "欧盟委员会",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-draft-template-fundamental-rights-impact-assessment-under-ai-act",
+      "date": "2026-11-16",
+      "category": "policy",
+      "summary": "欧盟委员会 11 月 16 日就《人工智能法案》第 27 条「基本权利影响评估」（FRIA）问卷模板草案启动公众咨询，并公开征集高风险 AI 系统部署者参与模板实测。该模板由欧盟 AI 办公室会同基本权利机构制定，用于指导部署者在投入使用前评估系统对基本权利的影响，相关义务将自 2027 年 12 月 2 日起适用，意见反馈截止 2027 年 1 月 15 日。"
+    }
+  ]
+}

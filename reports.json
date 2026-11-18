@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-18",
   "reports": [
+    {
+      "date": "2026-11-18",
+      "title": "OpenAI 发布 GPT-6.2 双模型",
+      "count": 13
+    },
     {
       "date": "2026-11-13",
       "title": "黄仁勋辞任英伟达CEO",
