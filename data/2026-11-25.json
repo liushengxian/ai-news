@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-25",
+  "count": 15,
+  "headline": "Claude 宣称证明黎曼猜想",
+  "news": [
+    {
+      "title": "Anthropic 称 Claude 给出黎曼猜想证明，同日出现纯人类竞争性证明",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-03812-7",
+      "date": "2026-11-20",
+      "category": "research",
+      "summary": "Anthropic 数学家 Levent Alpöge 于 11 月 20 日宣布与 Claude 合作「发现」了黎曼猜想的证明，若通过检验将是数学史上的里程碑。同日斯坦福数学家 Ravi Vakil 公开了另一份完全由人类撰写的竞争性证明，两份结果都尚待严格验证。黎曼猜想是克雷数学研究所七道千禧年大奖难题之一，悬赏 100 万美元，今年恰逢黎曼诞辰 200 周年。"
+    },
+    {
+      "title": "Anthropic 发布 Claude 独立撰写的 VP ≠ VNP 证明与 Lean 形式化",
+      "source": "Anthropic",
+      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "date": "2026-11-24",
+      "category": "research",
+      "summary": "Anthropic 在 GitHub 发布了一篇 70 页论文和 324 个文件的 Lean 4 形式化，声称由内部研究版 Claude 证明了「任意域上 VP ≠ VNP」，即 Valiant 1979 年提出的代数复杂性猜想。Anthropic 明确说明尚无人类数学家检查过证明，且 Lean 只能验证证明本身、无法确认形式化陈述与英文命题一致。该结果并不解决布尔复杂性意义上的 P vs NP。"
+    },
+    {
+      "title": "智谱发布 GLM-5.4：首款 Loop Transformer 旗舰模型，开启「泛 Coding」",
+      "source": "Z.ai（智谱）",
+      "url": "https://z.ai/blog/glm-5.4",
+      "date": "2026-11-23",
+      "category": "model",
+      "summary": "11 月 23 日，智谱（Z.ai）发布 GLM-5.4，这是其首款采用 Loop Transformer 架构的旗舰模型——通过让一组共享权重的层循环执行，在不增加参数量的情况下获得更深的推理能力，智能水平对标 2-3T 参数级模型。新模型新增视觉理解，可读视频、图像、文件输入，上下文窗口 1M、最大输出 128K，并把编程能力外推到视频制作、游戏开发、3D 建模和机械设计等「泛 Coding」场景。目前已向 GLM Coding Plan 全量用户开放，周限额额度提升至 GLM-5.3 的 1.5 倍，API 待安全评估后开放。"
+    },
+    {
+      "title": "Anthropic 上市不到一周跌破 83 美元发行价",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+      "date": "2026-11-24",
+      "category": "business",
+      "summary": "11 月 24 日，Anthropic（ANT）收盘下跌 6.5% 至 81.91 美元，首次跌破 83 美元的 IPO 发行价，盘中最低触及 75.61 美元，较 111.50 美元的开盘价大幅回落。该公司 11 月 19 日刚以 813 亿美元募资额完成全球史上最大 IPO，但 AI 板块抛售和英伟达管理层动荡拖累了市场情绪。多家投行仍维持买入或跑赢评级，目标价在 120 至 150 美元之间。"
+    },
+    {
+      "title": "DeepMind 用 Gemini 4 智能体团队发现并形式验证更快的量子算法",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "date": "2026-11-23",
+      "category": "research",
+      "summary": "Google DeepMind 与 Google Quantum AI 于 11 月 23 日展示，多组 Gemini 4 智能体在 Lean 定理证明器的机器验证下，为五个问题找到了更低成本的量子程序。其中聚变燃料模拟的估算成本降低 11.8 倍，某常用算术例程的时空成本降低逾 290 倍。团队还开源了基于量子霍尔逻辑的 Lean 4 框架，但结果仍受限于未纳入纠错与路由的规格设定。"
+    },
+    {
+      "title": "Sierra 完成 17.5 亿美元 F 轮融资，估值翻倍至 300 亿美元",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "date": "2026-11-23",
+      "category": "business",
+      "summary": "11 月 23 日，前 Salesforce 联席 CEO Bret Taylor 创办的企业 AI 客服公司 Sierra 宣布完成 17.5 亿美元 F 轮融资，估值达 300 亿美元，较 5 月的 158 亿美元近乎翻倍。本轮由 Greenoaks 和 Lightspeed 领投，Benchmark、Sequoia、GV、Tiger Global 等老股东跟投。Sierra 称其按结果计价的模式推动年化收入在五个月内翻倍至 4 亿美元，客户已覆盖近半数财富 50 强企业。"
+    },
+    {
+      "title": "Databricks 据悉洽谈以 2250 亿美元估值融资",
+      "source": "路透社",
+      "url": "https://www.reuters.com/legal/transactional/databricks-early-talks-raise-funds-225-billion-valuation-wsj-reports-2026-11-20/",
+      "date": "2026-11-20",
+      "category": "business",
+      "summary": "据《华尔街日报》11 月 20 日报道，数据与 AI 公司 Databricks 正初步洽谈融资数十亿美元，估值约 2250 亿美元，较 8 月完成 50 亿美元融资时的 1900 亿美元估值上涨近 20%。公司年化营收已超过 70 亿美元、同比增长约 80%，并被市场视为潜在 IPO 候选。若交易达成，将表明在 AI 股票回调之际，投资者仍愿意重仓头部 AI 企业。"
+    },
+    {
+      "title": "小鹏发布世界模型 WorldGPT：一个模型学会开车、开船、飞无人机与机器人操作",
+      "source": "小鹏汽车（XPENG）",
+      "url": "https://www.xpeng.com/news/01a20bcf44b3a1e838d68a02a2110153",
+      "date": "2026-11-24",
+      "category": "model",
+      "summary": "11 月 24 日，小鹏发布物理世界模型 WorldGPT，属于其 Turing World Model 家族，首次在汽车、船舶、无人机、单臂机器人、双臂机器人和人形机器人六类机器上共享同一套物理世界理解能力。给定历史摄像头画面和一句指令，WorldGPT 可生成场景未来演化视频、规划动作并用自然语言解释推理过程，同时作为云端「教师模型」把知识蒸馏到各机器上的专用小模型。小鹏称该模型在自动驾驶、机器人、视觉理解和视频生成等公开基准上取得 12 项第一。"
+    },
+    {
+      "title": "Thinking Machines Lab 发布 Inkling 2 Mini：可在笔记本上运行的循环架构小模型",
+      "source": "Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "date": "2026-11-20",
+      "category": "model",
+      "summary": "11 月 20 日，Thinking Machines Lab 发布 Inkling 2 Mini，这是一个 26.4B 总参数、3.4B 激活参数的 MoE 模型，同样采用循环（looped）Transformer，每个 token 让中间层执行三遍，从而用更少 token 完成推理。官方称其在 DeepSWE v1.1（48.2%）和 Vals Index v2.2（46.5%）等基准上领先所有 100B 参数以下的开源权重模型，且小到可在笔记本电脑上运行，权重已在 Hugging Face 开源。"
+    },
+    {
+      "title": "腾讯混元发布并开源第三代翻译模型 Hy MT3，支持 102 种语言",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/103452294.html",
+      "date": "2026-11-24",
+      "category": "model",
+      "summary": "11 月 24 日，腾讯混元发布并开源第三代翻译模型 Hy MT3，提供 1.8B、7B 和 30B-A3B（MoE）三个尺寸，覆盖 PC、手机、智能设备等端侧场景。官方称相比前代 Hy MT2，真实场景数据上误译样本比例下降 43%、漏译或增译比例下降 74%、指令遵循类错误下降 40%，支持语种扩展至 102 种。该模型已上线腾讯 Hy 翻译 App 和小程序，开源权重可自行下载部署。"
+    },
+    {
+      "title": "Allen Institute 发布 Bloom：用更少数据构建跨研究的「通用科学语言」",
+      "source": "Allen Institute",
+      "url": "https://alleninstitute.org/news/bloom-a-powerful-ai-model-creates-a-universal-language-for-scientists",
+      "date": "2026-11-24",
+      "category": "research",
+      "summary": "Allen Institute 于 11 月 24 日发布 Bloom 模型，基于小鼠全脑单细胞染色质可及性与转录组数据训练，能把来自不同研究、测量维度各异的数据对应到同一类细胞上。Bloom 仅用约 30 万个细胞和 1.3 亿参数（参数约为同类模型的五分之一）就追平甚至超越更大的模型，被视为可加速假设生成并助力发现基因治疗靶点。"
+    },
+    {
+      "title": "纽约州长签署五年禁令，禁止生产销售内置 AI 聊天机器人的儿童玩具",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+      "date": "2026-11-24",
+      "category": "policy",
+      "summary": "纽约州长霍楚尔 11 月 24 日签署 S.9408A/A.11144B 法案，五年内禁止在纽约州制造、分销和销售内置联网 AI 聊天机器人的儿童玩具（如会对话的玩偶、毛绒玩具和机器人）。此前消费者监督机构测试发现，部分产品与儿童进行色情对话、诱导寻找危险物品，并缺乏家长控制。违法者面临每天每次最高 1.5 万美元民事罚款，由州总检察长执法，法律在签署 90 天后生效。"
+    },
+    {
+      "title": "美国第十巡回上诉法院通过新规：所有提交文件须由人工核验引注",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/legal/government/new-ai-disclosure-rule-marks-first-us-federal-appeals-courts-2026-11-23/",
+      "date": "2026-11-23",
+      "category": "policy",
+      "summary": "美国第十巡回上诉法院公布 2027 年新地方规则，修订第 46.5 条，要求任何提交法庭的文书在提交前均由人工独立核验所有引注真实存在、引用准确且确实支持所引主张，成为首个出台此类 AI 相关规则的联邦上诉法院。该义务适用于所有文书，不限于使用生成式 AI 撰写的文件，且不设单独的 AI 披露表；违规可被处以删除文书、放弃相关争点、罚款或纪律移送等制裁。新规将于 2027 年 1 月 1 日生效。"
+    },
+    {
+      "title": "英国 FCA 警告：科技公司的 AI 智能体可能触发金融监管",
+      "source": "路透社 / FCA",
+      "url": "https://www.reuters.com/business/finance/ai-agents-could-trigger-financial-regulation-tech-firms-uk-watchdog-says-2026-11-24/",
+      "date": "2026-11-24",
+      "category": "policy",
+      "summary": "英国金融行为监管局（FCA）11 月 24 日表示，科技公司不能仅以「技术提供商」身份规避金融监管：若其 AI 智能体提供金融推广、投资建议或支付等受监管服务，就必须与监管机构接洽并遵守相应规则。该声明发布于 Meta 在英国推出可代办续保、退款和网购的个人 AI 智能体 Muse 之后，FCA 同时提醒消费者了解使用 AI 智能体时的保障范围与数据风险。"
+    },
+    {
+      "title": "美国两党州长联合发布 AI 治理原则，呼吁联邦立法但保留州权",
+      "source": "美国全国州长协会（NGA）",
+      "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/",
+      "date": "2026-11-22",
+      "category": "policy",
+      "summary": "美国全国州长协会（NGA）11 月 22 日发布两党 AI 治理原则，由马里兰州长摩尔、印第安纳州长布劳恩、北卡罗来纳州长斯坦和犹他州长考克斯领衔的「确保美国 AI 主导地位州长委员会」起草。原则主张在推进创新与保护公众安全之间取得平衡，联邦负责全国性和国际性风险，各州保留在本州范围内监管 AI 使用的权限，并要求避免联邦规则架空有效的州级保护。"
+    }
+  ]
+}

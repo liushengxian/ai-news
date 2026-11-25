@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-25",
   "reports": [
+    {
+      "date": "2026-11-25",
+      "title": "Claude 宣称证明黎曼猜想",
+      "count": 15
+    },
     {
       "date": "2026-11-20",
       "title": "Anthropic 挂牌募资破千亿",
